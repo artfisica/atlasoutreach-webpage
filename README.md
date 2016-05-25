@@ -16,3 +16,11 @@ Example:
 > git push -u origin master
 
 # Done
+
+Notes:
+
+> git rm -r --cached . 
+
+>git add .
+
+
