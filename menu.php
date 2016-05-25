@@ -20,9 +20,9 @@
     <h2>Dynamic Tabs</h2>
     <ul class="nav nav-tabs">
       <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-      <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-      <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-      <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+      <li><a data-toggle="tab" href="#menu1">Menu x</a></li>
+      <li><a data-toggle="tab" href="#menu2">Menu y</a></li>
+      <li><a data-toggle="tab" href="#menu3">Menu z</a></li>
     </ul>
 
     <CENTER>
