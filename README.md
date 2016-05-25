@@ -21,6 +21,6 @@ Notes:
 
 > git rm -r --cached . 
 
->git add .
+> git add .
 
-
+> git pull
