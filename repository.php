@@ -11,7 +11,7 @@
       <CENTER>
         <br>
         <br>
-        <a href="http://atlasoutreach.web.cern.ch/atlasoutreach/tutorials" style="background-color:rgb(61,148,0);
+        <a href="./tutorials" style="background-color:rgb(61,148,0);
         background-image:-webkit-linear-gradient(top,rgb(0,0,255),rgb(80,80,250));
         border:1px solid rgba(0,0,0,0);
         border-bottom-left-radius:2px;
