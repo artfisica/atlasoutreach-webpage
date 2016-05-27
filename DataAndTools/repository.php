@@ -27,7 +27,7 @@
       </ul>
     </td>
     <td width="50%">
-      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_02.png" alt="Repository" style="width:100%">
+      <img src="./pictures/ATLAS_imagine_initial_page_02.png" alt="Repository" style="width:100%">
     </td>
   </tr>
 </table>

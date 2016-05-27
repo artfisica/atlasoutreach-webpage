@@ -36,9 +36,7 @@
       <br>
       <br>
 
-      <div align="center">
-        <?php include('menu.html'); ?>
-      </div>
+      <?php include('menu.html'); ?>
 
       <?php include('trackers.html'); ?>
     </body>

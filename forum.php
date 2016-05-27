@@ -68,7 +68,6 @@
 </body>
 <!-- End main body -->
 
-
 <footer>
   <?php include('footer.html'); ?>
 </footer>
