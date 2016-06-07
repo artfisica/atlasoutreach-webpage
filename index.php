@@ -13,7 +13,7 @@
           <h1 style="font-family:verdana; font-size:260%;">The <b><a href="http://atlas.cern/">ATLAS</a> Experiment</b></h1>
           <p style="font-family:verdana; font-size:120%;">
             <b>
-              at <a href="http://home.cern/">CERN</a> in Geneva has made over 1fb<sup>-1</sup> of data publicly available. This data includes the world’s first open release of 8 TeV data, gathered from LHC proton collisions in 2012. <a href="./index.php">ATLASOpenData</a> guides you through how to use and download the data, how to visualize your results and even provides open-source software for you to make your own discoveries.
+              at <a href="http://home.cern/">CERN</a> in Geneva has made over 1fb<sup>-1</sup> of data publicly available. This data includes the world’s first open release of 8 TeV data, gathered from LHC proton collisions in 2012. <a href="./index.php">ATLASOpenData</a> guides you through how to use and download the data, how to visualize your results and even provides open-source software for you to make your own discoveries
             </br>
             Learn how to:
           </p>

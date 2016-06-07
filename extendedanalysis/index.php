@@ -5,11 +5,10 @@
 </header>
 
 <body>
-  <!-- Head of page-->
-  <div class="view-content" align="center">
-    <table cellpadding="2" cellspacing="1" width="96%" border="0" height="550px">
+  <div>
+    <table width="100%" border="0">
       <tr>
-        <td width="50%"> <!-- style="border: 1px solid black; background-color: #0b80c3;"> -->
+        <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
           <h1 style="font-family:verdana; font-size:310%;">Level 3: <b>Software + Virtual Machine</b></h1>
         </br>
         <p style="font-family:verdana; font-size:150%;">
@@ -26,37 +25,65 @@
         <li>examine systematic and theoretical errors</li>
       </ul>
     </td>
-    <td width="50%">
-      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_05.png" alt="Software + Virtual Machine" style="width:100%">
+    <td style="width:50%; padding: 0.1cm 0.2cm;">
+      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_5.png" alt="Software + Virtual Machine" style="width:100%">
     </td>
   </tr>
 </table>
 </div>
 <!-- end Head of page-->
 
+<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
+  <h2>Documentations</h2>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
+  <div id="book1" class="collapse">
+    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
+  <div id="book2" class="collapse">
+    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
 <!-- Tabs  -->
 <div class="container">
   <!-- <h2>Dynamic Tabs</h2>-->
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Documentation</a></li>
-    <li><a data-toggle="tab" href="#menu1">Samples repository</a></li>
-    <li><a data-toggle="tab" href="#menu2">VM repository</a></li>
-    <li><a data-toggle="tab" href="#menu3">Software repository</a></li>
+    <li class="active"><a data-toggle="tab" href="#menu0">Software repository</a></li>
+    <li><a data-toggle="tab" href="#menu1">VM repository</a></li>
+    <li><a data-toggle="tab" href="#menu2">Samples repository</a></li>
   </ul>
 
   <CENTER>
     <div class="tab-content">
-      <div id="home" class="tab-pane fade in active">
-        <iframe width="100%" height="1250" src="https://artfisica.gitbooks.io/atlasdatatools/content/" frameborder="0" allowfullscreen></iframe>
+      <div id="menu0" class="tab-pane fade in active">
+        <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/github_view.png" alt=""></a>
       </div>
       <div id="menu1" class="tab-pane fade">
-        <iframe width="100%" height="1100" src="https://artfisica.gitbooks.io/atlasdatatools/content/" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="800" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" name="iframe_02" frameborder="0" allowfullscreen></iframe>
       </div>
-      <div id="menu2" class="tab-pane fade">
-        <iframe width="100%" height="1200" src="https://artfisica.gitbooks.io/atlasdatatools/content/" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu3" class="tab-pane fade">
-        <iframe width="100%" height="1050" src="https://artfisica.gitbooks.io/atlasdatatools/content/" frameborder="0" allowfullscreen></iframe>
+      <div id="menu2" class="tab-pane fade" style="padding: 2.0cm 2.0cm 2.0cm 2.0cm;">
+        <a href="/atlas-opendata/DataAndTools/repository.php" style="background-color:rgb(0,0,0);
+        background-image:-webkit-linear-gradient(top,rgb(0,0,0),rgb(100,100,100));
+        border:1px solid rgba(0,0,0,0);
+        border-bottom-left-radius:6px;
+        border-bottom-right-radius:6px;
+        border-top-left-radius:6px;
+        border-top-right-radius:6px;
+        display:inline-block;
+        font-size:40px;
+        text-align: center;
+        font-weight:bold;
+        height:65px;
+        line-height:60px;
+        margin-right:4px;
+        margin-top:4px;
+        min-width:20%;
+        outline:rgb(255,255,255) none 0px;
+        padding:8px 10px 8px 10px;
+        text-transform:uppercase;
+        white-space:nowrap;
+        color:white!important">go to the Samples Repository</a>
       </div>
     </div>
   </CENTER>
