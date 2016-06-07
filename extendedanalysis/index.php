@@ -9,85 +9,41 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:310%;">Level 3: <b>Software + Virtual Machine</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools Repository</b></h1>
         </br>
-        <p style="font-family:verdana; font-size:150%;">
+        <p style="font-family:verdana; font-size:120%;">
           <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise </br>
-            collision data with plots and graphs. </br>They are used in every publication, </br>
-            from simple analyses to headline-making discoveries. </br>
+            Here you have in a single place all the necessary pieces in order to start you physics analysis in a more complete way.
+            Look into the data like an ATLAS particle physicist!
           </br>
         </b>
-        In this section, you will learn to use these plots to:
+      </br>
+        In this section, you can find where to download:
+
+        <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
+          <li>The complete collection of datasets released</li>
+          <li>The different analysis softwares</li>
+          <li>The vitual machines to perform physics searches</li>
+        </ul>
       </p>
-      <ul style="font-family:verdana; font-size:140%;">
-        <li>make comparisons to theoretical predictions</li>
-        <li>examine systematic and theoretical errors</li>
-      </ul>
     </td>
     <td style="width:50%; padding: 0.1cm 0.2cm;">
-      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_5.png" alt="Software + Virtual Machine" style="width:100%">
+      <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%">
     </td>
   </tr>
 </table>
 </div>
 <!-- end Head of page-->
-
-<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
-  <h2>Documentations</h2>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
-  <div id="book1" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
-  <div id="book2" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+<div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
+  <h1 style="font-family:verdana; font-size:260%;padding: 20px">Take a look to</h1>
+  <div class="btn-group btn-group-justified" style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
+    <a href="../extendedanalysis/documentation.php" class="btn btn-primary">Documentation</a> <!-- target="_blank” -->
+    <a href="../extendedanalysis/datasets.php" class="btn btn-primary">Datasets</a> <!-- target="_blank” -->
+    <a href="../extendedanalysis/software.php" class="btn btn-primary">Software</a>
+    <a href="../extendedanalysis/vm-toolbox.php" class="btn btn-primary">Virtual Machines</a>
   </div>
 </div>
 
-<!-- Tabs  -->
-<div class="container">
-  <!-- <h2>Dynamic Tabs</h2>-->
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#menu0">Software repository</a></li>
-    <li><a data-toggle="tab" href="#menu1">VM repository</a></li>
-    <li><a data-toggle="tab" href="#menu2">Samples repository</a></li>
-  </ul>
-
-  <CENTER>
-    <div class="tab-content">
-      <div id="menu0" class="tab-pane fade in active">
-        <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/github_view.png" alt=""></a>
-      </div>
-      <div id="menu1" class="tab-pane fade">
-        <iframe width="100%" height="800" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" name="iframe_02" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu2" class="tab-pane fade" style="padding: 2.0cm 2.0cm 2.0cm 2.0cm;">
-        <a href="/atlas-opendata/DataAndTools/repository.php" style="background-color:rgb(0,0,0);
-        background-image:-webkit-linear-gradient(top,rgb(0,0,0),rgb(100,100,100));
-        border:1px solid rgba(0,0,0,0);
-        border-bottom-left-radius:6px;
-        border-bottom-right-radius:6px;
-        border-top-left-radius:6px;
-        border-top-right-radius:6px;
-        display:inline-block;
-        font-size:40px;
-        text-align: center;
-        font-weight:bold;
-        height:65px;
-        line-height:60px;
-        margin-right:4px;
-        margin-top:4px;
-        min-width:20%;
-        outline:rgb(255,255,255) none 0px;
-        padding:8px 10px 8px 10px;
-        text-transform:uppercase;
-        white-space:nowrap;
-        color:white!important">go to the Samples Repository</a>
-      </div>
-    </div>
-  </CENTER>
-</div>
 
 <?php include('../menu.html'); ?>
 

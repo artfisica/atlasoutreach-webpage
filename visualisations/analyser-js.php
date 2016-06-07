@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Visualisations</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>Visualisations</b>: Web Apps</h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
@@ -34,15 +34,9 @@
 </div>
 <!-- end Head of page-->
 
-
-<div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
-  <h1 style="font-family:verdana; font-size:260%;padding: 20px">Take a look to</h1>
-  <div class="btn-group btn-group-justified">
-    <a href="./documentation.php" class="btn btn-primary">Documentation</a>
-    <a href="./root-browser.php" class="btn btn-primary">ROOT browser</a>
-    <a href="./analyser-js.php" class="btn btn-primary">Web App Analyser</a>
-    <a href="./live-events.php" class="btn btn-primary">Live Events</a>
-  </div>
+<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
+  <h2>Web App Analyser</h2>
+  <iframe width="100%" height="850" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
 </div>
 
 

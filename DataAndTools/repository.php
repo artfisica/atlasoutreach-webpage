@@ -9,21 +9,23 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:310%;"><b>Samples Repository</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>Data & Tools Repository</b></h1>
         </br>
-        <p style="font-family:verdana; font-size:150%;">
+        <p style="font-family:verdana; font-size:120%;">
           <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise </br>
-            collision data with plots and graphs. </br>They are used in every publication, </br>
-            from simple analyses to headline-making discoveries. </br>
+            Here you have in a single place all the necessary pieces in order to start you physics analysis in a more complete way.
+            Look into the data like an ATLAS particle physicist!
           </br>
         </b>
-        In this section, you will learn to use these plots to:
+      </br>
+        In this section, you can find where to download:
+
+        <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
+          <li>The complete collection of datasets released</li>
+          <li>The different analysis softwares</li>
+          <li>The vitual machines to perform physics searches</li>
+        </ul>
       </p>
-      <ul style="font-family:verdana; font-size:140%;">
-        <li>make comparisons to theoretical predictions</li>
-        <li>examine systematic and theoretical errors</li>
-      </ul>
     </td>
     <td style="width:50%; padding: 0.1cm 0.2cm;">
       <img src="./pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%">
@@ -32,177 +34,23 @@
 </table>
 </div>
 <!-- end Head of page-->
-
-<!-- Tabs  -->
-<div class="container">
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#mc">Samples MC</a></li>
-    <li><a data-toggle="tab" href="#data">Samples Data</a></li>
-    <li><a data-toggle="tab" href="#zip">Bulk download</a></li>
-  </ul>
-
-  <CENTER>
-    <div class="tab-content">
-      <div id="mc" class="tab-pane fade in active">
-        <CENTER>
-          <h1>Set of MonteCarlo (MC) samples</h1>
-          <br>
-          <br>
-          <table style="width:100%" >
-            <tr>
-              <th>   File type</th>
-              <th>   Name</th>
-              <th>   Last modified</th>
-              <th>   Size</th>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-          </table>
-        </CENTER>
-      </div>
-      <div id="data" class="tab-pane fade">
-        <CENTER>
-          <h1>Set of Data samples</h1>
-          <br>
-          <br>
-          <table style="width:100%" >
-            <tr>
-              <th>   File type</th>
-              <th>   Name</th>
-              <th>   Last modified</th>
-              <th>   Size</th>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-          </table>
-        </CENTER>
-      </div>
-      <div id="zip" class="tab-pane fade">
-        <CENTER>
-          <h1>Set of container files</h1>
-          <br>
-          <br>
-          <table style="width:100%" >
-            <tr>
-              <th>   File type</th>
-              <th>   Name</th>
-              <th>   Last modified</th>
-              <th>   Size</th>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>80M</td>
-            </tr>
-            <tr>
-              <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="./pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="https://arturos.web.cern.ch/arturos/ATLAS-outreach/release/2016/may/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>05-May-2016 18:03</td>
-              <td>25M</td>
-            </tr>
-          </table>
-        </CENTER>
-      </div>
-    </div>
-  </CENTER>
+<div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.0cm 2.5cm;">
+  <h1 style="font-family:verdana; font-size:260%;padding: 20px"><b>Downloads</b></h1>
+  <div class="btn-group btn-group-justified">
+    <a href="../extendedanalysis/datasets.php" class="btn btn-primary">Datasets</a> <!-- target="_blank” -->
+    <a href="../extendedanalysis/software.php" class="btn btn-primary">Software</a>
+    <a href="../extendedanalysis/vm-toolbox.php" class="btn btn-primary">Virtual Machines</a>
+  </div>
 </div>
-<br>
-<br>
-<br>
 
+<div style="width:100%; text-align: center; padding: 0.1cm 2.5cm 2.0cm 2.5cm;">
+  <h1 style="font-family:verdana; font-size:260%;padding: 20px">...or get them at <b>CERN <a href="http://opendata.cern.ch" target="_blank">OpenData</a></b> portal</h1>
+  <div class="btn-group btn-group-justified">
+    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Datasets</a> 
+    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Software</a>
+    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Virtual Machines</a>
+  </div>
+</div>
 
 <?php include('../menu.html'); ?>
 
