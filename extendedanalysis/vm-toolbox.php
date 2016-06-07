@@ -33,61 +33,133 @@
 </div>
 <!-- end Head of page-->
 
-<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
-  <h2>Documentations</h2>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
-  <div id="book1" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
-  <div id="book2" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
+<h1 style="font-family:verdana; font-size:260%; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">Vitual Machines available</h1>
 
 <!-- Tabs  -->
 <div class="container">
   <!-- <h2>Dynamic Tabs</h2>-->
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#menu0">Software repository</a></li>
-    <li><a data-toggle="tab" href="#menu1">VM repository</a></li>
-    <li><a data-toggle="tab" href="#menu2">Samples repository</a></li>
+    <li class="active"><a data-toggle="tab" href="#menu0">VM Version <b>S</b></a></li>
+    <li>               <a data-toggle="tab" href="#menu1">VM Version <b>M</b></a></li>
+    <li>               <a data-toggle="tab" href="#menu2">VM Version <b>N</b></a></li>
+    <li>               <a data-toggle="tab" href="#menu3">VM Version <b>&mu;</b></a></li>
   </ul>
 
-  <CENTER>
-    <div class="tab-content">
-      <div id="menu0" class="tab-pane fade in active">
-        <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/github_view.png" alt=""></a>
-      </div>
-      <div id="menu1" class="tab-pane fade">
-        <iframe width="100%" height="800" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" name="iframe_02" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu2" class="tab-pane fade" style="padding: 2.0cm 2.0cm 2.0cm 2.0cm;">
-        <a href="/atlas-opendata/DataAndTools/repository.php" style="background-color:rgb(0,0,0);
-        background-image:-webkit-linear-gradient(top,rgb(0,0,0),rgb(100,100,100));
-        border:1px solid rgba(0,0,0,0);
-        border-bottom-left-radius:6px;
-        border-bottom-right-radius:6px;
-        border-top-left-radius:6px;
-        border-top-right-radius:6px;
-        display:inline-block;
-        font-size:40px;
-        text-align: center;
-        font-weight:bold;
-        height:65px;
-        line-height:60px;
-        margin-right:4px;
-        margin-top:4px;
-        min-width:20%;
-        outline:rgb(255,255,255) none 0px;
-        padding:8px 10px 8px 10px;
-        text-transform:uppercase;
-        white-space:nowrap;
-        color:white!important">go to the Samples Repository</a>
-      </div>
+  <div class="tab-content">
+    <div id="menu0" class="tab-pane fade">
+      <CENTER>
+        <h1>VM Version <b>S</b></h1>
+        <br>
+        <br>
+        <table style="width:100%" >
+          <tr>
+            <th>   File type</th>
+            <th>   Name</th>
+            <th>   Last modified</th>
+            <th>   Size</th>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataEgamma.root">DataEgamma.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>722Mb</td>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataMuons.root">DataMuons.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>600Mb</td>
+          </tr>
+        </table>
+      </CENTER>
     </div>
-  </CENTER>
+    <div id="menu1" class="tab-pane fade">
+      <CENTER>
+        <h1>VM Version <b>M</b></h1>
+        <br>
+        <br>
+        <table style="width:100%" >
+          <tr>
+            <th>   File type</th>
+            <th>   Name</th>
+            <th>   Last modified</th>
+            <th>   Size</th>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataEgamma.root">DataEgamma.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>722Mb</td>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataMuons.root">DataMuons.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>600Mb</td>
+          </tr>
+        </table>
+      </CENTER>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <CENTER>
+        <h1>VM Version <b>N</b></h1>
+        <br>
+        <br>
+        <table style="width:100%" >
+          <tr>
+            <th>   File type</th>
+            <th>   Name</th>
+            <th>   Last modified</th>
+            <th>   Size</th>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataEgamma.root">DataEgamma.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>722Mb</td>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataMuons.root">DataMuons.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>600Mb</td>
+          </tr>
+        </table>
+      </CENTER>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <CENTER>
+        <h1>VM Version <b>&mu;</b></h1>
+        <br>
+        <br>
+        <table style="width:100%" >
+          <tr>
+            <th>   File type</th>
+            <th>   Name</th>
+            <th>   Last modified</th>
+            <th>   Size</th>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataEgamma.root">DataEgamma.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>722Mb</td>
+          </tr>
+          <tr>
+            <td><a href="https://root.cern.ch/doc/master/classTFile.html"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
+            <td><a href="../release/samples/Data/DataMuons.root">DataMuons.root</a></td>
+            <td>06-May-2016 10:00</td>
+            <td>600Mb</td>
+          </tr>
+        </table>
+      </CENTER>
+    </div>
+  </div>
 </div>
+<br>
+<br>
+<br>
+
 
 <?php include('../menu.html'); ?>
 

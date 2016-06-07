@@ -34,14 +34,16 @@
 </div>
 <!-- end Head of page-->
 
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Explore</b></h1>
+</div>
 
-<div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
-  <h1 style="font-family:verdana; font-size:260%;padding: 20px">Take a look to</h1>
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
-    <a href="./documentation.php" class="btn btn-primary">Documentation</a>
-    <a href="./root-browser.php" class="btn btn-primary">ROOT browser</a>
-    <a href="./analyser-js.php" class="btn btn-primary">Web App Analyser</a>
-    <a href="./live-events.php" class="btn btn-primary">Live Events</a>
+    <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
+    <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Web App Analyser</a>
+    <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
   </div>
 </div>
 

@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;"><b>OpenATLAS Forum</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>ATLAS OpenData Forum</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
@@ -20,8 +20,8 @@
       In this section, you can:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>Interact with us using the Forum tab</li>
-        <li>Get answer to a common questions, did you find yours?</li>
+        <li>Interact with us using the Forum below</li>
+        <li>Get answer to common questions, did you find yours?</li>
       </ul>
     </p>
   </td>
@@ -33,14 +33,13 @@
 </div>
 <!-- end Head of page-->
 
-<!-- Tabs  -->
-</br>
-</br>
-<CENTER>
-  <h2>Talk with us!</h2>
-</CENTER>
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Talk with us!</b></h1>
+</div>
 
-<div class="container">
+
+<!-- Tabs  -->
+<div class="container" style="float:left; clear:both; width:80%; margin:0px auto; padding: 0.1cm 0.1cm 0.1cm 3.5cm;">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#menu0">Forum</a></li>
     <li><a data-toggle="tab" href="#menu1">FAQ</a></li>

@@ -33,17 +33,7 @@
 </div>
 <!-- end Head of page-->
 
-<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
-  <h2>Documentations</h2>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
-  <div id="book1" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-  </div>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
-  <div id="book2" class="collapse">
-    <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-  </div>
-</div>
+<h1 style="font-family:verdana; font-size:260%; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">Software available</h1>
 
 <!-- Tabs  -->
 <div class="container">
@@ -88,6 +78,10 @@
     </div>
   </CENTER>
 </div>
+<br>
+<br>
+<br>
+
 
 <?php include('../menu.html'); ?>
 
@@ -96,6 +90,6 @@
 <!-- End main body -->
 
 <footer>
-  <?php include('../footer.html'); ?>
+<?php include('../footer.html'); ?>
 </footer>
 </html>

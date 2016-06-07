@@ -34,9 +34,10 @@
 </table>
 </div>
 <!-- end Head of page-->
+
 <div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
   <h1 style="font-family:verdana; font-size:260%;padding: 20px">Take a look to</h1>
-  <div class="btn-group btn-group-justified" style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
+  <div class="btn-group btn-group-justified">
     <a href="../extendedanalysis/documentation.php" class="btn btn-primary">Documentation</a> <!-- target="_blank” -->
     <a href="../extendedanalysis/datasets.php" class="btn btn-primary">Datasets</a> <!-- target="_blank” -->
     <a href="../extendedanalysis/software.php" class="btn btn-primary">Software</a>
