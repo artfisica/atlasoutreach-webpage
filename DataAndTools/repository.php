@@ -46,9 +46,9 @@
 <div style="width:100%; text-align: center; padding: 0.1cm 2.5cm 2.0cm 2.5cm;">
   <h1 style="font-family:verdana; font-size:260%;padding: 20px">...or get them at <b>CERN <a href="http://opendata.cern.ch" target="_blank">OpenData</a></b> portal</h1>
   <div class="btn-group btn-group-justified">
-    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Datasets</a> 
-    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Software</a>
-    <a href="http://opendata.cern.ch/education/ATLAS" class="btn btn-primary">Virtual Machines</a>
+    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary">Datasets</a>
+    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary">Software</a>
+    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary">Virtual Machines</a>
   </div>
 </div>
 
