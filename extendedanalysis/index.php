@@ -18,30 +18,34 @@
           </br>
         </b>
       </br>
-        In this section, you can find where to download:
+      In this section, you can find where to download:
 
-        <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-          <li>The complete collection of datasets released</li>
-          <li>The different analysis softwares</li>
-          <li>The vitual machines to perform physics searches</li>
-        </ul>
-      </p>
-    </td>
-    <td style="width:50%; padding: 0.1cm 0.2cm;">
-      <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%">
-    </td>
-  </tr>
+      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
+        <li>The complete collection of datasets released</li>
+        <li>The different analysis software</li>
+        <li>The vitual machines to perform physics searches</li>
+      </ul>
+    </p>
+  </td>
+  <td style="width:50%; padding: 0.1cm 0.2cm;">
+    <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%">
+  </td>
+</tr>
 </table>
 </div>
 <!-- end Head of page-->
 
-<div style="width:100%; text-align: center; padding: 2.5cm 2.5cm 2.5cm 2.5cm;">
-  <h1 style="font-family:verdana; font-size:260%;padding: 20px">Take a look to</h1>
+
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Explore</b></h1>
+</div>
+
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
-    <a href="../extendedanalysis/documentation.php" class="btn btn-primary">Documentation</a> <!-- target="_blank” -->
-    <a href="../extendedanalysis/datasets.php" class="btn btn-primary">Datasets</a> <!-- target="_blank” -->
-    <a href="../extendedanalysis/software.php" class="btn btn-primary">Software</a>
-    <a href="../extendedanalysis/vm-toolbox.php" class="btn btn-primary">Virtual Machines</a>
+    <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
+    <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
+    <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
   </div>
 </div>
 
