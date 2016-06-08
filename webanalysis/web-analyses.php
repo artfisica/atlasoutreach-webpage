@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>Web Analysis</b>: Execute code</h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
@@ -26,10 +26,10 @@
       </ul>
     </p>
   </td>
-  <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%">
-  </td>
-</tr>
+    <td style="width:50%; padding: 0.1cm 0.2cm;">
+      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%">
+    </td>
+  </tr>
 </table>
 </div>
 <!-- end Head of page-->

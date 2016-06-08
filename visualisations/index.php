@@ -5,63 +5,48 @@
 </header>
 
 <body>
-  <!-- Head of page-->
-  <div class="view-content" align="center">
-    <table cellpadding="2" cellspacing="1" width="96%" border="0" height="550px">
+  <div>
+    <table width="100%" border="0">
       <tr>
-        <td width="50%"> <!-- style="border: 1px solid black; background-color: #0b80c3;"> -->
-          <h1 style="font-family:verdana; font-size:310%;">Level 1: <b>Visualisations</b></h1>
+        <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
+          <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Visualisations</b></h1>
         </br>
-        <p style="font-family:verdana; font-size:150%;">
+        <p style="font-family:verdana; font-size:120%;">
           <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise </br>
-            collision data with plots and graphs. </br>They are used in every publication, </br>
-            from simple analyses to headline-making discoveries. </br>
+            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise collision data with plots and graphs.
+            They are used in every publication, from simple analyses to headline-making discoveries.
           </br>
         </b>
-        In this section, you will learn to use these plots to:
-      </p>
-      <ul style="font-family:verdana; font-size:140%;">
+      </br>
+      In this section, you will learn to use these plots to:
+
+      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
         <li>make comparisons to theoretical predictions</li>
         <li>examine systematic and theoretical errors</li>
       </ul>
-    </td>
-    <td width="50%">
-      <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_03.png" alt="Visualisations" style="width:100%">
-    </td>
-  </tr>
+    </p>
+  </td>
+  <td style="width:50%; padding: 0.1cm 0.2cm;">
+    <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_3.png" alt="Visualisations" style="width:100%">
+  </td>
+</tr>
 </table>
 </div>
 <!-- end Head of page-->
 
-<!-- Tabs  -->
-<div class="container">
-  <!-- <h2>Dynamic Tabs</h2>-->
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">ROOT-files Browser</a></li>
-    <li><a data-toggle="tab" href="#menu1">Analysis's histogram App</a></li>
-    <li><a data-toggle="tab" href="#menu2">Documentation</a></li>
-    <li><a data-toggle="tab" href="#menu3">Live events from ATLAS detector</a></li>
-  </ul>
-
-  <CENTER>
-    <div class="tab-content">
-      <div id="home" class="tab-pane fade in active">
-        <iframe width="100%" height="850" src="./JsRoot450/" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu1" class="tab-pane fade">
-        <iframe width="100%" height="850" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu2" class="tab-pane fade">
-        <iframe width="100%" height="850" src="https://artfisica.gitbooks.io/atlasdatatools/content/" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu3" class="tab-pane fade">
-        <iframe width="100%" height="850" src="http://atlas-live.cern.ch/" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-  </CENTER>
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Explore</b></h1>
 </div>
-<!-- End of Tabs -->
+
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+  <div class="btn-group btn-group-justified">
+    <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
+    <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Web App Analyser</a>
+    <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
+  </div>
+</div>
+
 
 <?php include('../menu.html'); ?>
 

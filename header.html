@@ -16,7 +16,10 @@
   <script type="text/javascript" src="js/lib/angular-route.min.js"></script>
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
-  <title>ATLAS | Exploring the secrets of our universe</title>
+  <!-- Adding modern button styles: June 7th, 2016-->
+  <link href="DataAndTools/css3/css/m-styles.min.css" rel="stylesheet">
+
+  <title>ATLAS | Open Data and Tools for Education</title>
 
   <style type="text/css" media="all">
   @import url("http://atlas.cern/modules/system/system.base.css?o68vyv");
@@ -151,8 +154,8 @@
       <h1><a href="http://atlas.cern/" title="ATLAS public site">ATLAS Experiment</a></h1>
 
       <div align="right">
-        <a href="/atlas-opendata/DataAndTools/repository.php" style="background-color:rgb(255,0,0);
-        background-image:-webkit-linear-gradient(top,rgb(255,0,0),rgb(255,80,80));
+        <a href="/atlas-opendata/DataAndTools/repository.php" style="background-color:rgb(0,0,0);
+        background-image:-webkit-linear-gradient(top,rgb(0,0,0),rgb(20,20,20));
         border:1px solid rgba(0,0,0,0);
         border-bottom-left-radius:6px;
         border-bottom-right-radius:6px;
@@ -173,8 +176,8 @@
         white-space:nowrap;
         color:white!important">Download</a>
 
-        <a href="/atlas-opendata/forum.php" style="background-color:rgb(255,0,0);
-        background-image:-webkit-linear-gradient(top,rgb(255,0,0),rgb(255,80,80));
+        <a href="/atlas-opendata/forum.php" style="background-color:rgb(0,0,0);
+        background-image:-webkit-linear-gradient(top,rgb(0,0,0),rgb(20,20,20));
         border:1px solid rgba(0,0,0,0);
         border-bottom-left-radius:6px;
         border-bottom-right-radius:6px;
@@ -216,31 +219,30 @@
             <!-- Here is where the links on top should be defined -->
             <div class="content">
               <ul class="menu">
-                <li class="first expanded depth-1"><a href="/atlas-opendata/visualisations/"  title="Get Started">Get Started</a>
+                <li class="first expanded depth-1"><a href="/atlas-opendata/visualisations/"  title="Visualisations">Visualisations</a>
                   <ul class="menu">
-                    <li class="first leaf depth-2"><a href="/atlas-opendata/visualisations/"  title="ROOT Browser">ROOT Browser</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/visualisations/"  title="Histograms Analyzer">Histograms Analyzer</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/visualisations/"  title="Documentation">Documentation</a></li>
-                    <li class="last leaf depth-2"> <a href="/atlas-opendata/visualisations/"  title="Live Events">Live Events</a></li>
+                    <li class="first leaf depth-2"><a href="/atlas-opendata/visualisations/documentation.php" title="Documentation">Documentation</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/visualisations/live-events.php"   title="Live Events">Live Events</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/visualisations/analyser-js.php"   title="Histograms Analyser">App-Analyser</a></li>
+                    <li class="last leaf depth-2"> <a href="/atlas-opendata/visualisations/root-browser.php"  title="ROOT Browser">ROOTbrowser</a></li>
                   </ul>
                 </li>
 
                 <li class="expanded depth-1"><a href="/atlas-opendata/webanalysis"          title="Web Analysis">Web Analysis</a>
                   <ul class="menu">
-                    <li class="first leaf depth-2"><a href="/atlas-opendata/webanalysis"    title="ROOTbooks">ROOTbooks</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/webanalysis"    title="Documentation">Documentation</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/webanalysis"    title="Web Analyses">Web Analyses</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/webanalysis"    title="Externals Resources">Externals</a></li>
-                    <li class="last leaf depth-2"> <a href="http://atlas.cern/discover/detector"        target="_blank"    title="The ATLAS Detector">Detector</a></li>
+                    <li class="first leaf depth-2"><a href="/atlas-opendata/webanalysis/documentation.php"       title="Documentation">Documentation</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/webanalysis/ROOTbooks.php"           title="ROOTbooks">ROOTbooks</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/webanalysis/web-analyses.php"        title="Web Analyses">Web Analyses</a></li>
+                    <li class="last leaf depth-2"> <a href="http://atlas.cern/discover/detector" target="_blank" title="The ATLAS Detector">Detector</a></li>
                   </ul>
                 </li>
 
-                <li class="last expanded depth-1"><a href="/atlas-opendata/extendedanalysis/"   title="VM ToolBox">VM ToolBox</a>
+                <li class="last expanded depth-1"><a href="/atlas-opendata/extendedanalysis"   title="VM ToolBox">VM ToolBox</a>
                   <ul class="menu">
-                    <li class="first leaf depth-2"><a href="/atlas-opendata/extendedanalysis/"  title="Samples Repository">Samples Repository</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/extendedanalysis/"  title="Documentation">Documentation</a></li>
-                    <li class="leaf depth-2">      <a href="/atlas-opendata/extendedanalysis/"  title="Virtual Machines Repository">Virtual Machines</a></li>
-                    <li class="last leaf depth-2"> <a href="/atlas-opendata/extendedanalysis/"  title="Software Repository">Software!</a></li>
+                    <li class="first leaf depth-2"><a href="/atlas-opendata/extendedanalysis/documentation.php" title="Documentation">Documentation</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/extendedanalysis/datasets.php"      title="Samples Repository">Datasets</a></li>
+                    <li class="leaf depth-2">      <a href="/atlas-opendata/extendedanalysis/software.php"      title="Software Repository">Software</a></li>
+                    <li class="last leaf depth-2"> <a href="/atlas-opendata/extendedanalysis/vm-toolbox.php"    title="Virtual Machines Repository">Virtual Machines</a></li>
                   </ul>
                 </li>
               </ul>
