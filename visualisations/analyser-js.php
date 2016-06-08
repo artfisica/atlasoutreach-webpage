@@ -6,7 +6,7 @@
 
 <body>
   <div style="float:left; clear:both; padding: 2.0cm 2.0cm 1.0cm 2.0cm; text-align: left; width:100%; margin:0px auto;">
-    <h1>Level 1: <b>Visualisations - Web App Analyser</b></h1>
+    <h1>Level 1: <b>Visualisations - App Analyser</b></h1>
   </div>
 
   <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
