@@ -10,6 +10,7 @@
   </div>
 
   <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+    <p>(...it can take few seconds, please wait :)</p>
     <iframe width="100%" height="900" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
   </div>
 
