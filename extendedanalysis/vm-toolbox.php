@@ -5,11 +5,23 @@
 </header>
 
 <body>
-  <div style="float:left; clear:both; padding: 2.0cm 2.0cm 1.0cm 2.0cm; text-align: left; width:100%; margin:0px auto;">
-    <h1>Level 3: <b>Data & Tools Repository - Virtual Machines</b></h1>
-    <p>In this section you can get the available Virtual Machines. We called it <b>VM</b>, and they are full of useful software, samples and tools to start to work. Not setup needed, just follow the instructions to run the <b>VM</b> in any Operative System (also called <b>OS</b>... it looks like we are lazy but it is just jagon :)</p>
-  </div>
+  <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
+    <CENTER>
+      <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Virtual Machines</h1>
+    </CENTER>
 
+    <table width="100%" border="0">
+      <tr>
+        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
+          <p style="font-family:verdana; font-size:140%; align:right;">In this section you can get the available Virtual Machines. We called it <b>VM</b>, and they are full of useful software, samples and tools to start to work. Not setup needed, just follow the instructions to run the <b>VM</b> in any Operative System (also called <b>OS</b>... it looks like we are lazy but it is just jargon :)</p>
+        </td>
+        <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png" alt="Data & Tools - VMs" style="width:100%">
+        </td>
+      </tr>
+    </table>
+  </div>
+  <!-- -->
   <!-- Tabs  -->
   <div class="container">
     <!-- <h2>Dynamic Tabs</h2>-->
@@ -37,7 +49,7 @@
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk1.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk1.vdi.gz</a></td>
               <td>08-Jun-2016 20:00</td>
-              <td>XGb</td>
+              <td>14,5Gb</td>
             </tr>
           </table>
         </CENTER>
@@ -58,7 +70,7 @@
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk2.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk2.vdi.gz</a></td>
               <td>08-Jun-2016 20:00</td>
-              <td>XGb</td>
+              <td>5,5Gb</td>
             </tr>
           </table>
         </CENTER>
@@ -78,8 +90,8 @@
             <tr>
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk3.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk3.vdi.gz</a></td>
-              <td>08-Jun-2016 20:00</td>
-              <td>XGb</td>
+              <td>(~Jul-2016)</td>
+              <td>(TO BE INCLUDED)</td>
             </tr>
           </table>
         </CENTER>
@@ -99,8 +111,8 @@
             <tr>
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk4.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_June_2016-disk4.vdi.gz</a></td>
-              <td>08-Jun-2016 20:00</td>
-              <td>XGb</td>
+              <td>(~Jul-2016)</td>
+              <td>(TO BE INCLUDED)</td>
             </tr>
           </table>
         </CENTER>

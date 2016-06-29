@@ -28,7 +28,8 @@
     </p>
   </td>
   <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="./pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%">
+    <!-- <img src="./pictures/ATLAS_imagine_initial_page_1.png" alt="Repository" style="width:100%"> -->
+    <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Downloads" style="width:100%">
   </td>
 </tr>
 </table>
@@ -50,15 +51,7 @@
 
 
 <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-  <h1><b>...or get them at <b>CERN <a href="http://opendata.cern.ch" target="_blank">OpenData</a></b> portal</b></h1>
-</div>
-
-<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-  <div class="btn-group btn-group-justified">
-    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary" style="font-size:150%;">Datasets</a>
-    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary" style="font-size:150%;">Software</a>
-    <a href="http://opendata.cern.ch/education/ATLAS" target="_blank" class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
-  </div>
+  <h1><b>...or get them at <b>CERN <a href="http://opendata.cern.ch/education/ATLAS" target="_blank">OpenData</a></b> portal</b></h1>
 </div>
 
 <?php include('../menu.html'); ?>

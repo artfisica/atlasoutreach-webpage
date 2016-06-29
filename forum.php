@@ -26,7 +26,8 @@
     </p>
   </td>
   <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="./DataAndTools/pictures/ATLAS_imagine_initial_page_2.png" alt="Forum + FAQ" style="width:100%">
+    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_2.png" alt="Forum + FAQ" style="width:100%"> -->
+    <img src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="Community" style="width:100%">
   </td>
 </tr>
 </table>
@@ -56,33 +57,28 @@
 
         <ul style="font-family:verdana; font-size:110%; width:90%; text-align: left;">
           <li><b>How is the data obtained?</b></li>
-          <video width="60%" controls> -->
-            <source src="DataAndTools/pictures/video.mp4" type="video/mp4">
-              <source src="DataAndTools/pictures/video.ogg" type="video/ogg">
-                Your browser does not support HTML5 video.
-              </video>
-              <li>Who can use this datasets and tools?</li>
-              <li>question?</li>
-              <li>question?</li>
-              <li>question?</li>
-              <li>question?</li>
-              <li>question?</li>
-            </ul>
-            <br>
-            <br>
+          <div class="embed-responsive embed-responsive-16by9" >
+            <iframe class="embed-responsive-item" width="60%" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
-        </div>
-      </CENTER>
+          <li>Who can use this datasets and tools?</li>
+          <li>Dear ATLAS member, do you have a sugestion for a question here? <b>Please use the button of Feedback on your right, thanks!</b></li>
+          <li>question?</li>
+        </ul>
+        <br>
+        <br>
+      </div>
     </div>
+  </CENTER>
+</div>
 
 
-    <?php include('menu.html'); ?>
+<?php include('menu.html'); ?>
 
-    <?php include('trackers.html'); ?>
-  </body>
-  <!-- End main body -->
+<?php include('trackers.html'); ?>
+</body>
+<!-- End main body -->
 
-  <footer>
-    <?php include('footer.html'); ?>
-  </footer>
-  </html>
+<footer>
+  <?php include('footer.html'); ?>
+</footer>
+</html>

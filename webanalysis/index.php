@@ -13,21 +13,23 @@
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise collision data with plots and graphs.
-            They are used in every publication, from simple analyses to headline-making discoveries.
+            The <a href="http://atlas.cern/">ATLAS</a> Experiment has made seven analyses available, to help you get started with your own investigations.
+            These analyses range from measuring Standard Model particles, the Higgs boson and searching for a Beyond the Standard Model particle.
           </br>
         </b>
       </br>
-      In this section, you will learn to use these plots to:
+      In this section, you will learn:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>make comparisons to theoretical predictions</li>
-        <li>examine systematic and theoretical errors</li>
+        <li>The scientific importance of these analyses</li>
+        <li>To understand, execute and edit analysis code in your browser</li>
+        <li>How to use web tools to study and share the results</li>
       </ul>
     </p>
   </td>
   <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%">
+    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%"> -->
+    <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%">
   </td>
 </tr>
 </table>

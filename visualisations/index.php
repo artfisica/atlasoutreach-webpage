@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Visualisations</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
@@ -18,16 +18,18 @@
           </br>
         </b>
       </br>
-      In this section, you will learn to use these plots to:
+      In this section, you will learn:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>make comparisons to theoretical predictions</li>
-        <li>examine systematic and theoretical errors</li>
+        <li>The difference between simulated and real data</li>
+        <li>How to make comparisons with theoretical predictions</li>
+        <li>How to examine systematic and theoretical errors</li>
       </ul>
     </p>
   </td>
   <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_3.png" alt="Visualisations" style="width:100%">
+    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_3.png" alt="Visualisations" style="width:100%"> -->
+    <img src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
   </td>
 </tr>
 </table>

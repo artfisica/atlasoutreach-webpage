@@ -5,11 +5,25 @@
 </header>
 
 <body>
-  <div style="float:left; clear:both; padding: 2.0cm 2.0cm 1.0cm 2.0cm; text-align: left; width:100%; margin:0px auto;">
-    <h1>Level 2: <b>Web Analysis - ROOTbooks viewer</b></h1>
+  <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
+    <CENTER>
+      <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b> - ROOTbooks!</h1>
+    </CENTER>
+
+    <table width="100%" border="0">
+      <tr>
+        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png" alt="Web Analysis - ROOTbooks" style="width:100%">
+        </td>
+        <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
+          <div class="embed-responsive embed-responsive-16by9" >
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </td>
+      </tr>
+    </table>
   </div>
-
-
+  <!-- -->
   <!-- Tabs  -->
   <div class="container">
     <!-- <h2>Dynamic Tabs</h2>-->
@@ -18,6 +32,7 @@
       <li>               <a data-toggle="tab" href="#menu1">In <b>C++</b></a></li>
       <li>               <a data-toggle="tab" href="#menu2">In <b>Python</b></a></li>
       <li>               <a data-toggle="tab" href="#menu3">External <b>Viewers</b></a></li>
+      <li>               <a data-toggle="tab" href="#menu4">Executable <b>ROOTbooks</b></a></li>
     </ul>
 
 
@@ -28,7 +43,7 @@
           <p>Click in the logo of your favorite language</p>
           <div style="width:100%; padding: 0.2cm 0.2cm 0.2cm 0.2cm; float:left; clear:both;">
             <CENTER>
-              <iframe width="100%" height="900" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/index.ipynb" frameborder="0" allowfullscreen></iframe>
+              <iframe width="100%" height="800" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/index.ipynb" frameborder="0" allowfullscreen></iframe> <!--  scrolling="no" -->
             </CENTER>
           </div>
         </CENTER>
@@ -38,7 +53,7 @@
           <h1><b>ROOTbook in C++</b></h1>
           <div style="width:100%; padding: 0.2cm 0.2cm 0.2cm 0.2cm; float:left; clear:both;">
             <CENTER>
-              <iframe width="100%" height="900" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/DataAndTools_cpp_notebook_03_2016_example01_v0.0.ipynb" frameborder="0" allowfullscreen></iframe>
+              <iframe width="100%" height="800" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/DataAndTools_cpp_notebook_03_2016_example01_v0.0.ipynb" frameborder="0" allowfullscreen></iframe>
             </CENTER>
           </div>
         </CENTER>
@@ -48,7 +63,7 @@
           <h1><b>ROOTbook in Python</b></h1>
           <div style="width:100%; padding: 0.2cm 0.2cm 0.2cm 0.2cm; float:left; clear:both;">
             <CENTER>
-              <iframe width="100%" height="900" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/PyROOT_Example.ipynb" frameborder="0" allowfullscreen></iframe>
+              <iframe width="100%" height="800" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/PyROOT_Example.ipynb" frameborder="0" allowfullscreen></iframe>
             </CENTER>
           </div>
         </CENTER>
@@ -61,9 +76,20 @@
           </div>
           <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
             <div class="btn-group btn-group-justified">
-              <a href="http://swan.web.cern.ch/content/notebook-gallery"                              target="_blank" class="btn btn-primary" style="font-size:150%;">Official ROOT Gallery</a>
+              <a href="https://swan.web.cern.ch/content/basic-examples"                               target="_blank" class="btn btn-primary" style="font-size:150%;">Official ROOT Gallery</a>
               <a href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks" target="_blank" class="btn btn-primary" style="font-size:150%;">Jupyter Viewer</a>
             </div>
+          </div>
+        </CENTER>
+      </div>
+      <div id="menu4" class="tab-pane fade">
+        <CENTER>
+          <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+            <h1><b>Executable ROOTbooks</b></h1>
+            <p>Now: execute, edit, and save ROOTbooks using our datasets and examples. Of course, you can create your notebooks as well!</p>
+          </div>
+          <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+            <a href="http://mybinder.org/repo/artfisica/rootbinder" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" alt="binder ROOTbooks"></a>
           </div>
         </CENTER>
       </div>
