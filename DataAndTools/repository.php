@@ -52,6 +52,7 @@
 
 <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
   <h1><b>...or get them at <b>CERN <a href="http://opendata.cern.ch/education/ATLAS" target="_blank">OpenData</a></b> portal</b></h1>
+  <a href="http://opendata.cern.ch" target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:20%"></a>
 </div>
 
 <?php include('../menu.html'); ?>

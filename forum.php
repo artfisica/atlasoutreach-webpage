@@ -58,7 +58,7 @@
         <ul style="font-family:verdana; font-size:110%; width:90%; text-align: left;">
           <li><b>How is the data obtained?</b></li>
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" width="60%" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" width="40%" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
           <li>Who can use this datasets and tools?</li>
           <li>Dear ATLAS member, do you have a sugestion for a question here? <b>Please use the button of Feedback on your right, thanks!</b></li>

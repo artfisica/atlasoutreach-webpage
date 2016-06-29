@@ -22,7 +22,7 @@
         <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
           <li>Visualise the data in discovery-style graphs</li>
           <li>Develop code to select interesting collision events</li>
-          <li>Use Virtual Machines to transform your computer </br> into an analysis machine!</li>
+          <li>Use Virtual Machines to transform your computer into an analysis machine!</li>
         </ul>
       </p>
     </td>
@@ -46,8 +46,9 @@
         <h1 style="font-family:verdana; font-size:260%;">In the <b><a href="/atlas-opendata/visualisations/">Get Started</a> section</b></h1>
         <ul style="font-family:verdana; font-size:110%;">
           <li>Visualise the data in discovery-style graphs</li>
-          <li>Develop code to select interesting collision events</li>
-          <li>Use Virtual Machines to transform your computer </br> into an analysis machine!</li>
+          <li>Play with relevant physics variables in your browser</li>
+          <li>Get familiar with the qualitative characteristics of a <b>High Energy Physics</b> analysis…</li>
+          <li>…from now with will called it <b>HEP</b> for short!…</li>
         </ul>
       </td>
     </tr>
@@ -61,9 +62,9 @@
       <td style="width:50%; padding: 4cm 1% 4cm 20%; text-align: left;">
         <h1 style="font-family:verdana; font-size:260%;">now go into <b><a href="/atlas-opendata/webanalysis/">Web Analysis</a> section</b></h1>
         <ul style="font-family:verdana; font-size:110%;">
-          <li>Visualise the data in discovery-style graphs</li>
-          <li>Develop code to select interesting collision events</li>
-          <li>Use Virtual Machines to transform your computer </br> into an analysis machine!</li>
+          <li>Are you ready for the future of the data analysis?</li>
+          <li>Using Jupyter technology and the ~infinite power of ROOT: review, execute and develop your own analysis directly in your browser, using our SaaS</li>
+          <li>…yes, more contractions,”<b>SaaS</b>” is <b>Software as a Service</b>, and by the way, this is all done using <b>Cloud Computing</b>…</li>
         </ul>
       </td>
       <td style="width:50%; text-align: left; padding: 4cm 20% 4cm 1%">
@@ -83,9 +84,10 @@
       <td style="width:50%; text-align: left; padding: 4cm 20% 4cm 1%">
         <h1 style="font-family:verdana; font-size:260%;">now you are ready for <b><a href="/atlas-opendata/extendedanalysis/">Analysis ToolBox</a> section</b></h1>
         <ul style="font-family:verdana; font-size:110%;">
-          <li>Visualise the data in discovery-style graphs</li>
-          <li>Develop code to select interesting collision events</li>
-          <li>Use Virtual Machines to transform your computer </br> into an analysis machine!</li>
+          <li>ready to taste how is done a real <b>HEP</b> analysis? <i>(yes, like one of those that help to the discovery of the Higgs boson ;)</i></li>
+          <li>Check and download our Python framework code, and start running one of the analysis examples</li>
+          <li><b>you don’t have ROOT with you?</b> Don’t worry, using any of our Virtual Machines you can run the analysis examples as real physicist, but to create your own and keep working even offline</li>
+          <li>...not excuses to test your new ideas anytime, anywhere!</li>
         </ul>
       </td>
     </tr>
@@ -99,9 +101,10 @@
       <td style="width:50%; padding: 4cm 1% 4cm 20%; text-align: left;">
         <h1 style="font-family:verdana; font-size:260%;">In our <b><a href="/atlas-opendata/forum.php">Community</a> hub you can</b></h1>
         <ul style="font-family:verdana; font-size:110%;">
-          <li>Visualise the data in discovery-style graphs</li>
-          <li>Develop code to select interesting collision events</li>
-          <li>Use Virtual Machines to transform your computer </br> into an analysis machine!</li>
+          <li>Check the latest conversations, and because we are stating, why not to create your own Thread?</li>
+          <li>You can be part of the discussions, develop subjects, suggest changes, report bugs…</li>
+          <li><b>FAQ</b> (you know this one ;) can help you to understand how to evolve your research with us.</li>
+          <li>Finally, this is a project created for you! <i>if you have any feedback</i>, please let us know, we will be happy to apply any good idea!</li>
         </ul>
       </td>
       <td style="width:50%; text-align: left; padding: 4cm 20% 4cm 1%">

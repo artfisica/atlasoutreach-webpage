@@ -62,6 +62,7 @@ for the moment, logos of things we want to include here
 <a href="http://ippog.web.cern.ch"            target="_blank"><img typeof="foaf:Image" src="http://ippog.web.cern.ch/sites/ippog.web.cern.ch/files/ippog.png" alt="IPPOG" style="width:10%"></a>
 <a href="http://www.physicsmasterclasses.org" target="_blank"><img typeof="foaf:Image" src="http://www.cevale2ve.org/wp-content/uploads/2016/03/MC-Logo-RGB.jpg" alt="MasterClasses" style="width:15%"></a>
 <a href="https://root.cern.ch"                target="_blank"><img typeof="foaf:Image" src="https://d35c7d8c.web.cern.ch/sites/d35c7d8c.web.cern.ch/files/website-banner-allnew-croped_3.png" alt="ROOT" style="width:15%"></a>
+<a href="http://opendata.cern.ch"             target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:15%"></a>
 <a href="http://jupyter.org"                  target="_blank"><img typeof="foaf:Image" src="http://jupyter.org/assets/nav_logo.svg" alt="Jupyter" style="width:15%"></a>
 <a href="http://cernvm.web.cern.ch"           target="_blank"><img typeof="foaf:Image" src="http://cernvm.web.cern.ch/sites/cernvm.web.cern.ch/files/cvm-logo.png" alt="CernVM" style="width:15%"></a>
 <!--
