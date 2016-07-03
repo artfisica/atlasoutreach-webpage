@@ -28,8 +28,15 @@
     <iframe width="100%" height="900" src="./JsRoot450/" frameborder="0" allowfullscreen></iframe>
   </div>
 
-  <?php include('../menu.html'); ?>
 
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p><b>...and don't miss the amazing examples and apps of the</b></p>
+    <h1><b>official <a href="https://root.cern.ch/js/" target="_blank">ROOT JavaScript</a> Website</b></h1>
+    <!-- <a href="http://opendata.cern.ch" target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:20%"></a> -->
+  </div>
+  <!-- -->
+
+  <?php include('../menu.html'); ?>
   <?php include('../trackers.html'); ?>
 </body>
 <!-- End main body -->

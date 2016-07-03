@@ -7,13 +7,13 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - Histograms App Analyser</h1>
+      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - Histograms Analyser</h1>
     </CENTER>
 
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Get Started - Histograms App Analyser" style="width:100%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Get Started - Histograms Analyser" style="width:100%">
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >

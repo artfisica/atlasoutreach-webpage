@@ -44,7 +44,7 @@
   <div class="btn-group btn-group-justified">
     <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
     <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
-    <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Web App Analyser</a>
+    <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Histograms Analyser</a>
     <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
   </div>
 </div>

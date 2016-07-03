@@ -86,7 +86,7 @@
         <ul style="font-family:verdana; font-size:110%;">
           <li>ready to taste how is done a real <b>HEP</b> analysis? <i>(yes, like one of those that help to the discovery of the Higgs boson ;)</i></li>
           <li>Check and download our Python framework code, and start running one of the analysis examples</li>
-          <li><b>you don’t have ROOT with you?</b> Don’t worry, using any of our Virtual Machines you can run the analysis examples as real physicist, but to create your own and keep working even offline</li>
+          <li><b>you don’t have ROOT with you?</b> Don’t worry, using any of our Virtual Machines you can run the analysis examples as real physicist, and to create your own... even offline</li>
           <li>...not excuses to test your new ideas anytime, anywhere!</li>
         </ul>
       </td>
