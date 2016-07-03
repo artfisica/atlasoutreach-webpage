@@ -24,5 +24,3 @@ Notes:
 > git add .
 
 > git pull
-
-## Future, create Branch for collaborators
