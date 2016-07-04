@@ -34,6 +34,7 @@
 </div>
 <!-- end Head of page-->
 
+
 <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
     <div class="btn-group">
@@ -52,15 +53,22 @@
   </div>
   <!-- end of buttons line-->
 
-  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>Forum</b></h1>
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>FAQs</b></h1>
   </div>
 
-  <CENTER>
-    <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-      <iframe name="fBulletin" id="fBulletin" src="https://forums.fbulletin.com/?site=http://atlasoutreach.web.cern.ch/forum&forum=14970&url=http%3A%2F%2Fatlasoutreach.web.cern.ch%2Fforum" width="100%" height="500" frameborder="0" border="0" align="center" style="width:100%;border:hidden;overflow:hidden;"></iframe>
-    </div>
-  </CENTER>
+  <div style="float:left; clear:both; padding: 0.5cm 3.5cm 3.5cm 3.5cm; text-align: center; width:90%; margin:0px auto;">
+    <ul style="font-family:verdana; font-size:110%; width:90%; text-align: left;">
+      <li><b>How is the data obtained?</b></li>
+      <div class="embed-responsive embed-responsive-16by9" >
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <li>Who can use this datasets and tools?</li>
+      <li>Dear ATLAS member, do you have a sugestion for a question here? <b>Please use the button of Feedback on your right, thanks!</b></li>
+      <li>question?</li>
+    </ul>
+  </div>
+  <!-- End of questions -->
 
   <?php include('menu.html'); ?>
 

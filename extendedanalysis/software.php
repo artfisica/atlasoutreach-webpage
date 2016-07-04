@@ -59,7 +59,7 @@
               <td><a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/archive/V1.0.zip">python_framework_code_June_2016_V1.0.zip</a></td>
               <!-- ../release/code/python_framework_code_June_2016.zip -->
               <td>08-Jun-2016 20:00</td>
-              <td>XMb</td>
+              <td>44,0Kb</td>
             </tr>
           </table>
         </CENTER>

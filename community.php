@@ -34,7 +34,11 @@
 </div>
 <!-- end Head of page-->
 
-<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Talk to us!</b></h1>
+</div>
+
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 4.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
     <div class="btn-group">
       <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" style="font-size:150%;">
@@ -52,15 +56,6 @@
   </div>
   <!-- end of buttons line-->
 
-  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>Forum</b></h1>
-  </div>
-
-  <CENTER>
-    <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-      <iframe name="fBulletin" id="fBulletin" src="https://forums.fbulletin.com/?site=http://atlasoutreach.web.cern.ch/forum&forum=14970&url=http%3A%2F%2Fatlasoutreach.web.cern.ch%2Fforum" width="100%" height="500" frameborder="0" border="0" align="center" style="width:100%;border:hidden;overflow:hidden;"></iframe>
-    </div>
-  </CENTER>
 
   <?php include('menu.html'); ?>
 

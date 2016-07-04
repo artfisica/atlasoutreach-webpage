@@ -13,7 +13,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png" alt="Web Analysis - ROOTbooks" style="width:100%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis - ROOTbooks" style="width:100%">
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >

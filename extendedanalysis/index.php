@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools Repository</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
