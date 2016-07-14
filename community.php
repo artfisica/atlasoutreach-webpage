@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;"><b>ATLAS OpenData Forum</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">ATLAS open data <b>Community</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
@@ -26,15 +26,16 @@
     </p>
   </td>
   <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_2.png" alt="Forum + FAQ" style="width:100%"> -->
-    <img src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="Community" style="width:100%">
+    <div class="hovereffect">
+      <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="Community" style="width:100%">
+    </div>
   </td>
 </tr>
 </table>
 </div>
 <!-- end Head of page-->
 
-<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.3cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
   <h1><b>Talk to us!</b></h1>
 </div>
 

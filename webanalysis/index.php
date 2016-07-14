@@ -12,27 +12,26 @@
           <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
-          <b>
-            The <a href="http://atlas.cern/">ATLAS</a> Experiment has made seven analyses available, to help you get started with your own investigations.
-            These analyses range from measuring Standard Model particles, the Higgs boson and searching for a Beyond the Standard Model particle.
-          </br>
-        </b>
-      </br>
-      In this section, you will learn:
+          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made 7 analyses available</b> to help you get started with your own research!
+          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles such as the Higgs boson to searching for a Beyond the Standard Model particle.
+          Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+        </p>
 
-      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>The scientific importance of these analyses</li>
-        <li>To understand, execute and edit analysis code in your browser</li>
-        <li>How to use web tools to study and share the results</li>
-      </ul>
-    </p>
-  </td>
-  <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%"> -->
-    <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%">
-  </td>
-</tr>
-</table>
+        <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
+
+        <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
+          <li><b>Documentation:</b> a step-by-step guide to using, creating and executing ROOT notebooks</li>
+          <li><b>ROOT notebooks (ROOTbooks):</b> use Jupyter technology and the power of ROOT to review, execute and develop your own analysis directly in your browser</li>
+          <li><b>Executable ROOTbooks:</b> execute, edit and save ROOTbooks using our datasets and examples. You can create your own notebooks as well!</li>
+        </ul>
+      </td>
+      <td style="width:50%; padding: 0.1cm 0.2cm;">
+        <div class="hovereffect">
+          <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%">
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 <!-- end Head of page-->
 
@@ -41,12 +40,18 @@
   <h1><b>Explore</b></h1>
 </div>
 
-<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
     <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
     <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
-    <a href="./web-analyses.php"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
+    <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
   </div>
+</div>
+
+<div style="width:100%; text-align: center; padding: 0.0cm 1.0cm 2.0cm 1.0cm; float:left; clear:both;">
+  <a href="./documentation.php"><img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png"              style="width:33%"></a>
+  <a href="./ROOTbooks.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png"      style="width:33%"></a>
+  <a href="./ROOTbooks.php#external_binder"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_externals_friends.png" style="width:33%"></a>
 </div>
 
 <?php include('../menu.html'); ?>

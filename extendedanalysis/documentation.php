@@ -24,16 +24,21 @@
     </table>
   </div>
   <!-- -->
-  <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
-    <div id="book1" class="collapse">
-      <iframe width="100%" height="850" src="https://cheatham1.gitbooks.io/openatlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+
+  <CENTER>
+    <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1">Open/Close Software Book</button>
+      <div id="book1" class="collapse" style="padding: 2.0cm 0.5cm 1.0cm 0.5cm;">
+        <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/openatlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+        <hr>
+      </div>
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
+      <div id="book2" class="collapse" style="padding: 2.0cm 0.5cm 1.0cm 0.5cm;">
+        <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+        <hr>
+      </div>
     </div>
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2">Open/Close Virtual Machine Book</button>
-    <div id="book2" class="collapse">
-      <iframe width="100%" height="850" src="https://cheatham1.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
+  </CENTER>
 
 
   <?php include('../menu.html'); ?>

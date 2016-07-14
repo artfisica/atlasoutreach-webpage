@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Crossfilter for ATLAS Outreach Prototype</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="dc.css"/>
+  </head>
+  <style>
+  .dc-chart g.row text {
+      fill: black;
+  }
+  </style>
+
+  <body>
+    <div style="width:1050px">
+<table style="width:100%">
+  <tr style="height: 50px">
+    <td valign="bottom">Number of Jets</td>
+    <td valign="bottom">Channel</td>
+    <td valign="bottom">Missing Transverse Momentum [GeV]</td>
+  </tr>
+  <tr>
+    <td><div id="test0"></div></td>
+    <td><div id="test1"></div></td>
+    <td><div id="test2"></div></td>
+  </tr>
+  <tr style="height: 50px">
+    <td valign="bottom">Are Jets b-tagged?</td>
+    <td valign="bottom">Reconstructed Mass - Z Mass [GeV]</td>
+    <td valign="bottom">Total Lepton Transverse Momentum [GeV]</td>
+  </tr>
+  <tr>
+    <td><div id="test3"></div></td>
+    <td><div id="test4"></div></td>
+    <td><div id="test5"></div></td>
+  </tr>
+  <tr style="height: 50px">
+    <td valign="bottom">Angular Separation of Leptons [phi]</td>
+    <td valign="bottom">Expected Number of Events for 1/fb</td>
+    <td valign="bottom">Number of Simulated Events</td>
+  </tr>
+  <tr>
+    <td><div id="test6"></div></td>
+    <td><div id="test7"></div></td>
+    <td><div id="test8"></div></td>
+  </tr>
+
+</table>
+</div>
+
+    <script charset="utf-8" type="text/javascript" src="d3.js"></script>
+    <script charset="utf-8" type="text/javascript" src="crossfilter.js"></script>
+    <script charset="utf-8" type="text/javascript" src="dc.js"></script>
+    <script charset="utf-8" type="text/javascript">
+
+       var njetChart      = dc.barChart("#test0"),
+          channelChart    = dc.barChart("#test1"),
+          METChart        = dc.barChart("#test2"),
+          BTagChart       = dc.barChart("#test3"),
+          ZWindowChart    = dc.barChart("#test4"),
+          sumlepptChart   = dc.barChart("#test5"),
+          deltaphiChart   = dc.barChart("#test6"),
+          mcCompChart     = dc.rowChart("#test7"),
+          mcStatsChart    = dc.rowChart("#test8");
+
+      d3.csv("outreach.csv", function(error, events) {
+
+          events.forEach(function(x) {
+             x.weight = +x.weight;
+          });
+
+
+          function add_by_channel(p, v) {
+                 p[v.type] = (p[v.type] || 0) + v.weight;
+                 return p;
+          }
+
+          function remove_by_channel(p, v) {
+                 p[v.type] = (p[v.type] || 0) - v.weight;
+                 return p;
+          }
+
+          function initial(p, v) {
+             return {};
+          }
+
+
+          var ndx                 = crossfilter(events),
+              njetDimension       = ndx.dimension(function(d) {return +d.NJets;}),
+              typeDimension       = ndx.dimension(function(d) {return +d.type;}),
+              METDimension        = ndx.dimension(function(d) {return +d.MET;}),
+              btagDimension       = ndx.dimension(function(d) {return +d.BTags;}),
+              SumLepPtDimension   = ndx.dimension(function(d) {return +d.SumLepPt;}),
+              ZWindowDimension    = ndx.dimension(function(d) {return +d.ZWindow;}),
+              ChannelDimension    = ndx.dimension(function(d) {return +d.Channel;}),
+              DeltaPhiDimension   = ndx.dimension(function(d) {return +d.LepDeltaPhi;})
+              NJetGroup           = njetDimension.group().reduce(add_by_channel,remove_by_channel, initial),
+              BTagGroup           = btagDimension.group().reduce(add_by_channel,remove_by_channel, initial),
+              SumLepPtGroup       = SumLepPtDimension.group(function(d) {return Math.floor(d/10)*10}).reduce(add_by_channel,remove_by_channel, initial),
+              ZWindowGroup        = ZWindowDimension.group(function(d) {return Math.floor(d/5)*5}).reduce(add_by_channel,remove_by_channel, initial),
+              compGroup           = typeDimension.group().reduceSum(function(d) {return +d.weight;}),
+              mcstatGroup         = typeDimension.group().reduceCount(),
+              ChannelGroup        = ChannelDimension.group().reduce(add_by_channel,remove_by_channel, initial),
+              METGroup            = METDimension.group(function(d) {return Math.round(d/10)*10}).reduce(add_by_channel,remove_by_channel, initial),
+              DeltaPhiGroup       = DeltaPhiDimension.group(function(d) {return Math.round(d/10)*10}).reduce(add_by_channel,remove_by_channel, initial);
+
+           function sel_stack(i) {
+               return function(d) {
+                   return d.value[i];
+               };
+           }
+
+           function type(i){
+              if (i == "0") return "HWW";
+              if (i == "1") return "WW";
+              if (i == "2") return "ttbar";
+              if (i == "3") return "Z";
+              return "default"
+           }
+
+          mcCompChart
+           .width(350).height(200)
+           .x(d3.scale.log().domain([0,1000]))
+           .dimension(typeDimension)
+           .group(compGroup)
+           .label(function(d){ return type(d.key);})
+           .elasticX(true);
+
+          mcStatsChart
+           .width(350).height(200)
+           .dimension(typeDimension)
+           .group(mcstatGroup)
+           .label(function(d){ return type(d.key);})
+           .elasticX(true);
+
+          njetChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,10]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(njetDimension)
+              .group(NJetGroup, "HWW",   sel_stack('0'))
+              .stack(NJetGroup, "WW",    sel_stack('1'))
+              .stack(NJetGroup, "ttbar", sel_stack('2'))
+              .stack(NJetGroup, "Z",     sel_stack('3'));
+
+          ZWindowChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,99.9]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(ZWindowDimension)
+              .group(ZWindowGroup, "HWW",   sel_stack('0'))
+              .stack(ZWindowGroup, "WW",    sel_stack('1'))
+              .stack(ZWindowGroup, "ttbar", sel_stack('2'))
+              .stack(ZWindowGroup, "Z",     sel_stack('3'));
+          ZWindowChart.xUnits(dc.units.fp.precision(5));
+
+
+          channelChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,3]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(ChannelDimension)
+              .group(ChannelGroup, "HWW",   sel_stack('0'))
+              .stack(ChannelGroup, "WW",    sel_stack('1'))
+              .stack(ChannelGroup, "ttbar", sel_stack('2'))
+              .stack(ChannelGroup, "Z",     sel_stack('3'))
+              .xAxis().tickFormat(function(d){if(d == 0.5){return "ee"}; if(d == 1.5){return "mm"};if(d == 2.5){return "em";}});
+
+          METChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,200]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(METDimension)
+              .group(METGroup, "HWW",   sel_stack('0'))
+              .stack(METGroup, "WW",    sel_stack('1'))
+              .stack(METGroup, "ttbar", sel_stack('2'))
+              .stack(METGroup, "Z",     sel_stack('3'))
+          METChart.xUnits(dc.units.fp.precision(10));
+
+
+          BTagChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,2]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(btagDimension)
+              .group(BTagGroup, "HWW",   sel_stack('0'))
+              .stack(BTagGroup, "WW",    sel_stack('1'))
+              .stack(BTagGroup, "ttbar", sel_stack('2'))
+              .stack(BTagGroup, "Z",     sel_stack('3'))
+              .xAxis().tickFormat(function(d){if(d == 0.5){return "no"}; if(d == 1.5){return "yes"}});
+           BTagChart.xAxis().tickValues([0, 0.5,1,1.5,2]);
+
+          sumlepptChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,200]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(SumLepPtDimension)
+              .group(SumLepPtGroup, "HWW",   sel_stack('0'))
+              .stack(SumLepPtGroup, "WW",    sel_stack('1'))
+              .stack(SumLepPtGroup, "ttbar", sel_stack('2'))
+              .stack(SumLepPtGroup, "Z",     sel_stack('3'));
+          sumlepptChart.xUnits(dc.units.fp.precision(10));
+
+          deltaphiChart
+              .width(350)
+              .height(250)
+              .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
+              .x(d3.scale.linear().domain([0,200]))
+              .margins({left: 50, top: 10, right: 10, bottom: 20})
+              .brushOn(true)
+              .elasticY(true)
+              .clipPadding(10)
+              .dimension(DeltaPhiDimension)
+              .group(DeltaPhiGroup, "HWW",   sel_stack('0'))
+              .stack(DeltaPhiGroup, "WW",    sel_stack('1'))
+              .stack(DeltaPhiGroup, "ttbar", sel_stack('2'))
+              .stack(DeltaPhiGroup, "Z",     sel_stack('3'))
+          deltaphiChart.xUnits(dc.units.fp.precision(10));
+
+
+              dc.renderAll();
+
+      });
+
+    </script>
+
+  </body>
+</html>

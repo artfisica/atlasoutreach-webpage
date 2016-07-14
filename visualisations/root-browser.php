@@ -24,16 +24,32 @@
     </table>
   </div>
   <!-- -->
-  <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-    <iframe width="100%" height="900" src="./JsRoot450/" frameborder="0" allowfullscreen></iframe>
+
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Look into ROOT files!</b></h1>
+  </div>
+
+  <div style="width:100%; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+    <iframe width="100%" height="600" src="./JsRoot450/" frameborder="0" allowfullscreen></iframe>
   </div>
 
 
-  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <p><b>...and don't miss the amazing examples and apps of the</b></p>
-    <h1><b>official <a href="https://root.cern.ch/js/" target="_blank">ROOT JavaScript</a> Website</b></h1>
-    <!-- <a href="http://opendata.cern.ch" target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:20%"></a> -->
-  </div>
+  <table width="100%" border="0">
+    <tr>
+      <td style="width:50%; padding: 1cm 1% 1cm 10%;">
+        <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+          <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+          <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/rootbrowser.html" target="_blank">in GitBook</a></b></h1>
+        </div>
+      </td>
+      <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
+        <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+          <p style="font-size:120%;"><b>...and don't miss the amazing examples and apps of the</b></p>
+          <h1><b>official <a href="https://root.cern.ch/js/" target="_blank">ROOT JavaScript</a> Website</b></h1>
+        </div>
+      </td>
+    </tr>
+  </table>
   <!-- -->
 
   <?php include('../menu.html'); ?>

@@ -8,29 +8,25 @@
   <div>
     <table width="100%" border="0">
       <tr>
-        <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;"><b>ATLAS OpenData Forum</b></h1>
+        <td style="width:50%; text-align: left; padding: 1.5cm 1.0cm 1.0cm 3.0cm;">
+          <h1 style="font-family:verdana; font-size:260%;">ATLAS open data <b>Forum</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
-          <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment...
-          </br>
-        </b>
-      </br>
-      In this section, you can:
+          Start a conversation or join to an existing thread!
+        </p>
 
-      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>Interact with us using the Forum below</li>
-        <li>Get answer to common questions, did you find yours?</li>
-      </ul>
-    </p>
-  </td>
-  <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <!-- <img src="/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_2.png" alt="Forum + FAQ" style="width:100%"> -->
-    <img src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="Community" style="width:100%">
-  </td>
-</tr>
-</table>
+        <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>In this section, you can:</b></p>
+
+        <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
+          <li>Interact with us using the Forum below</li>
+          <li>Get answer to common questions, did you find yours?</li>
+        </ul>
+      </td>
+      <td style="width:50%; padding: 0.1cm 3.0cm 0.1cm 1.0cm;">
+        <img src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="FAQs" style="width:80%">
+      </td>
+    </tr>
+  </table>
 </div>
 <!-- end Head of page-->
 

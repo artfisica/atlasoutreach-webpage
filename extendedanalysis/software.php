@@ -13,7 +13,11 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <p style="font-family:verdana; font-size:140%; text-align: left;">You can download the complete software framework in compressed file (ZIP file), or check and download it in our dedicated GitHub repository. With this last option, you have the opportunity to browse the files, and get a deeper view even before click "download"</p>
+          <p style="font-family:verdana; font-size:140%; text-align: left;">
+            You can download the complete software framework in a <i>.ZIP</i> file.
+            Alternatively, download it from our dedicated 
+            <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/releases/tag/V1.0" target="_blank">GitHub</a> repository where you can also browse the files.
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <img src="/atlas-opendata/DataAndTools/pictures/handmade_toolbox.png" alt="Data & Tools - VMs" style="width:100%">

@@ -12,46 +12,30 @@
           <h1 style="font-family:verdana; font-size:260%;">The <b>External Resources</b> and friends!</h1>
         </br>
         <p style="font-family:verdana; font-size:200%;">
-          ...comming soon... :) but in the meantime, check some links of crucial resources for us:
+          ...comming soon... but in the meantime, check the sites of external resources that have been crucial in this and other ATLAS outreach projects:
         </p>
-<!--
-        <p style="font-family:verdana; font-size:120%;">
-          <b>
-            Now that you have learned to visualise data and use code for analyses, you are ready to take an in-depth look at ATLAS data.
-            Here you have all the necessary pieces in order to start you physics analysis in a more complete way.
-            Look into the data like an ATLAS particle physicist!
-          </br>
-        </b>
-      </br>
-      In this section, you can:
-
-      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>Download the complete collection of ATLAS datasets released</li>
-        <li>Download, understand, execute and edit different analysis software</li>
-        <li>Learn how to install a virtual machine to your personal computer and to perform physics searches</li>
-      </ul>
-    </p>
--->
-  </td>
-  <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="/atlas-opendata/DataAndTools/pictures/handmade_externals_friends.png" alt="Externals" style="width:100%">
-  </td>
-</tr>
-</table>
+      </td>
+      <td style="width:50%; padding: 0.1cm 0.2cm;">
+        <div class="hovereffect">
+          <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_externals_friends.png" alt="External Resources" style="width:100%">
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 <!-- end Head of page-->
 
 
 <div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
   <h1><b>Explore</b></h1>
-<!--
-<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+  <!--
+  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
-    <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-    <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
-    <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
-    <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
-  </div>
+  <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+  <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
+  <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
+  <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
+</div>
 </div>
 -->
 
@@ -70,9 +54,6 @@ for the moment, logos of things we want to include here
 -->
 </div>
 
-<!--
-
--->
 
 <?php include('../menu.html'); ?>
 

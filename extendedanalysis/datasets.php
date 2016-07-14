@@ -13,7 +13,10 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <p style="font-family:verdana; font-size:140%; text-align: left;">Here it is! below you can <b>get the official samples released to the public</b>. You can download a single ROOT file or the complete collection in a single zip file. Check the tabs and start your search. <b>Don't forget to grab the software or the VMs</b> that better fit your objetives</p>
+          <p style="font-family:verdana; font-size:140%; text-align: left;">
+            <b>Download the ATLAS open datasets below!</b> Download the complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
+            Don't forget to grab the software or the Virtual Machines to carry out your analysis.
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - VMs" style="width:100%">

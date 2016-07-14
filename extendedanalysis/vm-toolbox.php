@@ -13,7 +13,10 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <p style="font-family:verdana; font-size:140%; text-align: left;">In this section you can get the available Virtual Machines. We called it <b>VM</b>, and they are full of useful software, samples and tools to start to work. Not setup needed, just follow the instructions to run the <b>VM</b> in any Operative System (also called <b>OS</b>... it looks like we are lazy but it is just jargon :)</p>
+          <p style="font-family:verdana; font-size:140%; text-align: left;">
+            Download a Virtual Machine, which include useful software, samples and tools for your analysis.
+            Follow the instructions to run a Virtual Machine (<b>VM</b>) on any operating system.
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <img src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png" alt="Data & Tools - VMs" style="width:100%">

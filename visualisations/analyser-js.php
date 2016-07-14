@@ -24,11 +24,22 @@
     </table>
   </div>
   <!-- -->
-  <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-    <p>(...it can take few seconds, please wait :)</p>
-    <iframe width="100%" height="1000" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
+
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Check our App!</b></h1>
   </div>
 
+  <div style="width:100%; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+    <p style="font-size:110%;">(...it can take few seconds, please wait :)</p>
+    <iframe width="100%" height="1000" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
+    <hr>
+  </div>
+
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/the_display_histograms.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
   <?php include('../menu.html'); ?>
 

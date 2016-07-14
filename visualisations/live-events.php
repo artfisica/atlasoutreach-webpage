@@ -23,6 +23,11 @@
     </table>
   </div>
   <!-- -->
+
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Check that ATLAS display of real events!</b></h1>
+  </div>
+
   <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
     <iframe width="100%" height="900" src="http://atlas-live.cern.ch/" frameborder="0" allowfullscreen></iframe>
   </div>

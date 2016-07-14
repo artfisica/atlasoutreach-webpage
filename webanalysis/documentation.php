@@ -24,10 +24,16 @@
     </table>
   </div>
   <!-- -->
+
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Take a look at our Book!</b></h1>
+  </div>
+
   <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#docs">Open/Close the Book</button>
     <div id="docs" class="collapse in">
-      <iframe width="100%" height="900" src="https://cheatham1.gitbooks.io/openatlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+      <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/web-analysis/content/index.html" frameborder="0" allowfullscreen></iframe>
+      <hr>
     </div>
   </div>
 
