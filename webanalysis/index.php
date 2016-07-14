@@ -12,54 +12,46 @@
           <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
-          <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment visualise collision data with plots and graphs.
-            They are used in every publication, from simple analyses to headline-making discoveries.
-          </br>
-        </b>
-      </br>
-      In this section, you will learn to use these plots to:
+          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made 7 analyses available</b> to help you get started with your own research!
+          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles such as the Higgs boson to searching for a Beyond the Standard Model particle.
+          Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+        </p>
 
-      <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>make comparisons to theoretical predictions</li>
-        <li>examine systematic and theoretical errors</li>
-      </ul>
-    </p>
-  </td>
-  <td style="width:50%; padding: 0.1cm 0.2cm;">
-    <img src="../DataAndTools/pictures/ATLAS_imagine_initial_page_4.png" alt="Web Analysis" style="width:100%">
-  </td>
-</tr>
-</table>
+        <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
+
+        <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
+          <li><b>Documentation:</b> a step-by-step guide to using, creating and executing ROOT notebooks</li>
+          <li><b>ROOT notebooks (ROOTbooks):</b> use Jupyter technology and the power of ROOT to review, execute and develop your own analysis directly in your browser</li>
+          <li><b>Executable ROOTbooks:</b> execute, edit and save ROOTbooks using our datasets and examples. You can create your own notebooks as well!</li>
+        </ul>
+      </td>
+      <td style="width:50%; padding: 0.1cm 0.2cm;">
+        <div class="hovereffect">
+          <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%">
+        </div>
+      </td>
+    </tr>
+  </table>
 </div>
 <!-- end Head of page-->
 
-<div class="container" style="padding: 2.0cm 1.5cm 1.5cm 1.5cm;">
-  <h2>Documentation</h2>
-  <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#docs">Open/Close the Book</button>
-  <div id="docs" class="collapse">
-    <iframe width="100%" height="850" src="https://cheatham1.gitbooks.io/openatlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
+
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Explore</b></h1>
+</div>
+
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.0cm 2.0cm; float:left; clear:both;">
+  <div class="btn-group btn-group-justified">
+    <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
+    <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
   </div>
 </div>
 
-<!-- Tabs  -->
-<div class="container">
-  <!-- <h2>Dynamic Tabs</h2>-->
-  <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#menu0">ROOT notebook view</a></li>
-    <li><a data-toggle="tab" href="#menu1">Executable notebooks</a></li>
-  </ul>
-
-  <CENTER>
-    <div class="tab-content">
-      <div id="menu0" class="tab-pane fade in active">
-        <iframe width="100%" height="850" src="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/DataAndTools_cpp_notebook_03_2016_example01_v0.0.ipynb" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div id="menu1" class="tab-pane fade">
-        <a href="http://mybinder.org/repo/artfisica/rootbinder" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" alt=""></a>
-      </div>
-    </div>
-  </CENTER>
+<div style="width:100%; text-align: center; padding: 0.0cm 1.0cm 2.0cm 1.0cm; float:left; clear:both;">
+  <a href="./documentation.php"><img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png"              style="width:33%"></a>
+  <a href="./ROOTbooks.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png"      style="width:33%"></a>
+  <a href="./ROOTbooks.php#external_binder"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_externals_friends.png" style="width:33%"></a>
 </div>
 
 <?php include('../menu.html'); ?>

@@ -2,6 +2,7 @@
 body {
   position: relative;
   padding-top: 40px;
+  bgcolor: white;
 }
 
 body,
@@ -18,7 +19,7 @@ code
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
-	text-shadow: #ffffff 0 1px 0;	
+	text-shadow: #ffffff 0 1px 0;
 }
 
 /* Code in headings */
@@ -41,7 +42,7 @@ section > ul li {
 
 /* Faded out hr */
 hr.soften {
-  height: 1px;
+  height: 2px;
   margin: 70px 0;
   background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
   background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
@@ -68,32 +69,32 @@ hr.soften {
 
 /* Base class
 ------------------------- */
-.header 
-{  
-	width: 100%; 
-	margin: auto; 
-	padding-top: 20px; 
-	background: url("../img/starrynight.png"); 
-	background-color: black; 
+.header
+{
+	width: 100%;
+	margin: auto;
+	padding-top: 20px;
+	background: url("../img/starrynight.png");
+	background-color: black;
 	opacity: 2;
 }
-.titleheader 
+.titleheader
 {
-	width: 100%;  
-	margin: auto; 
-	padding-bottom: 20px; 
+	width: 100%;
+	margin: auto;
+	padding-bottom: 20px;
 	padding-top: 90px;}
 
-.titleheader h1, 
+.titleheader h1,
 .titleheader h3
-{			
+{
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 1), 0 0 1px rgba(0, 0, 0, 1);
 	width: 960px;
-	display: inline;	
+	display: inline;
 	color: #efefef;
 	padding: 4px;
-	background-color: #222222;	
-}	
+	background-color: #222222;
+}
 .titleheader h1,
 .marketing h1
 {
@@ -177,23 +178,23 @@ section h4
     width: 980px;
 }
 
-.marketing h3 
-{   
-    color: #444444;    
+.marketing h3
+{
+    color: #444444;
 }
 
 .marketing h1
 {
-    color: #666666;  
+    color: #666666;
 }
 
 /* Footer
 -------------------------------------------------- */
 
 .footer {
-  padding-bottom: 70px; 
+  padding-bottom: 70px;
 }
-.footer p {  	
+.footer p {
   margin-bottom: 0;
   color: #777;
 }
@@ -206,7 +207,7 @@ section h4
   padding: 49px 19px 14px;
   *padding-top: 24px;
   background-color: #fff;
-  border: 1px solid #ddd;  
+  border: 1px solid #ddd;
 }
 
 /* Echo out a label for the example */
@@ -220,7 +221,7 @@ section h4
   font-weight: bold;
   background-color: #f5f5f5;
   border: 1px solid #ddd;
-  color: #9da0a4; 
+  color: #9da0a4;
 }
 
 /* Remove spacing between an example and it's code */
@@ -253,7 +254,7 @@ section h4
 ------------------------- */
 
 @media (min-width: 1200px)
-{    
+{
     .marketing .container
     {
         width: 1200px;
@@ -267,8 +268,8 @@ section h4
     margin-left: 0;
     padding-left: 10px;
     padding-right: 10px;
-  }    
-   
+  }
+
 }
 
 
@@ -301,7 +302,7 @@ section h4
       width: auto;
   }
   .header
-  {	
+  {
 	padding: 40px 20px;
 	margin-top: -20px;
 	margin-left: -20px;
@@ -310,8 +311,8 @@ section h4
   .docs-social
   {
 	  margin: 0 -20px;
-  } 
-  
+  }
+
   /* Unfloat the back to top link in footer */
   .footer {
     margin-left: -20px;
@@ -339,13 +340,13 @@ section h4
   h2 small {
     display: block;
   }
-  
+
   .m-btn.big
   {
       display: block !important;
   }
-  
-  
+
+
 
   /* center example sites */
   .example-sites {
