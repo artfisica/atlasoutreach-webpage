@@ -11,8 +11,8 @@
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
           <h1 style="font-family:verdana; font-size:260%;">The <b>External Resources</b> and friends!</h1>
         </br>
-        <p style="font-family:verdana; font-size:200%;">
-          ...comming soon... but in the meantime, check the sites of external resources that have been crucial in this and other ATLAS outreach projects:
+        <p style="font-family:verdana; font-size:140%;">
+          <i>more coming soon...</i> For more educational resources and initiatives involving High-Energy Physics, check out the groups linked below:
         </p>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">

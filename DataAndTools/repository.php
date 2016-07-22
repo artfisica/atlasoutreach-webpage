@@ -21,9 +21,9 @@
       In this section, you can find where to download:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>The complete collection of datasets released</li>
-        <li>The different analysis softwares</li>
-        <li>The vitual machines to perform physics searches</li>
+        <li>The complete collection of available datsets</li>
+        <li>The different analysis software</li>
+        <li>The virtual machines to perform physics searches</li>
       </ul>
     </p>
   </td>

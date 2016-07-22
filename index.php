@@ -19,6 +19,15 @@
     </div>
   </div>
 
+  <!-- Declaration of Target -->
+  <div style="float:left; clear:both; padding: 0.4cm 21% 0.2cm 21%; text-align: left; width:100%; margin:0px auto;">
+    <CENTER>
+      <p style="font-family:verdana; font-size:80%;"><!-- <img src="/atlas-opendata/DataAndTools/pictures/warning_sign.png" align="center" style="width:4%;"> --><b>Note! <a href="./index.php">ATLAS open data</a></b> is primarily aimed at University students, postgraduate and external researchers. Please read more in <b><a href="./target.php">Target section</a></b></p>
+    </CENTER>
+  </div>
+  <!-- End declaration of Target -->
+
+
 
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: center; width:100%; margin:0px auto; border:none!important; background-color:white;">
     <table width="100%" border="0">
@@ -93,7 +102,7 @@
           <ul style="font-family:verdana; font-size:110%;">
             <li>Become part of the conversation. Share your experiences and successes while connecting with fellow ATLAS open data users</li>
             <li>Join or start a thread to ask for tips, suggest changes, report bugs...</li>
-            <li>•	Take a look at the <b>FAQ</b>!</li>
+            <li>Take a look at the <b>FAQ</b>!</li>
           </ul>
 
           <p  style="font-family:verdana; font-size:110%;"><b>ATLAS open data was created for you.</b> We value your opinion so please send us your feedback!</p>

@@ -26,7 +26,7 @@
   </tr>
   <tr style="height: 50px">
     <td valign="bottom">Are Jets b-tagged?</td>
-    <td valign="bottom">Reconstructed Mass - Z Mass [GeV]</td>
+    <td valign="bottom">Reconstructed Dilepton Mass [GeV]</td>
     <td valign="bottom">Total Lepton Transverse Momentum [GeV]</td>
   </tr>
   <tr>
@@ -37,7 +37,7 @@
   <tr style="height: 50px">
     <td valign="bottom">Angular Separation of Leptons [phi]</td>
     <td valign="bottom">Expected Number of Events for 1/fb</td>
-    <td valign="bottom">Number of Simulated Events</td>
+    <td valign="bottom">Fractional Contributions</td>
   </tr>
   <tr>
     <td><div id="test6"></div></td>
@@ -61,14 +61,14 @@
           sumlepptChart   = dc.barChart("#test5"),
           deltaphiChart   = dc.barChart("#test6"),
           mcCompChart     = dc.rowChart("#test7"),
-          mcStatsChart    = dc.rowChart("#test8");
+          mcStatsChart    = dc.pieChart("#test8");
 
       d3.csv("outreach.csv", function(error, events) {
 
           events.forEach(function(x) {
              x.weight = +x.weight;
           });
-
+         
 
           function add_by_channel(p, v) {
                  p[v.type] = (p[v.type] || 0) + v.weight;
@@ -83,17 +83,17 @@
           function initial(p, v) {
              return {};
           }
-
-
+          
+          var colorScale = d3.scale.ordinal().range(["#1C5EA8","#F66A00","#2A9000","#C31318"]);
           var ndx                 = crossfilter(events),
               njetDimension       = ndx.dimension(function(d) {return +d.NJets;}),
               typeDimension       = ndx.dimension(function(d) {return +d.type;}),
               METDimension        = ndx.dimension(function(d) {return +d.MET;}),
-              btagDimension       = ndx.dimension(function(d) {return +d.BTags;}),
+              btagDimension       = ndx.dimension(function(d) {return +(d.BTags) ? false : true;}),
               SumLepPtDimension   = ndx.dimension(function(d) {return +d.SumLepPt;}),
-              ZWindowDimension    = ndx.dimension(function(d) {return +d.ZWindow;}),
+              ZWindowDimension    = ndx.dimension(function(d) {return +d.Mll;}),
               ChannelDimension    = ndx.dimension(function(d) {return +d.Channel;}),
-              DeltaPhiDimension   = ndx.dimension(function(d) {return +d.LepDeltaPhi;})
+              DeltaPhiDimension   = ndx.dimension(function(d) {return +d.LepDeltaPhi/3.3*180;})
               NJetGroup           = njetDimension.group().reduce(add_by_channel,remove_by_channel, initial),
               BTagGroup           = btagDimension.group().reduce(add_by_channel,remove_by_channel, initial),
               SumLepPtGroup       = SumLepPtDimension.group(function(d) {return Math.floor(d/10)*10}).reduce(add_by_channel,remove_by_channel, initial),
@@ -109,7 +109,7 @@
                    return d.value[i];
                };
            }
-
+          
            function type(i){
               if (i == "0") return "HWW";
               if (i == "1") return "WW";
@@ -117,22 +117,28 @@
               if (i == "3") return "Z";
               return "default"
            }
-
+          
           mcCompChart
-           .width(350).height(200)
+           .width(350).height(250)
+           .margins({left: 5, top: 10, right: 10, bottom: 40})
            .x(d3.scale.log().domain([0,1000]))
            .dimension(typeDimension)
            .group(compGroup)
            .label(function(d){ return type(d.key);})
-           .elasticX(true);
-
+           .elasticX(true)
+           .colors(colorScale)
+           .on('renderlet', function (chart) {
+               chart.selectAll('g.axis text').attr('transform', 'translate(-10,10) rotate(315)');
+           });
+           
           mcStatsChart
            .width(350).height(200)
            .dimension(typeDimension)
-           .group(mcstatGroup)
-           .label(function(d){ return type(d.key);})
-           .elasticX(true);
-
+           .group(compGroup)
+           .innerRadius(30)
+           .colors(colorScale)
+           .label(function(d){ return type(d.key);});
+                                 
           njetChart
               .width(350)
               .height(250)
@@ -146,13 +152,16 @@
               .group(NJetGroup, "HWW",   sel_stack('0'))
               .stack(NJetGroup, "WW",    sel_stack('1'))
               .stack(NJetGroup, "ttbar", sel_stack('2'))
-              .stack(NJetGroup, "Z",     sel_stack('3'));
+              .stack(NJetGroup, "Z",     sel_stack('3'))
+              .on('renderlet', function (chart) {
+                  chart.selectAll('g.x text').attr('transform', 'translate(15,0)');
+              });
 
           ZWindowChart
               .width(350)
               .height(250)
               .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
-              .x(d3.scale.linear().domain([0,99.9]))
+              .x(d3.scale.linear().domain([0,109.9]))
               .margins({left: 50, top: 10, right: 10, bottom: 20})
               .brushOn(true)
               .elasticY(true)
@@ -202,7 +211,7 @@
               .width(350)
               .height(250)
               .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
-              .x(d3.scale.linear().domain([0,2]))
+              .x(d3.scale.linear().domain([0,3]))
               .margins({left: 50, top: 10, right: 10, bottom: 20})
               .brushOn(true)
               .elasticY(true)
@@ -230,12 +239,12 @@
               .stack(SumLepPtGroup, "ttbar", sel_stack('2'))
               .stack(SumLepPtGroup, "Z",     sel_stack('3'));
           sumlepptChart.xUnits(dc.units.fp.precision(10));
-
+                
           deltaphiChart
               .width(350)
               .height(250)
               .legend(dc.legend().x(300).y(10).itemHeight(13).gap(5))
-              .x(d3.scale.linear().domain([0,200]))
+              .x(d3.scale.linear().domain([0,220]))
               .margins({left: 50, top: 10, right: 10, bottom: 20})
               .brushOn(true)
               .elasticY(true)

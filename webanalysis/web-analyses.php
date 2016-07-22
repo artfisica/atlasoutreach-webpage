@@ -23,7 +23,19 @@
       </tr>
     </table>
   </div>
-  <!-- -->
+  <!-- End header-->
+
+
+  <!-- Navegation buttons bar -->
+  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+    <div class="btn-group btn-group-justified">
+      <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
+      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
+    </div>
+  </div>
+  <!-- End navegation buttons bar -->
+
 
   <div style="float:left; clear:both; padding: 1.0cm 0.5cm 2.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
     <h1><b>Check our ROOTBooks!</b></h1>

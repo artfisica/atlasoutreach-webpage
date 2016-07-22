@@ -12,9 +12,9 @@
           <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
-          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made 7 analyses available</b> to help you get started with your own research!
+          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="../software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
           These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles such as the Higgs boson to searching for a Beyond the Standard Model particle.
-          Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+          <b>Now we are in the process of making ROOT notebooks for them as well</b>. Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
         </p>
 
         <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>

@@ -23,7 +23,20 @@
       </tr>
     </table>
   </div>
-  <!-- -->
+  <!-- End header-->
+
+  
+  <!-- Navegation buttons bar -->
+  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+    <div class="btn-group btn-group-justified">
+      <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+      <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Histograms Analyser</a>
+      <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
+      <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
+    </div>
+  </div>
+  <!-- End navegation buttons bar -->
+
 
   <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
     <h1><b>Take a look at our Book!</b></h1>
