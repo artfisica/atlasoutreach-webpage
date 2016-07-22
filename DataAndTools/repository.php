@@ -52,7 +52,7 @@
 <div style="width:100%; text-align: center; padding: 0.0cm 1.0cm 2.0cm 1.0cm; float:left; clear:both;">
   <a href="../extendedanalysis/datasets.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" style="width:33%"></a>
   <a href="../extendedanalysis/software.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_toolbox.png"   style="width:33%"></a>
-  <a href="../extendedanalysis/vm-toolbox.phpr"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png"        style="width:33%"></a>
+  <a href="../extendedanalysis/vm-toolbox.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png"        style="width:33%"></a>
 </div>
 
 

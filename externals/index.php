@@ -26,6 +26,26 @@
 <!-- end Head of page-->
 
 
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+  <div class="btn-group btn-group-justified">
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" style="font-size:150%;">
+        Documentation <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/atlas-opendata/visualisations/documentation.php"   style="font-size:130%;">Get Started</a></li>
+          <li><a href="/atlas-opendata/webanalysis/documentation.php"      style="font-size:130%;">Web Analysis</a></li>
+          <li><a href="/atlas-opendata/extendedanalysis/documentation.php" style="font-size:130%;">Data & Tools</a></li>
+        </ul>
+      </div>
+      <a href="/atlas-opendata/community/forum.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Public Forum</a>
+      <a href="/atlas-opendata/community/faqs.php"  class="btn btn-primary btn-lg" style="font-size:150%;">FAQs</a>
+      <a href="/atlas-opendata/community/contact.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Contact</a>
+    </div>
+  </div>
+  <!-- end of buttons line-->
+
+
+
 <div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
   <h1><b>Explore</b></h1>
   <!--
@@ -53,6 +73,7 @@ for the moment, logos of things we want to include here
 <img src="https://www.virtualbox.org/graphics/vbox_logo2_gradient.png" alt="VirtualBox" style="width:15%">
 -->
 </div>
+
 
 
 <?php include('../menu.html'); ?>

@@ -37,13 +37,27 @@
   <!-- End navegation buttons bar -->
 
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
     <h1><b>Check that ATLAS display of real events!</b></h1>
+    <p>
+      Check some of the events coming from the ATLAS detector right now.
+      <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
+    </p>
   </div>
 
-  <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+
+  <!-- This is the frame of the ATLAS live event display -->
+  <div style="width:100%; padding: 0.2cm 2.0cm 1.0cm 2.0cm; float:left; clear:both;">
     <iframe width="100%" height="900" src="http://atlas-live.cern.ch/" frameborder="0" allowfullscreen></iframe>
+    <hr>
   </div>
+
+
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/atlas_events.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
 
   <?php include('../menu.html'); ?>

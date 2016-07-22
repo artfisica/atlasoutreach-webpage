@@ -8,14 +8,14 @@
   <div>
     <table width="100%" border="0">
       <tr>
-        <td style="width:50%; text-align: left; padding: 1.5cm 1.0cm 1.0cm 3.0cm;">
+        <td style="width:50%; padding: 1.5cm 0.5cm 1.0cm 3.0cm;">
           <img src="/atlas-opendata/DataAndTools/pictures/handmade_community.png" alt="FAQs" style="width:80%">
         </td>
-        <td style="width:50%; padding: 0.1cm 3.0cm 0.1cm 1.0cm;">
+        <td style="width:50%; text-align: left; padding: 0.1cm 3.0cm 0.1cm 0.5cm;">
           <h1 style="font-family:verdana; font-size:260%;">ATLAS open data <b>Contacts</b></h1>
         </br>
         <p style="font-family:verdana; font-size:140%;">
-          Have a question? Need help trouble-shooting an issue? Fill out the contact form in the <b>Provide Feedback</b> button to get in touch with the ATLAS open data team!  ---->
+          Have a question? Need help trouble-shooting an issue? Fill out the contact form in the <b>Provide Feedback</b> button to get in touch with the ATLAS open data team! <span>&#8594;</span>
         </p>
       </td>
     </tr>

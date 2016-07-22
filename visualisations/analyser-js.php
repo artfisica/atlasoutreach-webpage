@@ -38,12 +38,21 @@
   <!-- End navegation buttons bar -->
 
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>Check our App!</b></h1>
+  <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
+    <h1><b>Histogram Analyser App!</b></h1>
+    <p>
+      <b>Physicists use cuts to select events of interest.</b>
+      Cuts are made that preferentially remove the unwanted processes (background) but leave the desired process (signal).
+      It is useful to have a good understanding of the physics processes involved when applying cuts.
+      <b>The 4 processes displayed in Histogram Analyser are <i>H <span>&#8594;</span> WW</i>, <i>WW</i>, t<span style="text-decoration: overline">t</span> and <i>Z</i></b>.
+      Each process is represented by a different colour.
+      <b>Make cuts using your cursor</b>.
+    </p>
+    <p><i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b></p>
   </div>
 
-  <div style="width:100%; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
-    <p style="font-size:110%;">(...it can take few seconds, please wait :)</p>
+  <div style="width:100%; padding: 0.2cm 10% 0.5cm 10%; float:left; clear:both;">
+    <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
     <iframe width="100%" height="1000" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
     <hr>
   </div>

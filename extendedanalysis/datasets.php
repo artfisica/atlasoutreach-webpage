@@ -63,7 +63,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_105985.WW.root">mc_105985.WW.root</a></td>
-              <td>Diboson process WW</td>
+              <td>Diboson process <i>WW</i></td>
               <td>21-Jul-2016 16:00</td>
               <td>64,7Mb</td>
               <td>500000</td>
@@ -71,7 +71,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_105986.ZZ.root">mc_105986.ZZ.root</a></td>
-              <td>Diboson process ZZ</td>
+              <td>Diboson process <i>ZZ</i></td>
               <td>21-Jul-2016 16:00</td>
               <td>19,8Mb</td>
               <td>125000</td>
@@ -79,7 +79,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_105987.WZ.root">mc_105987.WZ.root</a></td>
-              <td>Diboson process WZ</td>
+              <td>Diboson process <i>WZ</i></td>
               <td>21-Jul-2016 16:00</td>
               <td>69,5Mb</td>
               <td>500000</td>
@@ -87,7 +87,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_110090.stop_tchan_top.root">mc_110090.stop_tchan_top.root</a></td>
-              <td>Single top t-channel top</td>
+              <td>Single top <i>t</i>-channel top</td>
               <td>21-Jul-2016 16:00</td>
               <td>21,6Mb</td>
               <td>150000</td>
@@ -95,7 +95,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_110091.stop_tchan_antitop.root">mc_110091.stop_tchan_antitop.root</a></td>
-              <td>single top t-channel antitop</td>
+              <td>single top <i>t</i>-channel antitop</td>
               <td>21-Jul-2016 16:00</td>
               <td>14,5Mb</td>
               <td>150000</td>
@@ -103,7 +103,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_110119.stop_schan.root">mc_110119.stop_schan.root</a></td>
-              <td>single top s-channel</td>
+              <td>single top <i>s</i>-channel</td>
               <td>21-Jul-2016 16:00</td>
               <td>15,1Mb</td>
               <td>100000</td>
@@ -111,7 +111,7 @@
             <tr>
               <td><a href="https://root.cern.ch/doc/master/classTFile.html" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/ROOT_icon_small.png" alt="root icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/samples/MC/mc_110140.stop_wtchan.root">mc_110140.stop_wtchan.root</a></td>
-              <td>single top Wt-channel</td>
+              <td>single top <i>Wt</i>-channel</td>
               <td>21-Jul-2016 16:00</td>
               <td>26,4Mb</td>
               <td>150000</td>
@@ -450,6 +450,13 @@
     </div>
   </div>
 
+  <hr>
+
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/openatlasdatatools/content/data_and_simulated_data.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
   <?php include('../menu.html'); ?>
 

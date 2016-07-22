@@ -81,6 +81,13 @@
     </div>
   </div>
 
+  <hr>
+
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/openatlasdatatools/content/take_a_look_at_the_data.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
   <?php include('../menu.html'); ?>
   <?php include('../trackers.html'); ?>

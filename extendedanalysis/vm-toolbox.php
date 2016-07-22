@@ -64,7 +64,7 @@
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_July_2016-size_S.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_July_2016-size_S.vdi.gz</a></td>
               <td>15-Jul-2016 01:00</td>
-              <td>4,6Gb</td>
+              <td>4,5Gb</td>
             </tr>
           </table>
           <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description:</b> VM-S for "<i>small</i>", it has a compressed size of ~4.6GB, and a uncompressed size of ~11GB. This contains a complete Scientific Linux OS 6.7, important software dependencies and the latest version of ROOT v6-07-06.</p>
@@ -99,11 +99,11 @@
             <tr>
               <td><a href="https://www.scientificlinux.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/sl-logo-64-white.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/ScientificLinux67_ATLAS_Outreach_DataAndTools_July_2016-size_N.vdi.gz">ScientificLinux67_ATLAS_Outreach_DataAndTools_July_2016-size_N.vdi.gz</a></td>
-              <td>(~Jul-2016)</td>
-              <td>(TO BE INCLUDED)</td>
+              <td>22-Jul-2016 00:00</td>
+              <td>5,2Gb</td>
             </tr>
           </table>
-          <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description:</b> VM-N for "<i>NET</i>" with unknown sizes yet, but smaller that VM-S. This will contain a complete Scientific Linux OS 6.7, important software dependencies and CVMFS access to public software repositories.</p>
+          <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description:</b> VM-N for "<i>NET</i>" it has a compressed size of ~5.2GB, and a uncompressed size of ~17GB. This contains a complete Scientific Linux OS 6.7, important software dependencies and CVMFS access to public software repositories. We go to reduce its sizes in ~40% into the coming weeks.</p>
         </div>
         <div id="menu3" class="tab-pane fade">
           <h1 style="padding: 0.7cm 1.0cm 1.0cm 1.0cm;">VM Version <b>&mu;</b></h1>
@@ -127,6 +127,13 @@
     </div>
   </div>
 
+  <hr>
+
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/atlasdatatools/content/get_and_run_the_virtual_machine.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
   <?php include('../menu.html'); ?>
   <?php include('../trackers.html'); ?>
