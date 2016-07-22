@@ -81,7 +81,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 2cm 20% 2cm 1%">
           <h1 style="font-family:verdana; font-size:110%;"><b>You are ready for a real HEP analysis!</b></h1>
-          <h1 style="font-family:verdana; font-size:260%;">Head to the <b><a href="/atlas-opendata/extendedanalysis/">Analysis ToolBox</a> section</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">Head to the </br><b><a href="/atlas-opendata/extendedanalysis/">Data & Tools</a> section</b></h1>
           <ul style="font-family:verdana; font-size:110%;">
             <li>Download our Python framework code and start running one of the analysis examples</li>
             <li>Check and download our Python framework code, and start running one of the analysis examples</li>

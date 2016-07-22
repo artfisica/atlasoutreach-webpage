@@ -39,7 +39,7 @@
 
 
   <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
-    <h1><b>Histogram Analyser App!</b></h1>
+    <h1><b>Histogram Analyser!</b></h1>
     <p>
       <b>Physicists use cuts to select events of interest.</b>
       Cuts are made that preferentially remove the unwanted processes (background) but leave the desired process (signal).

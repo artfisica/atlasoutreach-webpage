@@ -46,7 +46,7 @@
 
 
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 2.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
     <h1><b>Explore</b></h1>
     <!--
     <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
@@ -74,7 +74,8 @@ for the moment, logos of things we want to include here
 -->
 </div>
 
-<div style="float:left; clear:both; padding: 2cm 20% 2.0cm 20%; text-align: center; width:100%; margin:0px auto;">
+<div style="float:left; clear:both; padding: 0.5cm 22% 2.0cm 22%; text-align: center; width:100%; margin:0px auto;">
+  <h1 style="font-family:verdana; font-size:260%; padding: 1.5cm"><b>The LHC Experiment in action</b></h1>
   <div class="embed-responsive embed-responsive-16by9" >
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
   </div>
