@@ -46,16 +46,16 @@
 
 
 
-<div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-  <h1><b>Explore</b></h1>
-  <!--
-  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-  <div class="btn-group btn-group-justified">
-  <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-  <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
-  <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
-  <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
-</div>
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Explore</b></h1>
+    <!--
+    <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+    <div class="btn-group btn-group-justified">
+    <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
+    <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
+    <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
+  </div>
 </div>
 -->
 
@@ -74,6 +74,11 @@ for the moment, logos of things we want to include here
 -->
 </div>
 
+<div style="float:left; clear:both; padding: 2cm 20% 2.0cm 20%; text-align: center; width:100%; margin:0px auto;">
+  <div class="embed-responsive embed-responsive-16by9" >
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
 
 
 <?php include('../menu.html'); ?>
