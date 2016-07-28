@@ -17,7 +17,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BwBGE5GVVrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/7BO4Xam4Fi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
@@ -30,28 +30,31 @@
   <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
     <div class="btn-group btn-group-justified">
       <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
-      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
+      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOTbooks</a>
+      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Execute ROOTbook</a>
     </div>
   </div>
   <!-- End navegation buttons bar -->
 
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>Take a look at our Book!</b></h1>
-  </div>
-
-  <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#docs">Open/Close the Book</button>
-    <div id="docs" class="collapse in">
+  <div style="width:100%; text-align: center; padding: 1.5cm 2.0cm 1.0cm 2.0cm; float:center; clear:both;">
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#docs" style="font-size:150%;">Open/Close the book...</button>
+    <div style="padding: 1.2cm 0.0cm 0.0cm 0.0cm;" id="docs" class="collapse in">
       <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/web-analysis/content/index.html" frameborder="0" allowfullscreen></iframe>
       <hr>
     </div>
   </div>
 
-  <?php include('../menu.html'); ?>
+  <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <p style="font-size:120%;"><b>...or read, download and more directly</b></p>
+    <h1><b><a href="https://cheatham1.gitbooks.io/web-analysis/content/index.html" target="_blank">in GitBook</a></b></h1>
+  </div>
+  <!-- -->
 
+
+  <?php include('../menu.html'); ?>
   <?php include('../trackers.html'); ?>
+  <?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

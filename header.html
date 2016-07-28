@@ -87,32 +87,6 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!-- end Bootstrap -->
 
-
-  <script>
-  var links = ["",
-  "",
-  "/atlas-opendata/visualisations",
-  "/atlas-opendata/webanalysis",
-  "/atlas-opendata/extendedanalysis"];
-  var images = ["/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_01.png",
-  "/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_02.png",
-  "/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_03.png",
-  "/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_04.png",
-  "/atlas-opendata/DataAndTools/pictures/ATLAS_imagine_initial_page_05.png"];
-  var i = 0;
-  var renew = setInterval(function(){
-    if(links.length == i){
-      i = 0;
-    }
-    else {
-      document.getElementById("bannerImage").src = images[i];
-      document.getElementById("bannerLink").href = links[i];
-      i++;
-
-    }
-  },4000);
-  </script>
-
   <link rel="stylesheet" type="text/css" href="/atlas-opendata/image_style.css">
 
 
@@ -151,7 +125,6 @@
 
     <style id="service-icons-0"></style>
 
-    <!-- CERN bar (<a href="http://home.cern/" title="CERN">CERN <span>Accelerating science</span></a> and the ) -->
     <div id="cern-toolbar" style="background-color:#0b80c3;">
       <h1><a href="http://atlas.cern/" title="ATLAS public site" target="_blank">ATLAS Experiment</a></h1>
 
@@ -232,7 +205,7 @@
                 <li class="expanded depth-1"><a href="/atlas-opendata/webanalysis"          title="Web Analysis">Web Analysis</a>
                   <ul class="menu">
                     <li class="first leaf depth-2"><a href="/atlas-opendata/webanalysis/documentation.php" title="Documentation">Documentation</a></li>
-                    <li class="last leaf depth-2"> <a href="/atlas-opendata/webanalysis/ROOTbooks.php"     title="Web Analysis notebooks">Online NoteBooks</a></li>
+                    <li class="last leaf depth-2"> <a href="/atlas-opendata/webanalysis/ROOTbooks.php"     title="Web Analysis notebooks">Online ROOTbooks</a></li>
                   </ul>
                 </li>
 

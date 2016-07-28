@@ -7,7 +7,7 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b> - ROOTbooks!</h1>
+      <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b> - ROOTbooks</h1>
     </CENTER>
 
     <table width="100%" border="0">
@@ -17,7 +17,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BwBGE5GVVrA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/7BO4Xam4Fi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
@@ -30,15 +30,15 @@
   <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
     <div class="btn-group btn-group-justified">
       <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
-      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
+      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOTbooks</a>
+      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Execute ROOTbook</a>
     </div>
   </div>
   <!-- End navegation buttons bar -->
 
 
   <div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>ATLAS ROOTBooks Gallery!</b></h1>
+    <h1><b>ATLAS ROOTbooks Gallery!</b></h1>
     <p style="font-size:120%;">How deep can you go?</p>
   </div>
 
@@ -295,19 +295,19 @@
   </div>
   <!-- End of External viewers -->
 
-  <!-- The Executables in Binder -->
+  <!-- The Executes in Binder -->
   <div id="external_binder" style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: center; width:100%; margin:0px auto; border:none!important; background-color:#abdefa;">
     <CENTER>
       <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-        <h1><b>Executable ROOTbooks</b></h1>
-        <p style="font-size:120%;">Execute, edit, and save ROOTbooks using our datasets and examples. You can create your own notebooks as well!</p>
+        <h1><b>Execute ROOTbooks</b></h1>
+        <p style="font-size:120%;">Run, edit and save ROOTbooks. Use our examples to explore the public datasets. You can create your own ROOTbooks as well!</p>
       </div>
       <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
         <a href="http://mybinder.org/repo/artfisica/rootbinder" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" style="width:55%" alt="binder ROOTbooks"></a>
       </div>
     </CENTER>
   </div>
-  <!-- End of the Executables in Binder -->
+  <!-- End of the Executes in Binder -->
   <!-- Color reference online: http://www.colorhexa.com/0b80c3 -->
 
   <div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
@@ -318,8 +318,8 @@
 
 
   <?php include('../menu.html'); ?>
-
   <?php include('../trackers.html'); ?>
+  <?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

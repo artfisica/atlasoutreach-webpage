@@ -61,9 +61,10 @@
   <a href="http://opendata.cern.ch/education/ATLAS" target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:22%"></a>
 </div>
 
-<?php include('../menu.html'); ?>
 
+<?php include('../menu.html'); ?>
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

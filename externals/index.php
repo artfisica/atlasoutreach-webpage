@@ -12,7 +12,7 @@
           <h1 style="font-family:verdana; font-size:260%;">The <b>External Resources</b> and friends!</h1>
         </br>
         <p style="font-family:verdana; font-size:140%;">
-          <i>more coming soon...</i> For more educational resources and initiatives involving High-Energy Physics, check out the groups linked below:
+          <i>more coming soon...</i> For more <a href="http://atlas.cern/resources/education" target="_blank">educational resources</a> and initiatives involving High-Energy Physics, check out the groups linked below:
         </p>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
@@ -83,8 +83,8 @@ for the moment, logos of things we want to include here
 
 
 <?php include('../menu.html'); ?>
-
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

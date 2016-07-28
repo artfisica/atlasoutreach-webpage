@@ -12,17 +12,17 @@
           <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
-          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="../software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
-          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles such as the Higgs boson to searching for a Beyond the Standard Model particle.
-          <b>Now we are in the process of making ROOT notebooks for them as well</b>. Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+          <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="/atlas-opendata/extendedanalysis/software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
+          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles, hunt for the Higgs boson, and even search for physics Beyond the Standard Model particle.
+          <b>Now we are in the process of making ROOT notebooks (ROOTbooks) for them as well</b>. Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
         </p>
 
         <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
 
         <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
           <li><b>Documentation:</b> a step-by-step guide to using, creating and executing ROOT notebooks</li>
-          <li><b>ROOT notebooks (ROOTbooks):</b> use Jupyter technology and the power of ROOT to review, execute and develop your own analysis directly in your browser</li>
-          <li><b>Executable ROOTbooks:</b> execute, edit and save ROOTbooks using our datasets and examples. You can create your own notebooks as well!</li>
+          <li><b>ROOTbooks:</b> use Jupyter technology and the power of ROOT to review, execute and develop your own analysis directly in your browser</li>
+          <li><b>Execute ROOTbooks:</b> run, edit and save ROOTbooks. Use our examples to explore the public datasets. You can create your own ROOTbooks as well!</li>
         </ul>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
@@ -43,8 +43,8 @@
 <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.0cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
     <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-    <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOT notebooks</a>
-    <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Executable ROOTbook!</a>
+    <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOTbooks</a>
+    <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Execute ROOTbook</a>
   </div>
 </div>
 
@@ -54,9 +54,10 @@
   <a href="./ROOTbooks.php#external_binder"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_externals_friends.png" style="width:33%"></a>
 </div>
 
-<?php include('../menu.html'); ?>
 
+<?php include('../menu.html'); ?>
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 
