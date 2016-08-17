@@ -17,7 +17,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/7BO4Xam4Fi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
@@ -51,7 +51,8 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/tree/master/notebooks/SummerStudents/" target="_blank">Go to Notebook</a>
+              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_W_Analysis_v0-0-1a.ipynb" target="_blank">View Notebook</a>
+              <a class="info" href="../ROOT_execute/W_analysis_ROOTbook_execute.php">Run Notebook</a>
             </div>
           </div>
         </td>
@@ -84,7 +85,8 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_ZAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/tree/master/notebooks/SummerStudents/" target="_blank">Go to Notebook</a>
+              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_Z_Analysis_v0-0-1b.ipynb" target="_blank">View Notebook</a>
+              <a class="info" href="../ROOT_execute/Z_analysis_ROOTbook_execute.php">Run Notebook</a>
             </div>
           </div>
         </td>
@@ -295,31 +297,32 @@
   </div>
   <!-- End of External viewers -->
 
-  <!-- The Executes in Binder -->
+  <!-- The Executes in SWAN or Binder -->
   <div id="external_binder" style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: center; width:100%; margin:0px auto; border:none!important; background-color:#abdefa;">
-    <CENTER>
-      <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-        <h1><b>Execute ROOTbooks</b></h1>
-        <p style="font-size:120%;">Run, edit and save ROOTbooks. Use our examples to explore the public datasets. You can create your own ROOTbooks as well!</p>
-      </div>
-      <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-        <a href="http://mybinder.org/repo/artfisica/rootbinder" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" style="width:55%" alt="binder ROOTbooks"></a>
-      </div>
-    </CENTER>
-  </div>
-  <!-- End of the Executes in Binder -->
-  <!-- Color reference online: http://www.colorhexa.com/0b80c3 -->
+  <CENTER>
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Execute ROOTbooks</b></h1>
+  <p style="font-size:120%;">Run, edit and save ROOTbooks. Use our examples to explore the public datasets. You can create your own ROOTbooks as well!</p>
+</div>
+<div style="width:100%; text-align: center; padding: 0.1cm 0.1cm 0.1cm 0.1cm; float:left; clear:both;">
+<iframe src="../ROOT_execute/ROOTBooks_execute_mainframe.html" height="620px" width="100%" style="padding: 0.6cm 8% 0.8cm 8%;"></iframe>
+<!-- <a href="http://mybinder.org/repo/artfisica/rootbinder/tree/notebooks/SummerStudents/" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" style="width:55%" alt="binder ROOTbooks"></a> -->
+</div>
+</CENTER>
+</div>
+<!-- End of the Executes in Binder -->
+<!-- Color reference online: http://www.colorhexa.com/0b80c3 -->
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
-    <h1><b><a href="https://cheatham1.gitbooks.io/web-analysis/content/analyses.html" target="_blank">in GitBook</a></b></h1>
-  </div>
-  <!-- -->
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+  <h1><b><a href="https://cheatham1.gitbooks.io/web-analysis/content/analyses.html" target="_blank">in GitBook</a></b></h1>
+</div>
+<!-- -->
 
 
-  <?php include('../menu.html'); ?>
-  <?php include('../trackers.html'); ?>
-  <?php include('../share.html'); ?>
+<?php include('../menu.html'); ?>
+<?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

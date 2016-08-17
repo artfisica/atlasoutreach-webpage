@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  <link rel="stylesheet" type="text/css" href="./root_primer.css">
+</head>
+<body>
+  <script>
+  function myLeftFunction() {
+      document.getElementById("leftimage").src = "https://swanserver.web.cern.ch/swanserver/rootdemo/images/swan-color.png";
+  }
+  function myOtherLeftFunction() {
+      document.getElementById("leftimage").src = "https://swanserver.web.cern.ch/swanserver/rootdemo/images/swan-grey.png";
+  }
+  function myRightFunction() {
+      document.getElementById("rightimage").src = "https://swanserver.web.cern.ch/swanserver/rootdemo/images/binder-color.png";
+  }
+  function myOtherRightFunction() {
+      document.getElementById("rightimage").src = "https://swanserver.web.cern.ch/swanserver/rootdemo/images/binder-grey.png";
+  }
+  </script>
+<div id="external">
+  <div id="innerleft">
+    <div id="innerinner" class="left grow" onmouseover="myLeftFunction()" onmouseout="myOtherLeftFunction()">
+      <a href="http://cern.ch/swanserver/cgi-bin/go?projurl=https://github.com/atlas-outreach-data-tools/notebooks.git" target="_blank">
+        <p class="left">I have a CERN account</p>
+        <h1>SWAN</h1>
+        <img id="leftimage" class="left grow" src="./swan-grey.png" alt="">
+        <div id="test">
+        <div class="content left">
+          <ul>
+            <li>
+              Requires CERN credentials
+            </li>
+            <li>
+              CERNBox as home directory
+            </li>
+            <li>
+              Complete scientific software suite
+            </li>
+            <li>
+              Integrated with CERN services
+            </li>
+          </ul>
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+  <div id="innerright">
+    <div id="innerinner" class="right grow" onmouseover="myRightFunction()" onmouseout="myOtherRightFunction()">
+      <a href="http://mybinder.org/repo/artfisica/rootbinder/tree/notebooks/SummerStudents/" target="_blank">
+        <p class="right">I don't have a CERN account</p>
+        <h1>Binder</h1>
+        <img id="rightimage" class="grow right" src="./binder-grey.png" alt="">
+        <div id="test">
+        <div class="content right">
+          <ul>
+            <li>
+              Anonymous
+            </li>
+            <li>
+              Temporary storage
+            </li>
+            <li>
+              Download capability
+            </li>
+            <li>
+              Some software packages
+            </li>
+          </ul>
+        </div>
+      </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+
+
+</body></html>

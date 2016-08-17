@@ -17,7 +17,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/7BO4Xam4Fi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
@@ -40,7 +40,7 @@
 
   <div style="width:100%; text-align: center; padding: 1.5cm 2.0cm 1.0cm 2.0cm; float:center; clear:both;">
     <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#docs" style="font-size:150%;">Open/Close the book...</button>
-    <div style="padding: 1.2cm 0.0cm 0.0cm 0.0cm;" id="docs" class="collapse in">
+    <div style="padding: 1.2cm 0.0cm 0.0cm 0.0cm;" id="docs" class="collapse"> <!-- class="collapse in"> -->
       <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/app-analyser/content/index.html" frameborder="1" allowfullscreen></iframe>
       <hr>
     </div>
