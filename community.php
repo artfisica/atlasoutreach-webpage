@@ -13,15 +13,16 @@
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>
-            Physicists at the <a href="http://atlas.cern/">ATLAS</a> Experiment...
+            Join the ATLAS open data community!
           </br>
         </b>
       </br>
-      In this section, you can:
+      Explore:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>Interact with us using the Forum below</li>
-        <li>Get answer to common questions, did you find yours?</li>
+        <li><b>Forum:</b> Join the forum and share your experiences and successes with fellow ATLAS open data users. Join or start a thread to ask for tips, suggest changes, report bugs...</li>
+        <li><b>Frequently Asked Questions (FAQs):</b> Find answers to common questions</li>
+        <li><b>Contact:</b> Use our contact form to get in touch with the ATLAS open data team</li>
       </ul>
     </p>
   </td>
@@ -50,17 +51,17 @@
           <li><a href="/atlas-opendata/extendedanalysis/documentation.php" style="font-size:130%;">Data & Tools</a></li>
         </ul>
       </div>
-      <a href="/atlas-opendata/forum.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Public Forum</a>
-      <a href="/atlas-opendata/faqs.php"  class="btn btn-primary btn-lg" style="font-size:150%;">FAQs</a>
-      <a href="/atlas-opendata/contact.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Contact</a>
+      <a href="/atlas-opendata/community/forum.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Public Forum</a>
+      <a href="/atlas-opendata/community/faqs.php"  class="btn btn-primary btn-lg" style="font-size:150%;">FAQs</a>
+      <a href="/atlas-opendata/community/contact.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Contact</a>
     </div>
   </div>
   <!-- end of buttons line-->
 
 
   <?php include('menu.html'); ?>
-
   <?php include('trackers.html'); ?>
+  <?php include('share.html'); ?>
 </body>
 <!-- End main body -->
 

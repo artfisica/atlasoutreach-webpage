@@ -15,7 +15,7 @@
           Physicists at the <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment visualise collision data with histograms<!--plots and graphs-->.
           They are used in every publication, from simple analyses to headline-making discoveries.
 
-          <i>In this section, you will learn how the data is visualised.</i>
+          <i>In this section</i>, you will learn how the data is visualised.
         </p>
 
         <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
@@ -23,7 +23,7 @@
         <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
           <li><b>Documentation:</b> a step-by-step guide to using Histogram Analyser and ROOTbrowser</li>
           <li><b>Histogram Analyser:</b> a web based tool for fast, cut-based analysis of data. Visualise data using online histograms</li>
-          <li><b>ROOTbrowser:</b> a web based tool for displaying and analysing data. Visualise data online</li>
+          <li><b>ROOTbrowser:</b> a web based tool for displaying histograms individually. More freedom to plot different variables</li>
           <li><b>Live events:</b> see live events from the ATLAS experiment</li>
         </ul>
       </td>
@@ -54,13 +54,13 @@
   <a href="./documentation.php"><img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png"          style="width:24%"></a>
   <a href="./analyser-js.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" style="width:24%"></a>
   <a href="./root-browser.php"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" style="width:24%"></a>
-  <a href="./live-events.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" style="width:24%"></a>
+  <a href="./live-events.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_event_display.png" style="width:24%"></a>
 </div>
 
 
 <?php include('../menu.html'); ?>
-
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

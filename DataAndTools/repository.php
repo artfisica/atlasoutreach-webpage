@@ -21,9 +21,9 @@
       In this section, you can find where to download:
 
       <ul style="font-family:verdana; font-size:110%; padding: 0.5cm 1.0cm 1.0cm 1.0cm;">
-        <li>The complete collection of datasets released</li>
-        <li>The different analysis softwares</li>
-        <li>The vitual machines to perform physics searches</li>
+        <li>The complete collection of available datasets</li>
+        <li>The different analysis software</li>
+        <li>The virtual machines to perform physics searches</li>
       </ul>
     </p>
   </td>
@@ -52,7 +52,7 @@
 <div style="width:100%; text-align: center; padding: 0.0cm 1.0cm 2.0cm 1.0cm; float:left; clear:both;">
   <a href="../extendedanalysis/datasets.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" style="width:33%"></a>
   <a href="../extendedanalysis/software.php">    <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_toolbox.png"   style="width:33%"></a>
-  <a href="../extendedanalysis/vm-toolbox.phpr"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png"        style="width:33%"></a>
+  <a href="../extendedanalysis/vm-toolbox.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_vm.png"        style="width:33%"></a>
 </div>
 
 
@@ -61,9 +61,10 @@
   <a href="http://opendata.cern.ch/education/ATLAS" target="_blank"><img typeof="foaf:Image" src="http://opendata.cern.ch/img/home/opendata_logo.svg" alt="CERN OpenData" style="width:22%"></a>
 </div>
 
-<?php include('../menu.html'); ?>
 
+<?php include('../menu.html'); ?>
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

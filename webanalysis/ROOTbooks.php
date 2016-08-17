@@ -7,7 +7,7 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b> - ROOTbooks!</h1>
+      <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b> - ROOTbooks</h1>
     </CENTER>
 
     <table width="100%" border="0">
@@ -17,17 +17,28 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
     </table>
   </div>
-  <!-- -->
+  <!-- End header-->
+
+
+  <!-- Navegation buttons bar -->
+  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
+    <div class="btn-group btn-group-justified">
+      <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+      <a href="./ROOTbooks.php"     class="btn btn-primary" style="font-size:150%;">ROOTbooks</a>
+      <a href="./ROOTbooks.php#external_binder"  class="btn btn-primary" style="font-size:150%;">Execute ROOTbook</a>
+    </div>
+  </div>
+  <!-- End navegation buttons bar -->
 
 
   <div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>ATLAS ROOTBooks Gallery!</b></h1>
+    <h1><b>ATLAS ROOTbooks Gallery!</b></h1>
     <p style="font-size:120%;">How deep can you go?</p>
   </div>
 
@@ -37,26 +48,26 @@
       <tr>
         <td style="width:33%; padding: 1cm 0.5cm 1cm 1cm;">
           <div class="hovereffect">
-            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_W_Analysis_v0-0-1a.ipynb" target="_blank">View Notebook</a>
+              <a class="info" href="../ROOT_execute/W_analysis_ROOTbook_execute.php">Run Notebook</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">W Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#W_analysis">W Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            It is important to measure well-known Standard Model particles, such as the W and Z bosons, to confirm that we have a good understanding of the detector and software.
-            The W boson analysis provides an example of a high statistics analysis using the ATLAS open data dataset. It tests how well the simulated data describes the real data.
+            The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
           <div class="hovereffect">
-            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -71,27 +82,27 @@
       <tr>
         <td style="width:33%; padding: 1cm 0.5cm 1cm 1cm;">
           <div class="hovereffect">
-            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_ZAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_Z_Analysis_v0-0-1b.ipynb" target="_blank">View Notebook</a>
+              <a class="info" href="../ROOT_execute/Z_analysis_ROOTbook_execute.php">Run Notebook</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">Z Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Z_analysis">Z Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            Use the ATLAS open data set to carry out an analysis of the well-known Z boson.
-            Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section.
-            It is therefore vital to check the modelling of this process using the Monte-Carlo simulated data.
+            Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
+            It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software. We are then ready to search for new physics.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
           <div class="hovereffect">
-            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_ZAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -109,15 +120,16 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">Top pair Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Top_analysis">Top pair Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            The top pair analysis is a good test of the Standard Model.
-            It is important when differentiating between different data simulation generators, QCD models and parton distribution functions. In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the Standard Model searches.
+            The top pair analysis is interesting because it is a good test of the Standard Model.
+            It is important for discrimination between different data simulation generators, QCD models and parton distribution functions.
+            In addition, top pair production is an important background in various Higgs boson analyses as well as beyond the Standard Model searches. It is therefore crucial to understand this process in detail.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
@@ -125,7 +137,7 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -143,15 +155,14 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">WZ Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#WZ_analysis">WZ Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            This analysis looks for both a W boson and a Z boson. Diboson physics is an important part of the ATLAS physics programme as it is a probe for electroweak physics.
-            The WZ analysis is one of the most abundantly produced diboson processes at ATLAS and has a clean final state consisting of three charged leptons and a neutrino.
+            This analysis looks for both a W boson and a Z boson. Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The WZ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
@@ -159,7 +170,7 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -177,15 +188,14 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">ZZ Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#ZZ_analysis">ZZ Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            The production of a Z boson pair with a subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state.
-            Its infrequent production results in a very low yield for the ATLAS open dataset. Although some events can be selected, the low event yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
+            The production of Z-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state. Its low production cross section results in a very low yield for the ATLAS open data dataset and highlights the limitations of the dataset. Although some events can be selected the low event yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
@@ -193,7 +203,7 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -211,15 +221,15 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">HWW Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#HWW_analysis">HWW Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            This analysis searches for the Standard Model Higgs boson where the Higgs decays into 2 W bosons, which subsequently decay into leptons and neutrinos.
-            The Higgs appears as a consequence of the breaking of electroweak symmetry and is responsible for giving mass to particles. The Higgs boson plays a central role in the Standard Model, and understanding this particle is essential to the LHC physics programme.
+            This analysis searches for the standard model Higgs boson where the Higgs boson decays into 2 W bosons which subsequently decay into leptons and neutrinos.
+            The Higgs boson appears as a consequence of the breaking of electroweak symmetry and is responsible for giving masses to all other massive particles. The central role played by the Higgs boson in the SM explains why the understanding of this particle is a centrepiece of the LHC physics programme.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
@@ -227,7 +237,7 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -245,15 +255,14 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#">Z' Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Zp_analysis">Z' Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
-            The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model.
-            The Z' boson is named in analogy with the Standard Model Z boson. The Z’ boson is seen in this analysis in the simulated data.
+            The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' boson is named in analogy with the Standard Model Z boson.
           </p>
         </td>
         <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
@@ -261,7 +270,7 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>Python version</h2>
-              <a class="info" href="#">Go to Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
@@ -280,32 +289,40 @@
       </div>
       <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
         <div class="btn-group btn-group-justified">
-          <a href="https://swan.web.cern.ch/content/basic-examples"                               target="_blank" class="btn btn-primary" style="font-size:150%;">Official ROOT Gallery</a>
-          <a href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks" target="_blank" class="btn btn-primary" style="font-size:150%;">Jupyter Viewer</a>
+          <a href="https://swan.web.cern.ch/content/basic-examples"                                               target="_blank" class="btn btn-primary" style="font-size:150%;">Official ROOT Gallery</a>
+          <a href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/tree/master/notebooks/SummerStudents/" target="_blank" class="btn btn-primary" style="font-size:150%;">Jupyter Viewer</a>
         </div>
       </div>
     </CENTER>
   </div>
   <!-- End of External viewers -->
 
-  <!-- The Executables in Binder -->
+  <!-- The Executes in SWAN or Binder -->
   <div id="external_binder" style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: center; width:100%; margin:0px auto; border:none!important; background-color:#abdefa;">
-    <CENTER>
-      <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-        <h1><b>Executable ROOTbooks</b></h1>
-        <p style="font-size:120%;">Execute, edit, and save ROOTbooks using our datasets and examples. You can create your own notebooks as well!</p>
-      </div>
-      <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-        <a href="http://mybinder.org/repo/artfisica/rootbinder" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" style="width:55%" alt="binder ROOTbooks"></a>
-      </div>
-    </CENTER>
-  </div>
-  <!-- End of the Executables in Binder -->
-  <!-- Color reference online: http://www.colorhexa.com/0b80c3 -->
+  <CENTER>
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <h1><b>Execute ROOTbooks</b></h1>
+  <p style="font-size:120%;">Run, edit and save ROOTbooks. Use our examples to explore the public datasets. You can create your own ROOTbooks as well!</p>
+</div>
+<div style="width:100%; text-align: center; padding: 0.1cm 0.1cm 0.1cm 0.1cm; float:left; clear:both;">
+<iframe src="../ROOT_execute/ROOTBooks_execute_mainframe.html" height="620px" width="100%" style="padding: 0.6cm 8% 0.8cm 8%;"></iframe>
+<!-- <a href="http://mybinder.org/repo/artfisica/rootbinder/tree/notebooks/SummerStudents/" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/binder_view.png" style="width:55%" alt="binder ROOTbooks"></a> -->
+</div>
+</CENTER>
+</div>
+<!-- End of the Executes in Binder -->
+<!-- Color reference online: http://www.colorhexa.com/0b80c3 -->
 
-  <?php include('../menu.html'); ?>
+<div style="float:left; clear:both; padding: 1.0cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+  <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+  <h1><b><a href="https://cheatham1.gitbooks.io/web-analysis/content/analyses.html" target="_blank">in GitBook</a></b></h1>
+</div>
+<!-- -->
 
-  <?php include('../trackers.html'); ?>
+
+<?php include('../menu.html'); ?>
+<?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 

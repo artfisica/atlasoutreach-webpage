@@ -11,8 +11,8 @@
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
           <h1 style="font-family:verdana; font-size:260%;">The <b>External Resources</b> and friends!</h1>
         </br>
-        <p style="font-family:verdana; font-size:200%;">
-          ...comming soon... but in the meantime, check the sites of external resources that have been crucial in this and other ATLAS outreach projects:
+        <p style="font-family:verdana; font-size:140%;">
+          <i>more coming soon...</i> For more <a href="http://atlas.cern/resources/education" target="_blank">educational resources</a> and initiatives involving High-Energy Physics, check out the groups linked below:
         </p>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
@@ -26,16 +26,36 @@
 <!-- end Head of page-->
 
 
-<div style="float:left; clear:both; padding: 1.0cm 0.5cm 4.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-  <h1><b>Explore</b></h1>
-  <!--
-  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+<div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
   <div class="btn-group btn-group-justified">
-  <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-  <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
-  <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
-  <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
-</div>
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary dropdown-toggle btn-lg" data-toggle="dropdown" style="font-size:150%;">
+        Documentation <span class="caret"></span></button>
+        <ul class="dropdown-menu" role="menu">
+          <li><a href="/atlas-opendata/visualisations/documentation.php"   style="font-size:130%;">Get Started</a></li>
+          <li><a href="/atlas-opendata/webanalysis/documentation.php"      style="font-size:130%;">Web Analysis</a></li>
+          <li><a href="/atlas-opendata/extendedanalysis/documentation.php" style="font-size:130%;">Data & Tools</a></li>
+        </ul>
+      </div>
+      <a href="/atlas-opendata/community/forum.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Public Forum</a>
+      <a href="/atlas-opendata/community/faqs.php"  class="btn btn-primary btn-lg" style="font-size:150%;">FAQs</a>
+      <a href="/atlas-opendata/community/contact.php"  class="btn btn-primary btn-lg" style="font-size:150%;">Contact</a>
+    </div>
+  </div>
+  <!-- end of buttons line-->
+
+
+
+  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 2.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+    <h1><b>Explore</b></h1>
+    <!--
+    <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
+    <div class="btn-group btn-group-justified">
+    <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
+    <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
+    <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
+    <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
+  </div>
 </div>
 -->
 
@@ -54,10 +74,17 @@ for the moment, logos of things we want to include here
 -->
 </div>
 
+<div style="float:left; clear:both; padding: 0.5cm 22% 2.0cm 22%; text-align: center; width:100%; margin:0px auto;">
+  <h1 style="font-family:verdana; font-size:260%; padding: 1.5cm"><b>The LHC Experiment in action</b></h1>
+  <div class="embed-responsive embed-responsive-16by9" >
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/jDC3-QSiLB4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
 
 <?php include('../menu.html'); ?>
-
 <?php include('../trackers.html'); ?>
+<?php include('../share.html'); ?>
 </body>
 <!-- End main body -->
 
