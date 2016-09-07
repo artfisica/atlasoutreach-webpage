@@ -29,7 +29,10 @@
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
         <div class="hovereffect">
-          <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%">
+          <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8"><img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%"></a>
+          <div class="overlay" style="background-color: rgba(0,0,0,0); padding: 25% 1% 10% 40%;">
+            <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8"><img src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" style="width:35%"></a>
+          </div>
         </div>
       </td>
     </tr>
@@ -52,8 +55,8 @@
 
 <div style="width:100%; text-align: center; padding: 0.0cm 1.0cm 2.0cm 1.0cm; float:left; clear:both;">
   <a href="./documentation.php"><img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png"          style="width:24%"></a>
-  <a href="./analyser-js.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" style="width:24%"></a>
-  <a href="./root-browser.php"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" style="width:24%"></a>
+  <a href="./analyser-js.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_WebAnalyser.png"   style="width:24%"></a>
+  <a href="./root-browser.php"> <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_ROOTbrowser.png"   style="width:24%"></a>
   <a href="./live-events.php">  <img typeof="foaf:Image" src="/atlas-opendata/DataAndTools/pictures/handmade_event_display.png" style="width:24%"></a>
 </div>
 

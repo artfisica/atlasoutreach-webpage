@@ -222,3 +222,14 @@
           </div>
         </div>
       </div>
+
+      <!-- Pop-up video script (Sep 2, 2016) -->
+      <link rel="stylesheet" type="text/css" href="/atlas-opendata/DataAndTools/YouTubePopUp.css">
+      <script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
+      <script type="text/javascript" src="/atlas-opendata/DataAndTools/YouTubePopUp.jquery.js"></script>
+      <script type="text/javascript">
+      jQuery(function(){
+        jQuery("a.video-1").YouTubePopUp();
+        jQuery("a.video-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+      });
+      </script>

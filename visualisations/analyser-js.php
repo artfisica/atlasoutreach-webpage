@@ -12,13 +12,21 @@
 
     <table width="100%" border="0">
       <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Get Started - Histograms Analyser" style="width:100%">
+        <td style="width:50% ; padding: 1cm 1% 1cm 10%;">
+          <p style="font-family:verdana; font-size:120%; text-align: left;">
+            <b>Physicists use cuts to select events of interest.</b>
+            Cuts are made that preferentially remove the unwanted processes (background) but leave the desired process (signal).
+            It is useful to have a good understanding of the physics processes involved when applying cuts.
+            <b>The 4 processes displayed in Histogram Analyser are <i>H <span>&#8594;</span> WW</i>, <i>WW</i>, t<span style="text-decoration: overline">t</span> and <i>Z</i></b>.
+            Each process is represented by a different colour.
+            <b>Make cuts using your cursor</b>.
+          </p>
+          <p style="font-family:verdana; font-size:110%; text-align: left;">
+            <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_WebAnalyser.png" alt="Get Started - Histograms Analyser" style="width:100%">
         </td>
       </tr>
     </table>
@@ -37,7 +45,7 @@
   </div>
   <!-- End navegation buttons bar -->
 
-
+<!--
   <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
     <h1><b>Histogram Analyser!</b></h1>
     <p>
@@ -50,6 +58,7 @@
     </p>
     <p><i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b></p>
   </div>
+-->
 
   <div style="width:100%; padding: 0.2cm 10% 0.5cm 10%; float:left; clear:both;">
     <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>

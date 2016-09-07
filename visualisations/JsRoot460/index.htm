@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" http-equiv="X-UA-Compatible" content="IE=Edge">
+  <title>Read an ATLAS ROOT file</title>
+  <link rel="shortcut icon" href="img/RootIcon.ico">
+  <!-- To make use of RequireJS, un-comment the following line and comment the second line below -->
+  <!--script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/require.js/2.1.19/require.min.js" data-main="scripts/JSRootCore.js"></script-->
+  <script type="text/javascript" src="scripts/JSRootCore.js?gui"></script>
+</head>
+<body>
+  <div id="simpleGUI" path="../VBSAnalysis_example/"
+  files="histograms_results/data_Egamma.root;
+histograms_results/data_Muons.root;
+histograms_results/ggH125_ZZ4lep.root;
+histograms_results/VBFH125_ZZ4lep.root;
+histograms_results/WW.root;
+histograms_results/WZ.root;
+histograms_results/Zee.root;
+histograms_results/Zmumu.root;
+histograms_results/Ztautau.root;
+histograms_results/ZZ.root;
+examples_final_plots/WtMass.root;
+examples_final_plots/etmiss.root;
+examples_final_plots/jet_MV1.root;
+examples_final_plots/jet_eta.root;
+examples_final_plots/jet_jvf.root;
+examples_final_plots/jet_m.root;
+examples_final_plots/jet_pt.root;
+examples_final_plots/lep_E.root;
+examples_final_plots/lep_charge.root;
+examples_final_plots/lep_d0.root;
+examples_final_plots/lep_eta.root;
+examples_final_plots/lep_etconerel20.root;
+examples_final_plots/lep_n.root;
+examples_final_plots/lep_phi.root;
+examples_final_plots/lep_pt.root;
+examples_final_plots/lep_ptconerel30.root;
+examples_final_plots/lep_type.root;
+examples_final_plots/lep_z0.root;
+examples_final_plots/n_jets.root;
+examples_final_plots/pvxp_n.root;
+examples_final_plots/vxp_z.root;">
+
+<!--
+histograms_results/DYeeM08to15.root;
+histograms_results/DYeeM15to40.root;
+histograms_results/DYmumuM08to15.root;
+histograms_results/DYmumuM15to40.root;
+histograms_results/DYtautauM08to15.root;
+histograms_results/DYtautauM15to40.root;
+histograms_results/ggH125_WW2lep.root;
+histograms_results/stop_schan.root;
+histograms_results/stop_tchan_antitop.root;
+histograms_results/stop_tchan_top.root;
+histograms_results/stop_wtchan.root;
+histograms_results/ttbar_had.root;
+histograms_results/ttbar_lep.root;
+histograms_results/VBFH125_WW2lep.root;
+histograms_results/WenuJetsBVeto.root;
+histograms_results/WenuNoJetsBVeto.root;
+histograms_results/WenuWithB.root;
+histograms_results/WmunuJetsBVeto.root;
+histograms_results/WmunuNoJetsBVeto.root;
+histograms_results/WmunuWithB.root;
+histograms_results/WtaunuJetsBVeto.root;
+histograms_results/WtaunuNoJetsBVeto.root;
+histograms_results/WtaunuWithB.root;
+histograms_results/ZPrime1000.root;
+histograms_results/ZPrime1250.root;
+histograms_results/ZPrime1500.root;
+histograms_results/ZPrime1750.root;
+histograms_results/ZPrime2000.root;
+histograms_results/ZPrime2250.root;
+histograms_results/ZPrime2500.root;
+histograms_results/ZPrime3000.root;
+histograms_results/ZPrime400.root;
+histograms_results/ZPrime500.root;
+histograms_results/ZPrime750.root;
+
+plots_results/etmiss.root;
+plots_results/jet_eta.root;
+plots_results/JetInvMass.root;
+plots_results/jet_jvf.root;
+plots_results/jet_m.root;
+plots_results/jet_MV1.root;
+plots_results/jet_pt.root;
+plots_results/leadlep_charge.root;
+plots_results/leadlep_d0.root;
+plots_results/leadlep_E.root;
+plots_results/leadlep_eta.root;
+plots_results/leadlep_etcone20.root;
+plots_results/leadlep_phi.root;
+plots_results/leadlep_ptcone30.root;
+plots_results/leadlep_pt.root;
+plots_results/leadlep_type.root;
+plots_results/leadlep_z0.root;
+plots_results/lep_n.root;
+plots_results/n_jets.root;
+plots_results/pvxp_n.root;
+plots_results/test.root;
+plots_results/traillep_charge.root;
+plots_results/traillep_d0.root;
+plots_results/traillep_E.root;
+plots_results/traillep_eta.root;
+plots_results/traillep_etcone20.root;
+plots_results/traillep_phi.root;
+plots_results/traillep_ptcone30.root;
+plots_results/traillep_pt.root;
+plots_results/traillep_type.root;
+plots_results/traillep_z0.root;
+plots_results/vxp_z.root;">
+-->
+  loading scripts :) ...
+</div>
+</body>
+</html>
+
+<!--
+
+This is JSROOT main page, which aims to display content of ROOT files.
+Several URL parameters could be specified when opening page:
+   file      - name of the file(s), which will be automatically open with page loading
+   json      - name of JSON file(s) with ROOT object, stored by TBufferJSON::ConvertToJSON method
+   item      - object name(s) in the file to display
+   opt       - draw option(s) for the item(s)
+   layout    - can be 'simple', 'flex', 'collapsible', 'tabs' or gridNxM where N and M are integer values
+   nobrowser - only file item(s) will be displayed, browser will be disabled
+   load      - name of JavaScript(s), automatically loaded at the beginning
+   mathjax   - use MathJax for Latex output (automatically loaded for TMathText objects)
+   palette   - id of default color palette, 51..121 - new ROOT6 palette  (default 57)
+
+Example:
+   https://root.cern.ch/js/latest/?file=../files/hsimple.root&layout=grid2x2&item=[hpx;1,hpxpy;1]&opts=[,colz]
+
+Page can be used to open files from other web servers like:
+   https://root.cern.ch/js/latest/?file=https://jsroot.gsi.de/files/hsimple.root
+
+But one should be aware about Cross-Origin Request blocking.
+Read https://developer.mozilla.org/en/http_access_control for more details.
+
+To avoid problem at all, one can copy only index.htm on the web server where data files are located.
+And specify full path to the JSRootCore.js script like
+   <script type="text/javascript" src="https://root.cern.ch/js/latest/scripts/JSRootCore.min.js?gui"></script>
+
+If necessary, complete JSROOT can be installed on the web server.
+Project repository: https://github.com/linev/jsroot.
+
+-->

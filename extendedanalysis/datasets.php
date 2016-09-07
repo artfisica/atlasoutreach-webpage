@@ -19,7 +19,7 @@
           </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - VMs" style="width:100%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - datasets" style="width:100%">
         </td>
       </tr>
     </table>

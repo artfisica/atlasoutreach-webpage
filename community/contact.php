@@ -44,6 +44,7 @@
 
   <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
     <h1><b>Contact</b></h1>
+    <p><b><a href="mailto:atlas.outreach.data.tools@cern.ch">atlas.outreach.data.tools@cern.ch</a></b></p>
   </div>
 
   <div style="float:left; clear:both; padding: 0.5cm 0.5cm 0.5cm 0.5cm; text-align: center; width:100%; margin:0px auto;">

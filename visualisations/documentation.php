@@ -17,7 +17,7 @@
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
           <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/uB_v-D2pBu8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </td>
       </tr>
@@ -47,7 +47,7 @@
   </div>
 
   <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <p style="font-size:120%;"><b>...or read, download and more directly</b></p>
+    <p style="font-size:120%;"><b>...or read it, download it and more</b></p>
     <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/the_display_histograms.html" target="_blank">in GitBook</a></b></h1>
   </div>
   <!-- -->

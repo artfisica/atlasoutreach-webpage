@@ -16,11 +16,11 @@
           <p style="font-family:verdana; font-size:140%; text-align: left;">
             You can download the complete software framework in a <i>.ZIP</i> file.
             Alternatively, download it from our dedicated
-            <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/releases/tag/V1.0" target="_blank">GitHub</a> repository where you can also browse the files.
+            <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/releases/" target="_blank">GitHub</a> repository where you can also browse the files.
           </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_toolbox.png" alt="Data & Tools - VMs" style="width:100%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_software.png" alt="Data & Tools - software" style="width:100%">
         </td>
       </tr>
     </table>
@@ -55,7 +55,7 @@
           <h1 style="padding: 0.7cm 1.0cm 1.0cm 1.0cm;"><b>Software in GitHub</b></h1>
           <div style="width:100%; padding: 0.2cm 0.2cm 0.2cm 0.2cm; float:left; clear:both;">
             <CENTER>
-              <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/releases/tag/V1.0" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/github_view.png" alt=""></a>
+              <a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/releases/tag/V1.1" target="_blank"><img typeof="foaf:Image" src="../DataAndTools/pictures/github_view.png" alt="ATLAS to GitHub" style="width:70%"></a>
             </CENTER>
           </div>
         </div>
@@ -70,8 +70,13 @@
             </tr>
             <tr>
               <td><a href="https://www.python.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/python_logo.png" alt="python icon" style="width:40px;height:40px;border:0;"></a></td>
+              <td><a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/archive/V1.1.zip">python_framework_code_July_2016_V1.1.zip</a></td>
+              <td>14-Jul-2016 10:00</td>
+              <td>44,0Kb</td>
+            </tr>
+            <tr>
+              <td><a href="https://www.python.org" target="_blank"> <img src="/atlas-opendata/DataAndTools/pictures/python_logo.png" alt="python icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="https://github.com/atlas-outreach-data-tools/atlas-outreach-data-tools-framework/archive/V1.0.zip">python_framework_code_June_2016_V1.0.zip</a></td>
-              <!-- ../release/code/python_framework_code_June_2016.zip -->
               <td>08-Jun-2016 20:00</td>
               <td>44,0Kb</td>
             </tr>

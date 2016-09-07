@@ -12,13 +12,20 @@
 
     <table width="100%" border="0">
       <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis - ROOTbooks" style="width:100%">
+        <td style="width:50% ; padding: 1cm 1% 1cm 10%;">
+          <p style="font-family:verdana; font-size:120%; text-align: left;">
+            <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="/atlas-opendata/extendedanalysis/software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
+            <b>We are producing ROOT notebooks (ROOTbooks) for them as well</b>. Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+            <br>
+            <b>Check our examples</b> in the Official ROOT gallery or in the Jupyter Viewer for an even easier access.
+            <b>Run, edit and save</b> ROOTbooks. Use our examples to explore the public datasets and create your own ROOTbooks directly in your browser!
+          </p>
+          <p style="font-family:verdana; font-size:110%; text-align: left;">
+            <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis - ROOTbooks" style="width:100%">
         </td>
       </tr>
     </table>
