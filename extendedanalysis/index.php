@@ -38,7 +38,7 @@
 </div>
 <!-- end Head of page-->
 
-<div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
+<div style="float:left; clear:both; padding: 0.4cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
   <h1><b>Explore</b></h1>
 </div>
 

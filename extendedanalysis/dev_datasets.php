@@ -9,55 +9,37 @@
     <CENTER>
       <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Datasets</h1>
     </CENTER>
-
-<!--
-    <table width="100%" border="0">
-      <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <p style="font-family:verdana; font-size:140%; text-align: left;">
-            <b>Download the ATLAS open datasets below!</b> Download the complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
-            Don't forget to grab the software or the Virtual Machines to carry out your analysis.
-          </p>
-        </td>
-        <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - datasets" style="width:100%">
-        </td>
-      </tr>
-    </table>
-  -->
   </div>
 
-  <!-- End header-->
-
-
-  <!-- Navegation buttons bar -->
+  <!-- Header table -->
   <div style="width:100%; text-align: center; padding: 0.4cm 5% 0.3cm 5%; float:left; clear:both;">
-
     <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td style="width:40%; padding: 0cm 1% 0.4cm 5%;">
-          <div class="btn-group btn-group-justified">
-            <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:120%;">Documentation</a>
-            <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:120%;">Datasets</a>
-          </div>
-          <div class="btn-group btn-group-justified">
-            <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:120%;">Software</a>
-            <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:120%;">Virtual Machines</a>
-          </div>
-        </td>
-        <td style="width:38%; padding: 0cm 1% 0.4cm 1%;">
+        <td style="width:40%; padding: 0cm 0% 0.4cm 3%;">
           <p style="font-family:verdana; text-align: left;">
             <b>Download the ATLAS open datasets</b> complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
             Don't forget to grab the software or the Virtual Machines to carry out your analysis.
           </p>
         </td>
-        <td style="width:22%; text-align: left; padding: 0.1cm 3% 0.4cm 0%">
+        <td style="width:20%; text-align: left; padding: 0.1cm 0% 0.4cm 0%">
           <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - datasets" style="width:100%">
+        </td>
+        <td style="width:40%; padding: 0cm 3% 0.4cm 1%;">
+          <!-- Navegation buttons bar -->
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:110%;">Documentation</a>
+            <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:110%; color:black;">Datasets &#10003;</a>
+          </div>
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:110%;">Software</a>
+            <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:110%;">Virtual Machines</a>
+          </div>
+          <!-- End navegation buttons bar -->
         </td>
       </tr>
     </table>
   </div>
-  <!-- End navegation buttons bar -->
+  <!-- End header-->
 
 
   <!-- Tabs -->

@@ -2,7 +2,6 @@
 <html>
 <header>
   <?php include('../header.html'); ?>
-  <script src="https://awesome-table.com/AwesomeTableInclude.js"></script>
 </header>
 
 <body>
