@@ -12,7 +12,7 @@
           <h1 style="font-family:verdana; font-size:260%;"><b>External Resources</b> and friends!</h1>
         </br>
         <p style="font-family:verdana; font-size:140%;">
-          <i>more coming soon...</i> For more <a href="http://atlas.cern/resources/education" target="_blank">educational resources</a> and initiatives involving High-Energy Physics, check out the groups linked below:
+          <i>The most up-to-date resources are under indexation below!</i> For more <a href="http://atlas.cern/resources/education" target="_blank">educational resources</a> and initiatives involving High-Energy Physics, check out the groups linked below:
         </p>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
