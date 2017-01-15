@@ -31,7 +31,7 @@
         <div class="hovereffect">
           <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8">
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%"></a>
-            <img border="0" src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" alt="" width="12%" height="18%" style="position: absolute; top: 44%; right: 42%;">
+            <img border="0" src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" alt="" width="12%" height="18%" style="position: absolute; top: 41%; right: 45%;">
           <div class="overlay" style="background-color: rgba(0,0,0,0); padding: 25% 1% 10% 40%;">
             <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8"><img src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" style="width:35%"></a>
           </div>
