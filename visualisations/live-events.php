@@ -12,12 +12,16 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_event_display.png" alt="Get Startted - Live" style="width:100%">
+          <p style="font-family:verdana; font-size:120%; text-align: left;">
+            <b>Public ATLAS display of real events!</b>
+            Check some of the events coming from the ATLAS detector right now.
+          </p>
+          <p style="font-family:verdana; font-size:110%; text-align: left;">
+            <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_event_display.png" alt="Get Startted - Live" style="width:100%">
         </td>
       </tr>
     </table>
@@ -36,7 +40,7 @@
   </div>
   <!-- End navegation buttons bar -->
 
-
+<!--
   <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
     <h1><b>Check that ATLAS display of real events!</b></h1>
     <p>
@@ -44,7 +48,7 @@
       <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
     </p>
   </div>
-
+-->
 
   <!-- This is the frame of the ATLAS live event display -->
   <div style="width:100%; padding: 0.2cm 2.0cm 1.0cm 2.0cm; float:left; clear:both;">

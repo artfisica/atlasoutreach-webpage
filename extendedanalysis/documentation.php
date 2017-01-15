@@ -10,61 +10,77 @@
       <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Documentation</h1>
     </CENTER>
 
-    <table width="100%" border="0">
-      <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png" alt="Data & Tools - Docs" style="width:100%">
-        </td>
-        <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <!-- End header-->
+    <!-- Header table -->
+    <div style="width:100%; text-align: center; padding: 0.4cm 5% 0.3cm 5%; float:left; clear:both;">
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td style="width:47%; padding: 0cm 0% 0.4cm 5%;">
+            <p style="font-family:verdana; text-align: left;">
+              <b>Check out the Documentation:</b> a set of <i>multimedia</i> documents and examples is in constant preparation to bring the best possible information to you.
+              Start to work with our data&tools following the instructions!
+            </p>
+          </td>
+          <td style="width:35%; text-align: left; padding: 0cm 0% 0.5cm 0%">
+            <div class="hovereffect">
+              <a class="video-1" href="https://www.youtube.com/watch?v=5PPqzf37_xo"><img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_docs.png" alt="Data & Tools - Docs" style="width:100%"></a>
+              <div class="overlay" style="background-color: rgba(0,0,0,0); padding: 25% 1% 10% 40%;">
+                <a class="video-1" href="https://www.youtube.com/watch?v=5PPqzf37_xo"><img src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" style="width:35%"></a>
+              </div>
+            </div>
+          </td>
+          <td style="width:18%; padding: 0cm 5% 0.4cm 0%;">
+            <!-- Navegation buttons bar -->
+            <div class="btn-group btn-group-justified">
+              <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:110%; color:black;">Documentation &#10003;</a>
+            </div>
+            <div class="btn-group btn-group-justified">
+              <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:110%;">Datasets</a>
+            </div>
+            <div class="btn-group btn-group-justified">
+              <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:110%;">Software</a>
+            </div>
+            <div class="btn-group btn-group-justified">
+              <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:110%;">Virtual Machines</a>
+            </div>
+            <!-- End navegation buttons bar -->
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- End header-->
 
-
-  <!-- Navegation buttons bar -->
-  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
-    <div class="btn-group btn-group-justified">
-      <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-      <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
-      <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
-      <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
+    <!-- Table of Documentation gallery -->
+    <div style="width:100%; text-align: center; padding: 1.2cm 5% 2cm 5%; float:left; clear:both;">
+      <table width="100%">
+        <tr>
+          <td style="width:50%; padding: 0.5cm 0% 0.3cm 0%; border: 2px solid black;">
+            <p style="font-family:verdana; font-size:160%;"><b>Software Book</b></p>
+            <div class="hovereffect">
+              <CENTER>
+              <a href="https://cheatham1.gitbooks.io/openatlasdatatools/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <CENTER>
+            </div>
+          </td>
+          <td style="width:50%; padding: 0.5cm 0% 0.3cm 0%; border: 2px solid black;">
+            <p style="font-family:verdana; font-size:160%;"><b>Virtual Machine Book</b></p>
+            <div class="hovereffect">
+              <CENTER>
+              <a href="https://cheatham1.gitbooks.io/atlasdatatools/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <CENTER>
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>
   </div>
-  <!-- End navegation buttons bar -->
 
+    <?php include('../menu.html'); ?>
+    <?php include('../trackers.html'); ?>
+    <?php include('../share.html'); ?>
+  </body>
+  <!-- End main body -->
 
-  <div style="float:left; clear:both; padding: 1.0cm 0.5cm 0.1cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <h1><b>Take a look at our Books!</b></h1>
-  </div>
-
-  <CENTER>
-    <div style="width:100%; padding: 0.2cm 2.0cm 2.0cm 2.0cm; float:left; clear:both;">
-      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book1" style="font-size:200%;">Open/Close Software Book</button>
-      <div id="book1" class="collapse" style="padding: 2.0cm 0.5cm 1.0cm 0.5cm;">
-        <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/openatlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-        <hr>
-      </div>
-      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#book2" style="font-size:200%;">Open/Close Virtual Machine Book</button>
-      <div id="book2" class="collapse" style="padding: 2.0cm 0.5cm 1.0cm 0.5cm;">
-        <iframe width="100%" height="600" src="https://cheatham1.gitbooks.io/atlasdatatools/content/index.html" frameborder="0" allowfullscreen></iframe>
-        <hr>
-      </div>
-    </div>
-  </CENTER>
-
-
-  <?php include('../menu.html'); ?>
-  <?php include('../trackers.html'); ?>
-  <?php include('../share.html'); ?>
-</body>
-<!-- End main body -->
-
-<footer>
-  <?php include('../footer.html'); ?>
-</footer>
-</html>
+  <footer>
+    <?php include('../footer.html'); ?>
+  </footer>
+  </html>

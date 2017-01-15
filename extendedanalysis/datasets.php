@@ -9,17 +9,36 @@
     <CENTER>
       <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Datasets</h1>
     </CENTER>
+  </div>
 
-    <table width="100%" border="0">
+  <!-- Header table -->
+  <div style="width:100%; text-align: center; padding: 0.4cm 5% 0.3cm 5%; float:left; clear:both;">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <p style="font-family:verdana; font-size:140%; text-align: left;">
-            <b>Download the ATLAS open datasets below!</b> Download the complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
+        <td style="width:47%; padding: 0cm 0% 0.4cm 5%;">
+          <p style="font-family:verdana; text-align: left;">
+            <b>Download the ATLAS open datasets</b> complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
             Don't forget to grab the software or the Virtual Machines to carry out your analysis.
           </p>
         </td>
-        <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - VMs" style="width:100%">
+        <td style="width:35%; text-align: left; padding: 0cm 0% 0.5cm 0%">
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_downloads.png" alt="Data & Tools - datasets" style="width:100%">
+        </td>
+        <td style="width:18%; padding: 0cm 5% 0.4cm 0%;">
+          <!-- Navegation buttons bar -->
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:110%;">Documentation</a>
+          </div>
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:110%; color:black;">Datasets &#10003;</a>
+          </div>
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:110%;">Software</a>
+          </div>
+          <div class="btn-group btn-group-justified">
+            <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:110%;">Virtual Machines</a>
+          </div>
+          <!-- End navegation buttons bar -->
         </td>
       </tr>
     </table>
@@ -27,20 +46,8 @@
   <!-- End header-->
 
 
-  <!-- Navegation buttons bar -->
-  <div style="width:100%; text-align: center; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
-    <div class="btn-group btn-group-justified">
-      <a href="../extendedanalysis/documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
-      <a href="../extendedanalysis/datasets.php"      class="btn btn-primary" style="font-size:150%;">Datasets</a>
-      <a href="../extendedanalysis/software.php"      class="btn btn-primary" style="font-size:150%;">Software</a>
-      <a href="../extendedanalysis/vm-toolbox.php"    class="btn btn-primary" style="font-size:150%;">Virtual Machines</a>
-    </div>
-  </div>
-  <!-- End navegation buttons bar -->
-
-
   <!-- Tabs -->
-  <div style="width:100%; padding: 1.2cm 8% 2.5cm 8%; clear:both; text-align:left; float:left; margin:0px auto;">
+  <div style="width:100%; padding: 0.4cm 5% 2.5cm 5%; clear:both; text-align:left; float:left; margin:0px auto;">
     <div class="container">
       <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#mc">Samples MC</a></li>

@@ -12,13 +12,20 @@
 
     <table width="100%" border="0">
       <tr>
-        <td style="width:50%; padding: 1cm 1% 1cm 10%;">
-          <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis - ROOTbooks" style="width:100%">
+        <td style="width:50% ; padding: 1cm 1% 1cm 10%;">
+          <p style="font-family:verdana; font-size:120%; text-align: left;">
+            <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="/atlas-opendata/extendedanalysis/software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
+            <b>We are producing ROOT notebooks (ROOTbooks) for them as well</b>. Avoid local installations by using notebooks in a <a href="https://en.wikipedia.org/wiki/OpenSaaS" target="_blank">Software as a Service</a> environment on your computer or in the Cloud.
+            <br>
+            <b>Check our examples</b> in the Official ROOT gallery or in the Jupyter Viewer for an even easier access.
+            <b>Run, edit and save</b> ROOTbooks. Use our examples to explore the public datasets and create your own ROOTbooks directly in your browser!
+          </p>
+          <p style="font-family:verdana; font-size:110%; text-align: left;">
+            <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
+          </p>
         </td>
         <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
-          <div class="embed-responsive embed-responsive-16by9" >
-            <iframe class="embed-responsive-item" style="border: 3px solid black;" src="https://www.youtube.com/embed/qiQamiRRYKM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-          </div>
+          <img src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis - ROOTbooks" style="width:100%">
         </td>
       </tr>
     </table>
@@ -51,13 +58,12 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_W_Analysis_v0-0-1a.ipynb" target="_blank">View Notebook</a>
-              <a class="info" href="../ROOT_execute/W_analysis_ROOTbook_execute.php">Run Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#W_analysis">W Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#W_analysis">-->W Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity.
           </p>
@@ -85,13 +91,12 @@
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_ZAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
               <h2>C++ version</h2>
-              <a class="info" href="http://nbviewer.jupyter.org/github/artfisica/rootbinder/blob/master/notebooks/SummerStudents/ATLAS_Open_Data_Z_Analysis_v0-0-1b.ipynb" target="_blank">View Notebook</a>
-              <a class="info" href="../ROOT_execute/Z_analysis_ROOTbook_execute.php">Run Notebook</a>
+              <a class="info" href="#"><!--Go to Notebook -->Coming soon</a>
             </div>
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Z_analysis">Z Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#Z_analysis">-->Z Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             Many analyses selecting leptons suffer from Z + jets as a contributing background due to its large production cross section. It is therefore vital to check the correct modelling of this process by the Monte-Carlo simulated data.
             It is important to measure well known Standard Model particles, to confirm that we understand properly the detector and software. We are then ready to search for new physics.
@@ -125,7 +130,7 @@
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Top_analysis">Top pair Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#Top_analysis">-->Top pair Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             The top pair analysis is interesting because it is a good test of the Standard Model.
             It is important for discrimination between different data simulation generators, QCD models and parton distribution functions.
@@ -160,7 +165,7 @@
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#WZ_analysis">WZ Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#WZ_analysis">-->WZ Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             This analysis looks for both a W boson and a Z boson. Diboson physics is an important part of the physics programme of ATLAS as it is a probe for electroweak physics. The WZ analysis was chosen as an example analysis as it is one of the most abundantly produced diboson processes and has a clean final state consisting of three charged leptons and a neutrino.
           </p>
@@ -193,7 +198,7 @@
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#ZZ_analysis">ZZ Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#ZZ_analysis">-->ZZ Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             The production of Z-boson pair with subsequent decay to leptons is the only Standard Model process with four prompt leptons in the final state. Its low production cross section results in a very low yield for the ATLAS open data dataset and highlights the limitations of the dataset. Although some events can be selected the low event yield prohibits detailed analysis and conclusions drawn are of a more qualitative nature.
           </p>
@@ -226,7 +231,7 @@
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#HWW_analysis">HWW Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#HWW_analysis">-->HWW Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             This analysis searches for the standard model Higgs boson where the Higgs boson decays into 2 W bosons which subsequently decay into leptons and neutrinos.
             The Higgs boson appears as a consequence of the breaking of electroweak symmetry and is responsible for giving masses to all other massive particles. The central role played by the Higgs boson in the SM explains why the understanding of this particle is a centrepiece of the LHC physics programme.
@@ -260,7 +265,7 @@
           </div>
         </td>
         <td style="width:33%; text-align: left; padding: 1cm 0.5cm 1cm 0.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">The <b><a href="#Zp_analysis">Z' Analysis</a> ROOTbook</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;">The <b><!--<a href="#Zp_analysis">-->Z' Analysis</a> ROOTbook</b></h1>
           <p style="font-family:verdana; font-size:110%;">
             The Z' boson is a hypothetical gauge boson that arises from extensions of the electroweak symmetry of the Standard Model. The Z' boson is named in analogy with the Standard Model Z boson.
           </p>
