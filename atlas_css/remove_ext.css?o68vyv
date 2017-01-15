@@ -1,0 +1,6 @@
+/*
+ Remove icons from "External links" module
+*/ 
+#cern-toolbar span.ext {
+  display: none;
+}

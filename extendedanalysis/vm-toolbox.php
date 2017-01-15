@@ -69,7 +69,7 @@
               <th>   Size</th>
             </tr>
             <tr>
-              <td><a href="http://lubuntu.net" target="_blank"> <img src="http://lubuntu.net/sites/default/files/logo_3.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
+              <td><a href="http://lubuntu.net" target="_blank"> <img src="https://pbs.twimg.com/profile_images/2133277410/logo_icon_lubuntu_reasonably_small.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
               <td><a href="../release/vm/Lubuntu_ATLAS_Outreach_DataAndTools_October_2016-size_S.ova">Lubuntu_ATLAS_Outreach_DataAndTools_October_2016-size_S.ova</a></td>
               <td>15-Oct-2016 01:00</td>
               <td>1,7Gb</td>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://atlas.cern"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>ATLAS Experiment at CERN</title>
+ <link>http://atlas.cern</link>
+ <description></description>
+ <language>en</language>
+<item>
+ <title>Default Home Page</title>
+ <link>http://atlas.cern/default-home-page</link>
+ <description>&lt;div class=&quot;form-item form-type-item&quot;&gt;
+  &lt;label&gt;Language &lt;/label&gt;
+ Undefined
+&lt;/div&gt;
+&lt;div class=&quot;field field-name-field-home-page-layout field-type-list-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Home Page Layout:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Standard&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-display-title field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Display Title:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;ATLAS is...&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-content field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Content:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;an experiment at CERN designed to explore the secrets of the universe.&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-more-link-text field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;More Link Text:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Learn more →&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-more-link-path field-type-text field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;More Link Path:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;discover&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-field-image field-type-image field-label-above&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Background Image:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; src=&quot;http://atlas.cern/sites/atlas-public.web.cern.ch/files/feature-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+ <pubDate>Tue, 31 Mar 2015 22:48:57 +0000</pubDate>
+ <dc:creator>Drupal Administrator</dc:creator>
+ <guid isPermaLink="false">21 at http://atlas.cern</guid>
+ <comments>http://atlas.cern/default-home-page#comments</comments>
+</item>
+</channel>
+</rss>

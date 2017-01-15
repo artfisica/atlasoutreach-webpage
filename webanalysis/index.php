@@ -27,7 +27,9 @@
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
         <div class="hovereffect">
-          <a class="video-1" href="https://www.youtube.com/watch?v=FGYkSC1fgTo"><img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%"></a>
+          <a class="video-1" href="https://www.youtube.com/watch?v=FGYkSC1fgTo">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_web_analysis.png" alt="Web Analysis" style="width:100%"></a>
+            <img border="0" src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" alt="" width="12%" height="18%" style="position: absolute; top: 44%; right: 42%;">
           <div class="overlay" style="background-color: rgba(0,0,0,0); padding: 25% 1% 10% 40%;">
             <a class="video-1" href="https://www.youtube.com/watch?v=FGYkSC1fgTo"><img src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" style="width:35%"></a>
           </div>

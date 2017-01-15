@@ -1,0 +1,20 @@
+wget http://atlas.cern/modules/system/system.base.css?o68vyv
+wget http://atlas.cern/modules/system/system.menus.css?o68vyv
+wget http://atlas.cern/modules/system/system.messages.css?o68vyv
+wget http://atlas.cern/modules/system/system.theme.css?o68vyv
+wget http://atlas.cern/sites/all/modules/cern_dev_status/css/dev_styling.css?o68vyv
+wget http://atlas.cern/sites/all/modules/cern_toolbar/css/remove_ext.css?o68vyv
+wget http://atlas.cern/modules/comment/comment.css?o68vyv
+wget http://atlas.cern/modules/field/theme/field.css?o68vyv
+wget http://atlas.cern/modules/node/node.css?o68vyv
+wget http://atlas.cern/modules/search/search.css?o68vyv
+wget http://atlas.cern/modules/user/user.css?o68vyv
+wget http://atlas.cern/sites/all/modules/views/css/views.css?o68vyv
+wget http://atlas.cern/sites/all/modules/ckeditor/css/ckeditor.css?o68vyv
+wget http://atlas.cern/sites/all/modules/shib_auth/shib_auth.css?o68vyv
+wget http://atlas.cern/sites/all/modules/ctools/css/ctools.css?o68vyv
+wget http://atlas.cern/sites/all/modules/cern_toolbar/css/screen.css?o68vyv
+wget http://atlas.cern/sites/atlas-public.web.cern.ch/themes/atlas/css/style.css?o68vyv
+wget http://atlas.cern/sites/atlas-public.web.cern.ch/files/favicon_0.ico
+wget http://atlas.cern/rss.xml
+
