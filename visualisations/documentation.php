@@ -54,7 +54,8 @@
             <p style="font-family:verdana; font-size:160%;"><b>Get Started Book</b></p>
             <div class="hovereffect">
               <CENTER>
-              <a href="https://cheatham1.gitbooks.io/app-analyser/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <!-- <a href="https://cheatham1.gitbooks.io/app-analyser/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a> -->
+              <a href="http://opendata.atlas.cern/books/get-started/_book/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
               <CENTER>
             </div>
           </td>
