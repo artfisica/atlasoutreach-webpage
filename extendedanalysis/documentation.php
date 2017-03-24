@@ -62,10 +62,28 @@
             </div>
           </td>
           <td style="width:50%; padding: 0.5cm 0% 0.3cm 0%; border: 2px solid black;">
+            <p style="font-family:verdana; font-size:160%;"><b>Setup your enviroment</b></p>
+            <div class="hovereffect">
+              <CENTER>
+              <a href="https://www.youtube.com/watch?v=qy6s_CeBi5M" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/youtube_view.png" alt="ATLAS to GitBook" style="width:70%"></a>
+              <CENTER>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="width:50%; padding: 0.5cm 0% 0.3cm 0%; border: 2px solid black;">
             <p style="font-family:verdana; font-size:160%;"><b>Virtual Machine Book</b></p>
             <div class="hovereffect">
               <CENTER>
               <a href="https://cheatham1.gitbooks.io/atlasdatatools/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <CENTER>
+            </div>
+          </td>
+          <td style="width:50%; padding: 0.5cm 0% 0.3cm 0%; border: 2px solid black;">
+            <p style="font-family:verdana; font-size:160%;"><b>Take a look at the data</b></p>
+            <div class="hovereffect">
+              <CENTER>
+              <a href="https://www.youtube.com/watch?v=t7xJ5DWzDyw" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/youtube_view.png" alt="ATLAS to GitBook" style="width:70%"></a>
               <CENTER>
             </div>
           </td>
