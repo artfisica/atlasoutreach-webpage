@@ -37,7 +37,7 @@
               <a href="./analyser-js.php"      class="btn btn-primary" style="font-size:110%;">Histogram Analyser</a>
             </div>
             <div class="btn-group btn-group-justified">
-              <a href="./root-browser.php"      class="btn btn-primary" style="font-size:110%;">ROOTbrowser</a>
+              <a href="./root-browser.php"      class="btn btn-primary" style="font-size:110%;">Analysis Browser</a>
             </div>
             <!-- End navegation buttons bar -->
           </td>
