@@ -1,12 +1,15 @@
 # atlasoutreach-webpage
 
-Instructions to send file to repository (internal)
+# To get the Repo for first time:
+git clone https://github.com/artfisica/atlasoutreach-webpage.git
+
+# Instructions to send file to repository (internal)
 
 > git init
 
 > git add <file>
 
-Example:
+# Example:
 > git add *
 
 > git commit -m "<Comments>"
@@ -17,7 +20,7 @@ Example:
 
 # Done
 
-Notes:
+# Notes:
 
 > git rm -r --cached . 
 

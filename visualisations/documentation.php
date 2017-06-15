@@ -37,7 +37,7 @@
               <a href="./analyser-js.php"      class="btn btn-primary" style="font-size:110%;">Histogram Analyser</a>
             </div>
             <div class="btn-group btn-group-justified">
-              <a href="./root-browser.php"      class="btn btn-primary" style="font-size:110%;">ROOTbrowser</a>
+              <a href="./root-browser.php"      class="btn btn-primary" style="font-size:110%;">Analysis Browser</a>
             </div>
             <!-- End navegation buttons bar -->
           </td>
@@ -54,7 +54,8 @@
             <p style="font-family:verdana; font-size:160%;"><b>Get Started Book</b></p>
             <div class="hovereffect">
               <CENTER>
-              <a href="https://cheatham1.gitbooks.io/app-analyser/content/" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <a href="https://cheatham1.gitbooks.io/get-started" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a>
+              <!-- <a href="http://opendata.atlas.cern/books/get-started/_book" target="_blank"><img class="img-responsive" src="../DataAndTools/pictures/gitbook_view.png" alt="ATLAS to GitBook" style="width:80%"></a> -->
               <CENTER>
             </div>
           </td>

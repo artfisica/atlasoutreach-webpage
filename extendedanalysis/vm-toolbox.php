@@ -69,13 +69,20 @@
               <th>   Size</th>
             </tr>
             <tr>
-              <td><a href="http://lubuntu.net" target="_blank"> <img src="http://lubuntu.net/sites/default/files/logo_3.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
-              <td><a href="../release/vm/Lubuntu_ATLAS_Outreach_DataAndTools_October_2016-size_S.ova">Lubuntu_ATLAS_Outreach_DataAndTools_October_2016-size_S.ova</a></td>
-              <td>15-Oct-2016 01:00</td>
-              <td>1,7Gb</td>
+              <td><a href="https://xubuntu.org" target="_blank"> <img src="https://xubuntu.org/wp-content/themes/xubuntu-theme/xubuntu-fifteen/images/xubuntu-icon-20.png" alt="Xubuntu icon" style="width:40px;height:40px;border:0;"></a></td>
+              <td><a href="../release/vm/VM_ATLAS-OpenData-ROOT6-Xubuntu-15.04_May_2017-size_S.ova">VM_ATLAS-OpenData-ROOT6-Xubuntu-15.04_May_2017-size_S.ova</a></td>
+              <td>28-May-2017 03:30</td>
+              <td>3,1Gb</td>
+            </tr>
+            <tr>
+              <td><a href="http://lubuntu.net" target="_blank"> <img src="https://pbs.twimg.com/profile_images/2133277410/logo_icon_lubuntu_reasonably_small.png" alt="SL icon" style="width:40px;height:40px;border:0;"></a></td>
+              <td><a href="../release/vm/Lubuntu_ATLAS_Outreach_DataAndTools_February_2017-size_S.ova">Lubuntu_ATLAS_Outreach_DataAndTools_February_2017-size_S.ova</a></td>
+              <td>06-Feb-2017 01:00</td>
+              <td>2,13Gb</td>
             </tr>
           </table>
-          <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description:</b> VM-S for "<i>small</i>", it has a total size of ~1.7GB. This contains a complete Lubuntu OS 16.04, important software dependencies, the latest version of ROOT v5-34-14 and 10% of the data.</p>
+          <p style="width:50%; text-align: left; padding: 3.3cm 10% 0.2cm 10%"><b>Description of 28-May-2017 VM:</b> VM-S for "<i>small</i>", it has a total size of ~3.1GB. This contains a complete Xubuntu OS 15.04, important software dependencies, the latest version of <b>ROOT6</b> v6-07-06. It does not contain datasets inside.</p>
+          <p style="width:50%; text-align: left; padding: 0.2cm 10% 0.5cm 10%"><b>Description of 06-Feb-2017 VM:</b> VM-S for "<i>small</i>", it has a total size of ~2.1GB. This contains a complete Lubuntu OS 16.04, important software dependencies, the latest version of <b>ROOT5</b> v5-34-14 and 10% of the recorded data.</p>
         </div>
         <div id="menu1" class="tab-pane fade">
           <h1 style="padding: 0.7cm 1.0cm 1.0cm 1.0cm;">VM Version <b>M</b></h1>

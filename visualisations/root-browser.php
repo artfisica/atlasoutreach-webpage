@@ -2,21 +2,29 @@
 <html>
 <header>
   <?php include('../header.html'); ?>
+
+  <script >
+  function refreshIframe() {
+    var ifr = document.getElementsByName('browser')[0];
+    ifr.src = ifr.src;
+  }
+  </script>
 </header>
 
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - ROOT Browser</h1>
+      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - Analysis Browser</h1>
     </CENTER>
 
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; padding: 1cm 1% 1cm 10%;">
           <p style="font-family:verdana; font-size:120%; text-align: left;">
-            <b>Look into ROOT files!</b>
+            <b>Look into the plots!</b>
             A web based <b>tool for displaying and analysing data and Monte-Carlo</b> simulated data.
-            Select a dataset using the drop-down menu <i>(second text box)</i>.
+            Select a dataset using the drop-down menu <i>(second text box)</i> or a complete physics analysis tab:
+            It is like <b>a <i>live</i> scientific paper!</b> click into the plot, zoom into the data-points, set a logaritmic scale and more.
           </p>
           <p style="font-family:verdana; font-size:110%; text-align: left;">
             <i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b>
@@ -36,28 +44,42 @@
     <div class="btn-group btn-group-justified">
       <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
       <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Histograms Analyser</a>
-      <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
+      <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">Analysis Browser</a>
       <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
     </div>
   </div>
   <!-- End navegation buttons bar -->
 
-<!--
-  <div style="width:100%; padding: 1.2cm 10% 1.5cm 10%; clear:both; text-align:left; float:left; margin:0px auto;">
-    <h1><b>Look into ROOT files!</b></h1>
-    <p>
-      A web based <b>tool for displaying and analysing data and Monte-Carlo</b> simulated data.
-      Select a dataset using the drop-down menu <i>(second text box)</i>.
-    </p>
-    <p><i>Do you want to know more?</i> Check the <b><a href="./documentation.php" target="_blank">Documentation</a></b></p>
-  </div>
--->
+  <!-- Tabs -->
+  <div style="width:100%; padding: 0.4cm 0.5% 0cm 0.5%; clear:both; text-align:left; float:left; margin:0px auto;">
+    <div class="container">
+      <!-- <h2>Dynamic Tabs</h2>-->
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#menu0"><b>Top Pair physics analysis</b></a></li>
+        <li>               <a data-toggle="tab" href="#menu1"><b>ROOTbrowser</b></a></li>
+      </ul>
 
-  <!-- This is the Frame of the ROOTbrowser-->
-  <div style="width:100%; padding: 0.2cm 2.0cm 0.5cm 2.0cm; float:left; clear:both;">
-    <iframe width="100%" height="600" src="./JsRoot460/" frameborder="0" allowfullscreen></iframe>
+      <div class="tab-content">
+        <div id="menu0" class="tab-pane fade in active">
+          <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
+            <!-- This is the Frame of the Top Pair Analysis-->
+            <iframe width="100%" height="2300px" src="./analysis/top.html" frameborder="0" allowfullscreen></iframe>
+            <hr>
+          </div>
+        </div>
+        <div id="menu1" class="tab-pane fade">
+          <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
+            <!-- This is the Frame of the ROOTbrowser-->
+            <br>
+              <button onclick="refreshIframe();">you don't see the ROOTbrowser? click here to refresh it!</button>
+            </br>
+            <iframe name="browser" width="100%" height="600" src="./JsRoot460/" frameborder="0" allowfullscreen></iframe>
+            <hr>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
 
   <table width="100%" border="0">
     <tr>

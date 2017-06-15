@@ -21,15 +21,17 @@
         <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
 
         <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
-          <li><b>Documentation:</b> a step-by-step guide to using Histogram Analyser and ROOTbrowser</li>
+          <li><b>Documentation:</b> a step-by-step guide to using Histogram Analyser and Analysis browser</li>
           <li><b>Histogram Analyser:</b> a web based tool for fast, cut-based analysis of data. Visualise data using online histograms</li>
-          <li><b>ROOTbrowser:</b> a web based tool for displaying histograms individually. More freedom to plot different variables</li>
+          <li><b>Analysis browser:</b> a web based tool for displaying histograms individually. More freedom to plot different variables</li>
           <li><b>Live events:</b> see live events from the ATLAS experiment</li>
         </ul>
       </td>
       <td style="width:50%; padding: 0.1cm 0.2cm;">
         <div class="hovereffect">
-          <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8"><img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%"></a>
+          <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8">
+            <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_visualisation.png" alt="Visualisations" style="width:100%"></a>
+            <img border="0" src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" alt="" width="12%" height="18%" style="position: absolute; top: 41%; right: 45%;">
           <div class="overlay" style="background-color: rgba(0,0,0,0); padding: 25% 1% 10% 40%;">
             <a class="video-1" href="https://www.youtube.com/watch?v=uB_v-D2pBu8"><img src="/atlas-opendata/DataAndTools/pictures/youtube_icon.png" style="width:35%"></a>
           </div>
@@ -48,7 +50,7 @@
   <div class="btn-group btn-group-justified">
     <a href="./documentation.php" class="btn btn-primary" style="font-size:150%;">Documentation</a>
     <a href="./analyser-js.php"   class="btn btn-primary" style="font-size:150%;">Histograms Analyser</a>
-    <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">ROOT browser</a>
+    <a href="./root-browser.php"  class="btn btn-primary" style="font-size:150%;">Analysis Browser</a>
     <a href="./live-events.php"   class="btn btn-primary" style="font-size:150%;">Live Events</a>
   </div>
 </div>
