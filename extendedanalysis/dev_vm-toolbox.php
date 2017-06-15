@@ -92,7 +92,7 @@
               <td>10,6Gb</td>
             </tr>
           </table>
-          <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description:</b> VM-M for "<i>medium</i>", it has a compressed size of ~10.6GB, and a uncompressed size of ~22GB. This contains a complete Scientific Linux OS 6.7, important software dependencies, the latest version of ROOT v6-07-06 and the completed set of datasets of the ATLAS release (Data & MC).</p>
+          <p style="width:50%; text-align: left; padding: 2.0cm 10% 0.5cm 10%"><b>Description of 15-Jul-2016 VM:</b> VM-M for "<i>medium</i>", it has a compressed size of ~10.6GB, and a uncompressed size of ~22GB. This contains a complete Scientific Linux OS 6.7, important software dependencies, the version of ROOT v6-07-06 and the completed set of datasets of the ATLAS release (Data & MC).</p>
         </div>
         <div id="menu2" class="tab-pane fade">
           <h1 style="padding: 0.7cm 1.0cm 1.0cm 1.0cm;">VM Version <b>N</b></h1>
