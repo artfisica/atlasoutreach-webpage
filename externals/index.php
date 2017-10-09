@@ -63,6 +63,7 @@
   <img src="https://www.virtualbox.org/graphics/vbox_logo2_gradient.png" alt="VirtualBox" style="width:15%">
 -->
 </div>
+<CENTER><p><b>Note:</b> the content presented in the external links to http://opendata.atlas.cern domain is not manage by the ATLAS Outreach team.</p></CENTER>
 
 
 <?php include('../menu.html'); ?>

@@ -7,7 +7,7 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - Live Events</h1>
+      <h1 style="font-family:verdana; font-size:260%;"><b>Get Started</b> - Live Events</h1>
     </CENTER>
     <table width="100%" border="0">
       <tr>
@@ -58,7 +58,7 @@
 
 
   <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
-    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
+    <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this section</a> or its dedicated resource:</b></p>
     <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/atlas_events.html" target="_blank">in GitBook</a></b></h1>
   </div>
   <!-- -->

@@ -9,7 +9,7 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>Get Started</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           Physicists at the <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment visualise collision data with histograms<!--plots and graphs-->.

@@ -9,12 +9,19 @@
     ifr.src = ifr.src;
   }
   </script>
+
+  <script >
+  function refreshATLAS() {
+    var ifr = document.getElementsByName('atlasframe')[0];
+    ifr.src = ifr.src;
+  }
+  </script>
 </header>
 
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 1: <b>Get Started</b> - Analysis Browser</h1>
+      <h1 style="font-family:verdana; font-size:260%;"><b>Get Started</b> - Analysis Browser</h1>
     </CENTER>
 
     <table width="100%" border="0">
@@ -57,6 +64,7 @@
       <ul class="nav nav-tabs">
         <li class="active"><a data-toggle="tab" href="#menu0"><b>Top Pair physics analysis</b></a></li>
         <li>               <a data-toggle="tab" href="#menu1"><b>ROOTbrowser</b></a></li>
+        <li>               <a data-toggle="tab" href="#menu2"><b>The ATLAS detector</b></a></li>
       </ul>
 
       <div class="tab-content">
@@ -73,9 +81,25 @@
             <br>
               <button onclick="refreshIframe();">you don't see the ROOTbrowser? click here to refresh it!</button>
             </br>
+            <br>
+              <p><b>Note:</b> the current set of histograms and plots correspond to the Top Quark Pair Analysis (updated July 2017)</p>
+            </br>
             <iframe name="browser" width="100%" height="600" src="./JsRoot460/" frameborder="0" allowfullscreen></iframe>
             <hr>
           </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+            <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
+              <!-- This is the Frame of the ROOTbrowser for the ATLAS detector-->
+              <br>
+                <button onclick="refreshATLAS();">you don't see the ATLAS detector? click here to refresh it!</button>
+              </br>
+              <br>
+                <p><b>Note:</b> take into account that the ATLAS visualization can take several seconds to load (~15 to ~30 sec) please, be patient! (updated on July 2017)</p>
+              </br>
+              <iframe name="atlasframe" width="100%" height="600" src="./JsRoot460/?file=../atlas_detector/atlas.root&item=atlas;1&opt=clipxyz" frameborder="0" allowfullscreen></iframe>
+              <hr>
+            </div>
         </div>
       </div>
     </div>

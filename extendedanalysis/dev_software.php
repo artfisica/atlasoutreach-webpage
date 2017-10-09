@@ -7,7 +7,7 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Software Repository</h1>
+      <h1 style="font-family:verdana; font-size:260%;"><b>Data & Tools</b> - Software Repository</h1>
     </CENTER>
 
     <!-- Header table -->

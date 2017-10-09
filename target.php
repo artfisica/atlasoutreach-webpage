@@ -12,7 +12,6 @@
     <p>
       <b><a href="./index.php">ATLAS open data</a></b> is intended for University students, postgraduate and external researchers. We aim to extend this in the future!
     </p>
-    <h2 style="position: absolute; right: 10px; top: 0px;">The first public release of</h2>
     <CENTER>
       <p style="font-size:36px"><b>ATLAS data and MonteCarlo for education</b></p>
       <img src="http://atlasui.na.infn.it:8088/~sanchez/ATLAS/outreach/presentations/September_28_2016/img/release_1.png" width="90%">

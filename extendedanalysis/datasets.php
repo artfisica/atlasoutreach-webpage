@@ -7,7 +7,7 @@
 <body>
   <div style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: left; width:100%; margin:0px auto;">
     <CENTER>
-      <h1 style="font-family:verdana; font-size:260%;">Level 3: <b>Data & Tools</b> - Datasets</h1>
+      <h1 style="font-family:verdana; font-size:260%;"><b>Data & Tools</b> - Datasets</h1>
     </CENTER>
   </div>
 
@@ -17,7 +17,7 @@
       <tr>
         <td style="width:47%; padding: 0cm 0% 0.4cm 5%;">
           <p style="font-family:verdana; text-align: left;">
-            <b>Download the ATLAS open datasets</b> complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
+            <b>Download the ATLAS Open Data datasets</b> complete collection in a <i>.ZIP</i> file or a subset as single ROOT files.
             Don't forget to grab the software or the Virtual Machines to carry out your analysis.
           </p>
         </td>

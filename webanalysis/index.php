@@ -9,11 +9,11 @@
     <table width="100%" border="0">
       <tr>
         <td style="width:50%; text-align: left; padding: 1.5cm 1.5cm 1.5cm 1.5cm;">
-          <h1 style="font-family:verdana; font-size:260%;">Level 2: <b>Web Analysis</b></h1>
+          <h1 style="font-family:verdana; font-size:260%;"><b>Web Analysis</b></h1>
         </br>
         <p style="font-family:verdana; font-size:120%;">
           <b>The <a href="http://atlas.cern/" target="_blank">ATLAS</a> Experiment has made <a href="/atlas-opendata/extendedanalysis/software.php" target="_blank">7 analyses available</a></b> to help you get started with your own research!
-          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles, hunt for the Higgs boson, and even search for physics Beyond the Standard Model particle.
+          These analyses range from measuring <b><a href="https://home.cern/about/physics/standard-model" target="_blank">Standard Model</a></b> particles, hunting for the Higgs boson, and even searching for physics Beyond the Standard Model particle.
           <b>We are producing ROOT notebooks (ROOTbooks) for them as well</b>.
         </p>
 
