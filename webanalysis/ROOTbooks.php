@@ -53,7 +53,7 @@
   <div id="W_analysis" style="float:left; clear:both; padding: 0.0cm 0.0cm 0.0cm 0.0cm; text-align: center; width:100%; margin:0px auto; border:none!important; background-color:#e3f4fd;">
     <table width="100%" border="0">
       <tr>
-        <td style="width:33%; padding: 1cm 0.5cm 1cm 1cm;">
+        <td style="width:33%; padding: 1cm 0.5cm 1cm 1cm; background-color:#e3f4fd;">
           <div class="hovereffect">
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">
@@ -68,7 +68,7 @@
             The W boson analysis is intended to provide an example for a high statistics analysis using the ATLAS open data dataset. Furthermore it tests the description of the real data by the simulated W boson data which represents the most extensive dataset in terms of luminosity.
           </p>
         </td>
-        <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm;">
+        <td style="width:33%; padding: 1cm 1cm 1cm 0.5cm; background-color:#e3f4fd;">
           <div class="hovereffect">
             <img class="img-responsive" src="/atlas-opendata/DataAndTools/pictures/handmade_WAnalysis.png" alt="Visualisations" style="width:100%">
             <div class="overlay" style="background-color: rgba(0,0,0,0.4);">

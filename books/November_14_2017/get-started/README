@@ -1,0 +1,11 @@
+gitbook pdf ./ ./mybook.pdf
+
+https://toolchain.gitbook.com/ebook.html
+
+gitbook init
+gitbook install
+gitbook serve
+gitbook build
+
+scp -r -P 5022 _book sanchez@atlasui03.na.infn.it:/home/sanchez/public_html/ATLAS/outreach/presentations/March_14_2017/.
+

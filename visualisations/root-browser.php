@@ -97,7 +97,7 @@
               <br>
                 <p><b>Note:</b> take into account that the ATLAS visualization can take several seconds to load (~15 to ~30 sec) please, be patient! (updated on July 2017)</p>
               </br>
-              <iframe name="atlasframe" width="100%" height="600" src="./JsRoot460/?file=../atlas_detector/atlas.root&item=atlas;1&opt=clipxyz" frameborder="0" allowfullscreen></iframe>
+              <iframe name="atlasframe" width="100%" height="600" src="./JsRoot460/?nobrowser&file=../atlas_detector/atlas.root&item=atlas;1&opt=clipxyz" frameborder="0" allowfullscreen></iframe>
               <hr>
             </div>
         </div>
