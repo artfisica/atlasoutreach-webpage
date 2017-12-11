@@ -21,9 +21,9 @@
         <p style="font-family:verdana; font-size:120%; padding: 0.4cm 0.0cm 0.0cm 0.0cm;"><b>Explore:</b></p>
 
         <ul style="font-family:verdana; font-size:102%; padding: 0.1cm 1.0cm 1.0cm 1.0cm;">
-          <li><b>Documentation:</b> a step-by-step guide to using Histogram Analyser and Analysis browser</li>
+          <li><b>Documentation:</b> a step-by-step guide on how to use Histogram Analyser and Analysis browser</li>
           <li><b>Histogram Analyser:</b> a web based tool for fast, cut-based analysis of data. Visualise data using online histograms</li>
-          <li><b>Analysis browser:</b> a web based tool for displaying histograms individually. More freedom to plot different variables</li>
+          <li><b>Analysis browser:</b> A 3D ATLAS detector in your browser! + a web based tool for displaying histograms individually. More freedom to plot different variables</li>
           <li><b>Live events:</b> see live events from the ATLAS experiment</li>
         </ul>
       </td>

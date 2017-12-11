@@ -11,6 +11,13 @@
   </script>
 
   <script >
+  function refreshAnalysis() {
+    var ifr = document.getElementsByName('analysis')[0];
+    ifr.src = ifr.src;
+  }
+  </script>
+
+<script >
   function refreshATLAS() {
     var ifr = document.getElementsByName('atlasframe')[0];
     ifr.src = ifr.src;
@@ -62,20 +69,36 @@
     <div class="container">
       <!-- <h2>Dynamic Tabs</h2>-->
       <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#menu0"><b>Top Pair physics analysis</b></a></li>
-        <li>               <a data-toggle="tab" href="#menu1"><b>ROOTbrowser</b></a></li>
-        <li>               <a data-toggle="tab" href="#menu2"><b>The ATLAS detector</b></a></li>
+        <li class="active"><a data-toggle="tab" href="#menu0"><b>The ATLAS detector</b></a></li>
+        <li>               <a data-toggle="tab" href="#menu1"><b>Top Pair physics analysis</b></a></li>
+        <li>               <a data-toggle="tab" href="#menu2"><b>ROOTbrowser</b></a></li>
       </ul>
 
       <div class="tab-content">
         <div id="menu0" class="tab-pane fade in active">
           <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
-            <!-- This is the Frame of the Top Pair Analysis-->
-            <iframe width="100%" height="2300px" src="./analysis/top.html" frameborder="0" allowfullscreen></iframe>
+            <!-- This is the Frame of the ROOTbrowser for the ATLAS detector-->
+            <br>
+              <p><b>Note:</b> take into account that the ATLAS visualization can take several seconds to load (~15 to ~30 sec) please, be patient! (updated on July 2017)</p>
+            </br>
+            <iframe name="atlasframe" width="100%" height="600" src="./JsRoot460/?nobrowser&file=../atlas_detector/atlas.root&item=atlas;1&opt=clipxyz" frameborder="0" allowfullscreen></iframe>
+            <br>
+              <button onclick="refreshATLAS();">you don't see the ATLAS detector after ~10-30 seconds? click here to refresh it!</button>
+            </br>
             <hr>
           </div>
         </div>
         <div id="menu1" class="tab-pane fade">
+          <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
+            <!-- This is the Frame of the Top Pair Analysis-->
+            <br>
+              <button onclick="refreshAnalysis();">you don't see the plots? click here to refresh the paper!</button>
+            </br>
+            <iframe name="analysis" width="100%" height="2300px" src="./analysis/top.html" frameborder="0" allowfullscreen></iframe>
+            <hr>
+          </div>
+        </div>
+        <div id="menu2" class="tab-pane fade">
           <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
             <!-- This is the Frame of the ROOTbrowser-->
             <br>
@@ -88,19 +111,6 @@
             <hr>
           </div>
         </div>
-        <div id="menu2" class="tab-pane fade">
-            <div style="width:100%; padding: 0.1cm 0% 0.1cm 0%; float:left; clear:both;">
-              <!-- This is the Frame of the ROOTbrowser for the ATLAS detector-->
-              <br>
-                <button onclick="refreshATLAS();">you don't see the ATLAS detector? click here to refresh it!</button>
-              </br>
-              <br>
-                <p><b>Note:</b> take into account that the ATLAS visualization can take several seconds to load (~15 to ~30 sec) please, be patient! (updated on July 2017)</p>
-              </br>
-              <iframe name="atlasframe" width="100%" height="600" src="./JsRoot460/?nobrowser&file=../atlas_detector/atlas.root&item=atlas;1&opt=clipxyz" frameborder="0" allowfullscreen></iframe>
-              <hr>
-            </div>
-        </div>
       </div>
     </div>
   </div>
@@ -110,7 +120,7 @@
       <td style="width:50%; padding: 1cm 1% 1cm 10%;">
         <div style="float:left; clear:both; padding: 0.5cm 0.5cm 1.0cm 0.5cm; text-align: center; width:100%; margin:0px auto;">
           <p style="font-size:120%;"><b>Do you need help? Go to the <a href="./documentation.php">documentation of this Level</a> or its dedicated resource:</b></p>
-          <h1><b><a href="https://cheatham1.gitbooks.io/app-analyser/content/rootbrowser.html" target="_blank">in GitBook</a></b></h1>
+          <h1><b><a href="http://opendata.atlas.cern/books/current/get-started/_book/rootbrowser.html" target="_blank">in GitBook</a></b></h1>
         </div>
       </td>
       <td style="width:50%; text-align: left; padding: 1cm 10% 1cm 1%">
