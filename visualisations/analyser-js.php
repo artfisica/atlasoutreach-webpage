@@ -64,19 +64,35 @@
   <div class="container">
     <!-- <h2>Dynamic Tabs</h2>-->
     <ul class="nav nav-tabs">
-      <li class="active"><a data-toggle="tab" href="#menu0">Higgs to WW - <b>simulated data</b></a></li>
-      <li>               <a data-toggle="tab" href="#menu1">Higgs to WW - <b>simulated + real data</b></a></li>
+      <li class="active"><a data-toggle="tab" href="#menu0">Higgs to WW - <b>simulated data (13 TeV)</b></a></li>
+      <li>               <a data-toggle="tab" href="#menu1">Higgs to WW - <b>simulated + real data (13 TeV)</b></a></li>
+      <li>               <a data-toggle="tab" href="#menu2">Higgs to WW - <b>simulated data (8 TeV)</b></a></li>
+      <li>               <a data-toggle="tab" href="#menu3">Higgs to WW - <b>simulated + real data (8 TeV)</b></a></li>
     </ul>
 
     <div class="tab-content">
       <div id="menu0" class="tab-pane fade in active">
         <div style="width:100%; padding: 0.2cm 1% 0.5cm 1%; float:left; clear:both;">
           <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
-          <iframe width="100%" height="950" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="950" src="./CrossFilter/13TeV_crossfilter.html" frameborder="0" allowfullscreen></iframe>
           <hr>
         </div>
       </div>
       <div id="menu1" class="tab-pane fade">
+        <div style="width:100%; padding: 0.2cm 1% 0.5cm 1%; float:left; clear:both;">
+          <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
+          <iframe width="100%" height="800" src="./CrossFilter/13TeV_hwwanalyser.html" frameborder="0" allowfullscreen></iframe>
+          <hr>
+        </div>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <div style="width:100%; padding: 0.2cm 1% 0.5cm 1%; float:left; clear:both;">
+          <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
+          <iframe width="100%" height="800" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
+          <hr>
+        </div>
+      </div>
+      <div id="menu3" class="tab-pane fade">
         <div style="width:100%; padding: 0.2cm 1% 0.5cm 1%; float:left; clear:both;">
           <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
           <iframe width="100%" height="800" src="./CrossFilter/hwwanalyser.html" frameborder="0" allowfullscreen></iframe>
