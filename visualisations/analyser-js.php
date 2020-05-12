@@ -95,7 +95,7 @@
       <div id="menu3" class="tab-pane fade">
         <div style="width:100%; padding: 0.2cm 1% 0.5cm 1%; float:left; clear:both;">
           <p style="font-size:100%;">(...it can take few seconds, please wait :)</p>
-          <iframe width="100%" height="800" src="./CrossFilter/crossfilter.html" frameborder="0" allowfullscreen></iframe>
+          <iframe width="100%" height="800" src="./CrossFilter/hwwanalyser.html" frameborder="0" allowfullscreen></iframe>
           <hr>
         </div>
       </div>
