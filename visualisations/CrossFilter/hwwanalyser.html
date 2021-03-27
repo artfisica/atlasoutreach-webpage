@@ -93,12 +93,12 @@
               SignificanceGroup         = typeDimension.groupAll().reduce(
                   function (p, v) {
                       if (v.type == 0) p.sig += v.weight;
-                      else p.bkg += v.weight;
+                      if (v.type != 0 && v.type != 4) p.bkg += v.weight;
                       return p;
                   },
                   function (p, v) {
                       if (v.type == 0) p.sig -= v.weight;
-                      else p.bkg -= v.weight;
+                      if (v.type !=0 && v.type != 4) p.bkg -= v.weight;
                       return p;
                   },
                   function () { return {sig:0, bkg:0}; }
